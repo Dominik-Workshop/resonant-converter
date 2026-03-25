@@ -159,6 +159,1640 @@
 		)
 	)
 	(net 0 "")
+	(net 1 "Net-(Q1-S-Pad1)")
+	(net 2 "unconnected-(Q1-G-Pad4)")
+	(net 3 "unconnected-(Q1-D-Pad5)")
+	(net 4 "unconnected-(Q2-G-Pad4)")
+	(net 5 "Net-(Q2-S-Pad1)")
+	(net 6 "unconnected-(Q2-D-Pad5)")
+	(net 7 "unconnected-(Q3-G-Pad4)")
+	(net 8 "unconnected-(Q3-D-Pad5)")
+	(net 9 "GND")
+	(net 10 "unconnected-(J1-Pad1)")
+	(net 11 "unconnected-(J2-Pad1)")
+	(net 12 "unconnected-(J3-Pad1)")
+	(net 13 "Net-(Q3-S-Pad1)")
+	(footprint "DW-footprints:PowerPAK-1212-8_Single"
+		(layer "F.Cu")
+		(uuid "0975aba7-cdda-41b5-8022-3569e08a6934")
+		(at 134.443 100.35)
+		(descr "PowerPAK 1212-8 Single")
+		(tags "Vishay PowerPAK 1212-8 Single")
+		(property "Reference" "Q1"
+			(at 2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "e0b13e4b-6abd-4d00-be9c-bd1aaf557b3f")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SIS472DN-T1-GE3"
+			(at 2.5 1.27 0)
+			(layer "F.Fab")
+			(uuid "43f7e050-5bbe-4fe6-a885-4f0e9529259c")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C727441.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b50af1e7-6c4b-4b46-bda1-0646067e80bd")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "30V 8.9mΩ@10V,15A 2.5V 1 N-Channel PowerPAK1212-8 MOSFETs ROHS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73d1b285-9cad-4b18-ab37-4c2a290a8bcd")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "VISHAY"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8a6eea5-2576-42a6-8b26-de5ad31b8800")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SIS472DN-T1-GE3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e030bb9-3005-4432-bfc5-d8c56b8f11a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C727441"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "891bb97c-1f5b-498a-9379-1b6c94dcc6b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Id" "20A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5f7b12b-3eac-4503-ba0f-5eb1f9eef4c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vds" "30V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88bd8c3b-15be-4721-8be2-4935ddfbd55b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vgs" "20V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4ee8354-8af8-4f9b-971b-129c52ee7fdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rds(on)" "8.9mΩ"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61ba0951-933f-43ed-978a-a02c35790c9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a89024be-5eac-45c4-b1a9-3c501486e839")
+		(sheetname "/")
+		(sheetfile "resonant-converter.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.65 -1.65)
+			(end -1.65 -1.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e0404fa0-0565-4e92-9a25-855cce96907e")
+		)
+		(fp_line
+			(start -1.65 -1.65)
+			(end 1.65 -1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9b6f94f1-bb1e-42da-bd8c-dd5cb4542cf0")
+		)
+		(fp_line
+			(start -1.65 1.43)
+			(end -1.65 1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "43041135-2a64-46a2-bff9-e14409ce0094")
+		)
+		(fp_line
+			(start -1.65 1.65)
+			(end 1.65 1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7415c180-3024-4219-bff7-89bcd053f209")
+		)
+		(fp_line
+			(start 1.65 -1.65)
+			(end 1.65 -1.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cf81c961-ee0c-4810-a5af-ff46f4c2dc36")
+		)
+		(fp_line
+			(start 1.65 1.43)
+			(end 1.65 1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7c2b45c1-fbe4-4968-9722-f3fc29df7f56")
+		)
+		(fp_circle
+			(center -1.98 -1.45)
+			(end -1.96 -1.45)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "108c9332-986e-4833-a4a8-eaa90bda9aa9")
+		)
+		(fp_rect
+			(start -2.08 -1.8)
+			(end 2.08 1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "69426b37-d31b-412f-8b80-9c99142d6edd")
+		)
+		(fp_rect
+			(start -1.65 -1.65)
+			(end 1.65 1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b4f7d3f3-4c0e-45af-8244-2403963108b9")
+		)
+		(pad "1" smd rect
+			(at -1.435 -0.99)
+			(size 0.99 0.405)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "Net-(Q1-S-Pad1)")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "1f200694-48b9-4d0f-b178-1df35f5e1e5c")
+		)
+		(pad "2" smd rect
+			(at -1.435 -0.33)
+			(size 0.99 0.405)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "Net-(Q1-S-Pad1)")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "b76feed6-35e1-44c2-80fa-27121820c4c5")
+		)
+		(pad "3" smd rect
+			(at -1.435 0.33)
+			(size 0.99 0.405)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "Net-(Q1-S-Pad1)")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "7ad529d4-6106-484a-a7b2-5a54cfb3d75f")
+		)
+		(pad "4" smd rect
+			(at -1.435 0.99)
+			(size 0.99 0.405)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 2 "unconnected-(Q1-G-Pad4)")
+			(pinfunction "G")
+			(pintype "passive")
+			(uuid "2cc1c38b-0643-47eb-b6a8-b9c83d1da98c")
+		)
+		(pad "5" smd custom
+			(at 0.557 0)
+			(size 1.725 2.235)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 3 "unconnected-(Q1-D-Pad5)")
+			(pinfunction "D")
+			(pintype "passive")
+			(zone_connect 2)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.8625 0.1275) (xy 0.8625 -0.1275) (xy 1.3725 -0.1275) (xy 1.3725 -0.5325) (xy 0.8625 -0.5325)
+						(xy 0.8625 -0.7875) (xy 1.3725 -0.7875) (xy 1.3725 -1.195) (xy 0.6125 -1.195) (xy 0.6125 1.195)
+						(xy 1.3725 1.195) (xy 1.3725 0.7875) (xy 0.8625 0.7875) (xy 0.8625 0.5325) (xy 1.3725 0.5325)
+						(xy 1.3725 0.1275)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "352e676e-fb41-4cb3-8b6f-de4fa7f367c8")
+		)
+		(embedded_fonts no)
+		(model "${DW_3D_MODELS}/PowerPAK-1212-8_Single.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 180 -0)
+			)
+		)
+	)
+	(footprint "DW-footprints:Conn_Banana_Jack_Keystone_575-8"
+		(layer "F.Cu")
+		(uuid "11d286ec-f0ae-4076-a8fd-38e6200d4914")
+		(at 106 90)
+		(descr "4mm Banana Jack, Keystone 575-8, THT")
+		(tags "CONNECTOR, JACK")
+		(property "Reference" "J1"
+			(at -0.6 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "1025c5fb-3a6c-45fd-a690-e67b86cbb70a")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Banana_Jack_Keystone_575-8"
+			(at 5 1.27 0)
+			(layer "F.Fab")
+			(uuid "d42ef0cf-faba-4928-b718-62dd03aaa902")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/201/1/575_4_575_8.pdf"
+			(at -0.025 0.505 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8df96755-2a86-4f93-afcb-15fc2391a038")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "4mm Banana Jack, Keystone 575-8, THT"
+			(at -3.1 9.8 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f79eb89-3d27-459c-b852-d572c5649744")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b375461-29f8-4896-9408-f7013c54f083")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "575-8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1ca8888-9353-47c3-bcd7-04f765f23b41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C4994335"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71d8846f-d8e4-4b74-9ea5-a42ceefc7558")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/991f1745-f402-4616-9a7d-9b4d26dc48a3")
+		(sheetname "/")
+		(sheetfile "resonant-converter.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 4.15 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "9cb263a5-32df-4b8b-876f-5fbb8a029aa0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "77095578-6bd1-4c35-894e-a8fb4cf50290")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7ffa5fcd-e791-4bfa-ae5a-ff59c63d9c90")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "32a9cd84-881c-44ca-95a3-228d67a75813")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7.8 7.8)
+			(drill 5.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 10 "unconnected-(J1-Pad1)")
+			(pintype "passive")
+			(uuid "111609d5-02fa-4bbe-a6e2-7c679efc581e")
+		)
+		(embedded_fonts no)
+		(model "${DW_3D_MODELS}/Conn_Banana_Jack_Keystone_575-8.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "DW-footprints:Conn_Banana_Jack_Keystone_575-8"
+		(layer "F.Cu")
+		(uuid "1ba4da69-5cd7-4125-b2c2-5c8a9261b013")
+		(at 195 90)
+		(descr "4mm Banana Jack, Keystone 575-8, THT")
+		(tags "CONNECTOR, JACK")
+		(property "Reference" "J3"
+			(at -0.6 -4.55 0)
+			(layer "F.SilkS")
+			(uuid "01d689af-a967-41a0-8618-7ef40869fda7")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Banana_Jack_Keystone_575-8"
+			(at 5 1.27 0)
+			(layer "F.Fab")
+			(uuid "b703c527-96ad-4be9-98f3-8112c791deea")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/201/1/575_4_575_8.pdf"
+			(at -0.025 0.505 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e598557-1add-4c69-8936-0d17e74ec6d9")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "4mm Banana Jack, Keystone 575-8, THT"
+			(at -3.1 9.8 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d4ab83f-cdf7-4a8d-abcd-c48eede8767e")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21893088-fa36-4f67-bfaa-55eadf32e6a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "575-8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caf5e927-715d-4dac-8ab3-a8d4a55bc49f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C4994335"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56048fd8-5080-47f1-a451-1fe6f3e82156")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4ec8fb5f-af25-4ffb-ad3a-e234a54a9b08")
+		(sheetname "/")
+		(sheetfile "resonant-converter.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 4.15 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "6286f291-b3b4-4267-b16d-c784c3d24955")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "2ec9443d-8cd2-4e42-b347-84bcfc2a3c87")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "75f4f798-05d1-4bda-a3d8-0efda99a8978")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "5be26d06-2b81-4891-9239-9dad006d0b12")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7.8 7.8)
+			(drill 5.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 12 "unconnected-(J3-Pad1)")
+			(pintype "passive")
+			(uuid "798deac0-f46e-4734-8f0a-b20b17c761b1")
+		)
+		(embedded_fonts no)
+		(model "${DW_3D_MODELS}/Conn_Banana_Jack_Keystone_575-8.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "DW-footprints:Conn_Banana_Jack_Keystone_575-8"
+		(layer "F.Cu")
+		(uuid "1da4eacc-5687-4c3f-a7ff-ae84dc3b333b")
+		(at 195 110)
+		(descr "4mm Banana Jack, Keystone 575-8, THT")
+		(tags "CONNECTOR, JACK")
+		(property "Reference" "J4"
+			(at -0.65 -4.6 0)
+			(layer "F.SilkS")
+			(uuid "4daa4d35-c946-4ed0-8d56-33320c1839fe")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Banana_Jack_Keystone_575-8"
+			(at 5 1.27 0)
+			(layer "F.Fab")
+			(uuid "447dbd84-bf80-4fbb-a95e-594a4fa3cc0c")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/201/1/575_4_575_8.pdf"
+			(at -0.025 0.505 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12755000-5ddd-4f87-af7f-4a0bd16bdb7e")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "4mm Banana Jack, Keystone 575-8, THT"
+			(at -3.1 9.8 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "169fd1c5-fd63-480b-a91d-ca7c8d4c4327")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05730b1b-86d9-4a8b-8425-8ac719ac9c67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "575-8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d054167-c174-4b60-9d45-a9f454b2765f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C4994335"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40563f8a-3ccd-4d77-aeed-a83fdadceb10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8ee73446-1222-4abb-8134-463bba1ccb16")
+		(sheetname "/")
+		(sheetfile "resonant-converter.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 4.15 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d727c165-e813-4f1b-bd27-427f723d7373")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "35c296a4-eee1-4727-9145-4b26c5e56395")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "8e530d21-72e6-49fb-b294-e78eca701c97")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3ed3b70f-9e0d-4fdd-86b0-172ec0892221")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7.8 7.8)
+			(drill 5.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 9 "GND")
+			(pintype "passive")
+			(uuid "44dfc1a8-0a4b-410c-b86c-ac97a8f06fd1")
+		)
+		(embedded_fonts no)
+		(model "${DW_3D_MODELS}/Conn_Banana_Jack_Keystone_575-8.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "DW-footprints:PowerPAK-1212-8_Single"
+		(layer "F.Cu")
+		(uuid "a1c62e9c-fb53-48ae-8ba0-c1600b8cb3d6")
+		(at 169.443 105)
+		(descr "PowerPAK 1212-8 Single")
+		(tags "Vishay PowerPAK 1212-8 Single")
+		(property "Reference" "Q3"
+			(at 2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "16db1a87-d687-4ee1-906a-9eb662ca9694")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SIS472DN-T1-GE3"
+			(at 2.5 1.27 0)
+			(layer "F.Fab")
+			(uuid "b796c6bf-7eda-4cc3-a29c-e0b95ba13960")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C727441.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e11fb32f-aa2f-4b31-9b9b-dd204909c7be")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "30V 8.9mΩ@10V,15A 2.5V 1 N-Channel PowerPAK1212-8 MOSFETs ROHS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a37496cf-270d-4b6e-bec4-09484392b5cf")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "VISHAY"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc98b0ec-1b92-4ec0-a3ad-b7cf6dda0aff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SIS472DN-T1-GE3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "102d903b-6eae-435f-8b2d-32f393583c06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C727441"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d35d0e44-a5d3-4a27-82d0-af47c7fd7358")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Id" "20A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81323dd3-366c-462f-b2a1-be71739f2d7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vds" "30V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4568a338-28b6-4583-a0b6-3cb891e679f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vgs" "20V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ceec3256-70e3-438f-86c5-a94132a9b1c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rds(on)" "8.9mΩ"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b01d6b1-0bbd-422b-97b4-42a6bcb70d26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/71d84da5-4165-4705-9574-f6cf56f83923")
+		(sheetname "/")
+		(sheetfile "resonant-converter.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.65 -1.65)
+			(end -1.65 -1.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "33365d9a-3a3d-4a90-83e1-a4ae9863401c")
+		)
+		(fp_line
+			(start -1.65 -1.65)
+			(end 1.65 -1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "af6197c8-f093-49cf-9b4d-ba4f5511350e")
+		)
+		(fp_line
+			(start -1.65 1.43)
+			(end -1.65 1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "edf2826c-6ea5-4a0e-8cff-a125ee36dcad")
+		)
+		(fp_line
+			(start -1.65 1.65)
+			(end 1.65 1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "46b69d73-9838-4dfd-b8cc-a00aa442a32e")
+		)
+		(fp_line
+			(start 1.65 -1.65)
+			(end 1.65 -1.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7345aff4-c644-4db9-8aba-0feb3a275409")
+		)
+		(fp_line
+			(start 1.65 1.43)
+			(end 1.65 1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f511095b-9f16-4845-80a4-03afef5e9a51")
+		)
+		(fp_circle
+			(center -1.98 -1.45)
+			(end -1.96 -1.45)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "96d1fe79-93e1-4df2-93b9-7fa285639bca")
+		)
+		(fp_rect
+			(start -2.08 -1.8)
+			(end 2.08 1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d1e99a51-50bf-418c-82d2-4f9c6446c850")
+		)
+		(fp_rect
+			(start -1.65 -1.65)
+			(end 1.65 1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "cd1ed175-77a5-450e-9486-1db4c0e44fed")
+		)
+		(pad "1" smd rect
+			(at -1.435 -0.99)
+			(size 0.99 0.405)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 13 "Net-(Q3-S-Pad1)")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "92e8d51e-bc82-412f-8df5-f92b93725f34")
+		)
+		(pad "2" smd rect
+			(at -1.435 -0.33)
+			(size 0.99 0.405)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 13 "Net-(Q3-S-Pad1)")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "99648faa-7fbe-4ace-a8df-2ce8e3f88a15")
+		)
+		(pad "3" smd rect
+			(at -1.435 0.33)
+			(size 0.99 0.405)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 13 "Net-(Q3-S-Pad1)")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "3080131f-f95d-4bef-94e0-42930a0ae8ab")
+		)
+		(pad "4" smd rect
+			(at -1.435 0.99)
+			(size 0.99 0.405)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 7 "unconnected-(Q3-G-Pad4)")
+			(pinfunction "G")
+			(pintype "passive")
+			(uuid "21138333-57d6-4d40-a303-95a13555e94b")
+		)
+		(pad "5" smd custom
+			(at 0.557 0)
+			(size 1.725 2.235)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 8 "unconnected-(Q3-D-Pad5)")
+			(pinfunction "D")
+			(pintype "passive")
+			(zone_connect 2)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.8625 0.1275) (xy 0.8625 -0.1275) (xy 1.3725 -0.1275) (xy 1.3725 -0.5325) (xy 0.8625 -0.5325)
+						(xy 0.8625 -0.7875) (xy 1.3725 -0.7875) (xy 1.3725 -1.195) (xy 0.6125 -1.195) (xy 0.6125 1.195)
+						(xy 1.3725 1.195) (xy 1.3725 0.7875) (xy 0.8625 0.7875) (xy 0.8625 0.5325) (xy 1.3725 0.5325)
+						(xy 1.3725 0.1275)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "2d4be7c5-6615-40d1-888c-8e53979f1adb")
+		)
+		(embedded_fonts no)
+		(model "${DW_3D_MODELS}/PowerPAK-1212-8_Single.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 180 -0)
+			)
+		)
+	)
+	(footprint "DW-footprints:Conn_Banana_Jack_Keystone_575-8"
+		(layer "F.Cu")
+		(uuid "a483b6e8-f9eb-4ba5-8a00-e03722e220b4")
+		(at 106 110)
+		(descr "4mm Banana Jack, Keystone 575-8, THT")
+		(tags "CONNECTOR, JACK")
+		(property "Reference" "J2"
+			(at -0.55 -4.55 0)
+			(layer "F.SilkS")
+			(uuid "7df9831b-7012-4336-9c15-491dac34451f")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Banana_Jack_Keystone_575-8"
+			(at 5 1.27 0)
+			(layer "F.Fab")
+			(uuid "da3a5f77-a0da-4480-b348-1a5004a7bb0b")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/201/1/575_4_575_8.pdf"
+			(at -0.025 0.505 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2392aa46-e46b-4782-b903-b5fcaca34e14")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "4mm Banana Jack, Keystone 575-8, THT"
+			(at -3.1 9.8 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3190f613-5564-47b6-922a-a100347199db")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78217bc3-672f-4d36-891a-e9bb189c9b4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "575-8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccb0cd7b-3760-4e6c-b293-3b9ce24b009b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C4994335"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ef3430a-ffc4-44a8-b76d-f56fe92c903d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/969ab231-c7a3-4482-8ed3-6e585c963a32")
+		(sheetname "/")
+		(sheetfile "resonant-converter.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 4.15 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "60ce1f8a-d54f-4cf0-bd3d-dcf78332abf9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "aaf7e946-cb2b-4df0-b2be-b3e261ecaa6d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "14f222d2-1796-486d-8725-6b10801409d5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "bca22b1f-30c6-48e2-91bb-8c36d9025041")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 7.8 7.8)
+			(drill 5.4)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "unconnected-(J2-Pad1)")
+			(pintype "passive")
+			(uuid "2b87f510-4f59-42d4-9eea-61de60c557f8")
+		)
+		(embedded_fonts no)
+		(model "${DW_3D_MODELS}/Conn_Banana_Jack_Keystone_575-8.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "DW-footprints:PowerPAK-1212-8_Single"
+		(layer "F.Cu")
+		(uuid "cff9f09d-dd34-4f57-b7ff-8628d7ddd0e7")
+		(at 134.443 105)
+		(descr "PowerPAK 1212-8 Single")
+		(tags "Vishay PowerPAK 1212-8 Single")
+		(property "Reference" "Q2"
+			(at 2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "797b93f1-e2ad-4568-9de4-b49c5eb27db0")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SIS472DN-T1-GE3"
+			(at 2.5 1.27 0)
+			(layer "F.Fab")
+			(uuid "c44ba4c3-c347-4c64-8fa6-570c19a85609")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C727441.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6aa7281-d46b-44ea-9fc0-f43ff20bd1ba")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "30V 8.9mΩ@10V,15A 2.5V 1 N-Channel PowerPAK1212-8 MOSFETs ROHS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53a792e4-119e-4826-b744-a646430c5c3d")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "VISHAY"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cda138b2-000e-4622-b3d8-fd319b32a35d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SIS472DN-T1-GE3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "549ed807-3357-4bb3-8ac3-ce7feb3c2edf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C727441"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31d9182a-075c-41c9-9906-10a21cc185b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Id" "20A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a1384b9-d940-45de-8800-46c9f72a102c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vds" "30V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bc85b24-013f-4177-8271-f8d08097f282")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vgs" "20V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee95a453-8270-4fab-b556-d4da74f7b55c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rds(on)" "8.9mΩ"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c32ce0c4-a21d-4160-975b-dc763729c7f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3ab8b2d1-768b-4f71-9c56-373b8f266be0")
+		(sheetname "/")
+		(sheetfile "resonant-converter.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.65 -1.65)
+			(end -1.65 -1.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "55e27196-11ee-4de8-9b98-b63a557f57f0")
+		)
+		(fp_line
+			(start -1.65 -1.65)
+			(end 1.65 -1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c3e106e8-4fe6-4ebe-a6ad-643fb71e349c")
+		)
+		(fp_line
+			(start -1.65 1.43)
+			(end -1.65 1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9cab9c0-1fa5-400d-ac6d-2f54fb5e93bd")
+		)
+		(fp_line
+			(start -1.65 1.65)
+			(end 1.65 1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d972a25c-cc3b-477a-8923-16a86e7222b2")
+		)
+		(fp_line
+			(start 1.65 -1.65)
+			(end 1.65 -1.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1e37b385-5fb7-455e-94a9-2ece0b18b041")
+		)
+		(fp_line
+			(start 1.65 1.43)
+			(end 1.65 1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bc6e1346-9911-44a4-b9cf-c28b01372f28")
+		)
+		(fp_circle
+			(center -1.98 -1.45)
+			(end -1.96 -1.45)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "18314113-ebd1-4dba-9f9c-d6e29311b0a1")
+		)
+		(fp_rect
+			(start -2.08 -1.8)
+			(end 2.08 1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7e3bf7d7-c2a3-4e5b-bb0b-e60ee5bf5a08")
+		)
+		(fp_rect
+			(start -1.65 -1.65)
+			(end 1.65 1.65)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4260b59d-e69f-47be-8078-1fff285a540e")
+		)
+		(pad "1" smd rect
+			(at -1.435 -0.99)
+			(size 0.99 0.405)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 5 "Net-(Q2-S-Pad1)")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "7529cf8b-c6c4-4d1b-9fd6-c289ed328921")
+		)
+		(pad "2" smd rect
+			(at -1.435 -0.33)
+			(size 0.99 0.405)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 5 "Net-(Q2-S-Pad1)")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "3c978885-a23a-47b7-b84b-3a2cd6c0bf9a")
+		)
+		(pad "3" smd rect
+			(at -1.435 0.33)
+			(size 0.99 0.405)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 5 "Net-(Q2-S-Pad1)")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "2bd3da32-8c19-4011-aaba-f01d9b97af83")
+		)
+		(pad "4" smd rect
+			(at -1.435 0.99)
+			(size 0.99 0.405)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 4 "unconnected-(Q2-G-Pad4)")
+			(pinfunction "G")
+			(pintype "passive")
+			(uuid "0d38850a-7231-44b8-8c47-102c9b52afba")
+		)
+		(pad "5" smd custom
+			(at 0.557 0)
+			(size 1.725 2.235)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 6 "unconnected-(Q2-D-Pad5)")
+			(pinfunction "D")
+			(pintype "passive")
+			(zone_connect 2)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.8625 0.1275) (xy 0.8625 -0.1275) (xy 1.3725 -0.1275) (xy 1.3725 -0.5325) (xy 0.8625 -0.5325)
+						(xy 0.8625 -0.7875) (xy 1.3725 -0.7875) (xy 1.3725 -1.195) (xy 0.6125 -1.195) (xy 0.6125 1.195)
+						(xy 1.3725 1.195) (xy 1.3725 0.7875) (xy 0.8625 0.7875) (xy 0.8625 0.5325) (xy 1.3725 0.5325)
+						(xy 1.3725 0.1275)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "c39785e5-9929-438e-a261-cab5e0e6b9db")
+		)
+		(embedded_fonts no)
+		(model "${DW_3D_MODELS}/PowerPAK-1212-8_Single.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 180 -0)
+			)
+		)
+	)
 	(gr_rect
 		(start 100 50)
 		(end 200 150)
@@ -169,6 +1803,97 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "49cddc8e-bd3c-404a-9f5c-2036f0097ad0")
+	)
+	(zone
+		(net 9)
+		(net_name "GND")
+		(layers "In1.Cu" "In2.Cu")
+		(uuid "b5e5826c-6267-4f5d-80ab-fea7794c88db")
+		(hatch edge 0.5)
+		(connect_pads yes
+			(clearance 0.3)
+		)
+		(min_thickness 0.2)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.3)
+			(thermal_bridge_width 0.2)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 165 50) (xy 200 50) (xy 200 150) (xy 165 150)
+			)
+		)
+		(filled_polygon
+			(layer "In1.Cu")
+			(pts
+				(xy 199.458691 50.519407) (xy 199.494655 50.568907) (xy 199.4995 50.5995) (xy 199.4995 149.4005)
+				(xy 199.480593 149.458691) (xy 199.431093 149.494655) (xy 199.4005 149.4995) (xy 165.099 149.4995)
+				(xy 165.040809 149.480593) (xy 165.004845 149.431093) (xy 165 149.4005) (xy 165 89.793635) (xy 190.7995 89.793635)
+				(xy 190.7995 90.206364) (xy 190.839952 90.617081) (xy 190.92047 91.021871) (xy 191.04027 91.416804)
+				(xy 191.198209 91.798102) (xy 191.198222 91.798129) (xy 191.392763 92.16209) (xy 191.564735 92.419463)
+				(xy 191.622058 92.505253) (xy 191.883881 92.824286) (xy 192.175714 93.116119) (xy 192.494747 93.377942)
+				(xy 192.666327 93.492588) (xy 192.837909 93.607236) (xy 193.20187 93.801777) (xy 193.201889 93.801787)
+				(xy 193.583187 93.959726) (xy 193.583189 93.959726) (xy 193.583195 93.959729) (xy 193.924553 94.063277)
+				(xy 193.978131 94.07953) (xy 194.382915 94.160047) (xy 194.428551 94.164541) (xy 194.793635 94.2005)
+				(xy 194.793643 94.2005) (xy 195.206365 94.2005) (xy 195.480175 94.173531) (xy 195.617085 94.160047)
+				(xy 196.021869 94.07953) (xy 196.256081 94.008482) (xy 196.416804 93.959729) (xy 196.416806 93.959727)
+				(xy 196.416813 93.959726) (xy 196.798111 93.801787) (xy 196.975956 93.706726) (xy 197.16209 93.607236)
+				(xy 197.162093 93.607234) (xy 197.505253 93.377942) (xy 197.824286 93.116119) (xy 198.116119 92.824286)
+				(xy 198.377942 92.505253) (xy 198.607234 92.162093) (xy 198.801787 91.798111) (xy 198.959726 91.416813)
+				(xy 199.07953 91.021869) (xy 199.160047 90.617085) (xy 199.174757 90.467729) (xy 199.2005 90.206364)
+				(xy 199.2005 89.793635) (xy 199.160047 89.382918) (xy 199.160047 89.382915) (xy 199.07953 88.978131)
+				(xy 199.063277 88.924553) (xy 198.959729 88.583195) (xy 198.80179 88.201897) (xy 198.801787 88.201889)
+				(xy 198.801777 88.20187) (xy 198.607236 87.837909) (xy 198.492588 87.666327) (xy 198.377942 87.494747)
+				(xy 198.116119 87.175714) (xy 197.824286 86.883881) (xy 197.505253 86.622058) (xy 197.419463 86.564735)
+				(xy 197.16209 86.392763) (xy 196.798129 86.198222) (xy 196.798117 86.198216) (xy 196.798111 86.198213)
+				(xy 196.798106 86.19821) (xy 196.798102 86.198209) (xy 196.416804 86.04027) (xy 196.021871 85.92047)
+				(xy 195.74953 85.866298) (xy 195.617085 85.839953) (xy 195.617083 85.839952) (xy 195.206365 85.7995)
+				(xy 195.206357 85.7995) (xy 194.793643 85.7995) (xy 194.793635 85.7995) (xy 194.382918 85.839952)
+				(xy 193.978128 85.92047) (xy 193.583195 86.04027) (xy 193.201897 86.198209) (xy 193.20187 86.198222)
+				(xy 192.837909 86.392763) (xy 192.494745 86.622059) (xy 192.175719 86.883876) (xy 191.883876 87.175719)
+				(xy 191.622059 87.494745) (xy 191.392763 87.837909) (xy 191.198222 88.20187) (xy 191.198209 88.201897)
+				(xy 191.04027 88.583195) (xy 190.92047 88.978128) (xy 190.839952 89.382918) (xy 190.7995 89.793635)
+				(xy 165 89.793635) (xy 165 50.5995) (xy 165.018907 50.541309) (xy 165.068407 50.505345) (xy 165.099 50.5005)
+				(xy 199.4005 50.5005)
+			)
+		)
+		(filled_polygon
+			(layer "In2.Cu")
+			(pts
+				(xy 199.458691 50.519407) (xy 199.494655 50.568907) (xy 199.4995 50.5995) (xy 199.4995 149.4005)
+				(xy 199.480593 149.458691) (xy 199.431093 149.494655) (xy 199.4005 149.4995) (xy 165.099 149.4995)
+				(xy 165.040809 149.480593) (xy 165.004845 149.431093) (xy 165 149.4005) (xy 165 89.793635) (xy 190.7995 89.793635)
+				(xy 190.7995 90.206364) (xy 190.839952 90.617081) (xy 190.92047 91.021871) (xy 191.04027 91.416804)
+				(xy 191.198209 91.798102) (xy 191.198222 91.798129) (xy 191.392763 92.16209) (xy 191.564735 92.419463)
+				(xy 191.622058 92.505253) (xy 191.883881 92.824286) (xy 192.175714 93.116119) (xy 192.494747 93.377942)
+				(xy 192.666327 93.492588) (xy 192.837909 93.607236) (xy 193.20187 93.801777) (xy 193.201889 93.801787)
+				(xy 193.583187 93.959726) (xy 193.583189 93.959726) (xy 193.583195 93.959729) (xy 193.924553 94.063277)
+				(xy 193.978131 94.07953) (xy 194.382915 94.160047) (xy 194.428551 94.164541) (xy 194.793635 94.2005)
+				(xy 194.793643 94.2005) (xy 195.206365 94.2005) (xy 195.480175 94.173531) (xy 195.617085 94.160047)
+				(xy 196.021869 94.07953) (xy 196.256081 94.008482) (xy 196.416804 93.959729) (xy 196.416806 93.959727)
+				(xy 196.416813 93.959726) (xy 196.798111 93.801787) (xy 196.975956 93.706726) (xy 197.16209 93.607236)
+				(xy 197.162093 93.607234) (xy 197.505253 93.377942) (xy 197.824286 93.116119) (xy 198.116119 92.824286)
+				(xy 198.377942 92.505253) (xy 198.607234 92.162093) (xy 198.801787 91.798111) (xy 198.959726 91.416813)
+				(xy 199.07953 91.021869) (xy 199.160047 90.617085) (xy 199.174757 90.467729) (xy 199.2005 90.206364)
+				(xy 199.2005 89.793635) (xy 199.160047 89.382918) (xy 199.160047 89.382915) (xy 199.07953 88.978131)
+				(xy 199.063277 88.924553) (xy 198.959729 88.583195) (xy 198.80179 88.201897) (xy 198.801787 88.201889)
+				(xy 198.801777 88.20187) (xy 198.607236 87.837909) (xy 198.492588 87.666327) (xy 198.377942 87.494747)
+				(xy 198.116119 87.175714) (xy 197.824286 86.883881) (xy 197.505253 86.622058) (xy 197.419463 86.564735)
+				(xy 197.16209 86.392763) (xy 196.798129 86.198222) (xy 196.798117 86.198216) (xy 196.798111 86.198213)
+				(xy 196.798106 86.19821) (xy 196.798102 86.198209) (xy 196.416804 86.04027) (xy 196.021871 85.92047)
+				(xy 195.74953 85.866298) (xy 195.617085 85.839953) (xy 195.617083 85.839952) (xy 195.206365 85.7995)
+				(xy 195.206357 85.7995) (xy 194.793643 85.7995) (xy 194.793635 85.7995) (xy 194.382918 85.839952)
+				(xy 193.978128 85.92047) (xy 193.583195 86.04027) (xy 193.201897 86.198209) (xy 193.20187 86.198222)
+				(xy 192.837909 86.392763) (xy 192.494745 86.622059) (xy 192.175719 86.883876) (xy 191.883876 87.175719)
+				(xy 191.622059 87.494745) (xy 191.392763 87.837909) (xy 191.198222 88.20187) (xy 191.198209 88.201897)
+				(xy 191.04027 88.583195) (xy 190.92047 88.978128) (xy 190.839952 89.382918) (xy 190.7995 89.793635)
+				(xy 165 89.793635) (xy 165 50.5995) (xy 165.018907 50.541309) (xy 165.068407 50.505345) (xy 165.099 50.5005)
+				(xy 199.4005 50.5005)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
