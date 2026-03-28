@@ -525,6 +525,247 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DW-diodes:SBRT15U50SP5-13"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SBRT15U50SP5-13"
+				(at 12.7 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DW-footprints:PowerDI-5"
+				(at 12.7 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C211388.pdf"
+				(at 12.7 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 410mV@15A 15A PowerDI-5 Single Schottky Diode"
+				(at 12.7 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "DIODES"
+				(at 12.7 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SBRT15U50SP5-13"
+				(at 12.7 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "LCSC" "C211388"
+				(at 12.7 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Reverse Voltage" "50V"
+				(at 12.7 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Continuous Forward Current" "15A"
+				(at 12.7 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SBRT15U50SP5-13_0_1"
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SBRT15U50SP5-13_1_1"
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.397 1.016) (xy 1.397 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.016) (xy 2.159 -1.016) (xy 2.159 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DW-power-symbols:GND"
 			(power)
 			(pin_numbers
@@ -1075,7 +1316,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 99.06) (xy 184.15 104.14)
+			(xy 201.93 99.06) (xy 201.93 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 99.06) (xy 203.2 99.06)
+			(xy 201.93 99.06) (xy 203.2 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1336,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GND")
-		(at 184.15 104.14 0)
+		(at 201.93 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1104,7 +1345,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bccc673-fefa-4752-bb5f-2de3b243d1df")
 		(property "Reference" "#PWR01"
-			(at 184.15 110.49 0)
+			(at 201.93 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,7 +1354,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 109.22 0)
+			(at 201.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,7 +1362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 104.14 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,7 +1371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 104.14 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,7 +1380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 104.14 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,17 +1817,17 @@
 		)
 	)
 	(symbol
-		(lib_id "DW-transistors:SIS472DN-T1-GE3")
-		(at 175.26 92.71 90)
-		(mirror x)
+		(lib_id "DW-diodes:SBRT15U50SP5-13")
+		(at 175.26 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "71d84da5-4165-4705-9574-f6cf56f83923")
-		(property "Reference" "Q3"
-			(at 172.72 105.41 90)
+		(fields_autoplaced yes)
+		(uuid "6cd32918-0190-464d-9d00-d3c218b0cd95")
+		(property "Reference" "D1"
+			(at 172.72 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,19 +1835,8 @@
 				)
 			)
 		)
-		(property "Value" "SIS472DN-T1-GE3"
-			(at 177.8 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DW-footprints:PowerPAK-1212-8_Single"
-			(at 180.34 102.87 0)
+		(property "Value" "SBRT15U50SP5-13"
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,8 +1846,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C727441.pdf"
-			(at 182.88 102.87 0)
+		(property "Footprint" "DW-footprints:PowerDI-5"
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,8 +1857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 8.9mΩ@10V,15A 2.5V 1 N-Channel PowerPAK1212-8 MOSFETs ROHS"
-			(at 185.42 102.87 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C211388.pdf"
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,8 +1868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "VISHAY"
-			(at 187.96 102.87 0)
+		(property "Description" "50V 410mV@15A 15A PowerDI-5 Single Schottky Diode"
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,17 +1879,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SIS472DN-T1-GE3"
-			(at 172.72 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C727441"
-			(at 193.04 102.87 0)
+		(property "Manufacturer" "DIODES"
+			(at 162.56 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1669,8 +1890,17 @@
 				(hide yes)
 			)
 		)
-		(property "Id" "20A"
-			(at 195.58 102.87 0)
+		(property "MPN" "SBRT15U50SP5-13"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C211388"
+			(at 162.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,8 +1910,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vds" "30V"
-			(at 198.12 102.87 0)
+		(property "Reverse Voltage" "50V"
+			(at 162.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,8 +1921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vgs" "20V"
-			(at 200.66 102.87 0)
+		(property "Continuous Forward Current" "15A"
+			(at 162.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,37 +1931,148 @@
 				(justify left bottom)
 				(hide yes)
 			)
-		)
-		(property "Rds(on)" "8.9mΩ"
-			(at 203.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c5182d55-4378-4ebe-8a50-386963ab4dc8")
-		)
-		(pin "3"
-			(uuid "9fd67e44-b9c3-4d68-a8f4-4cd4e87e4773")
-		)
-		(pin "2"
-			(uuid "6b354e44-daa8-4895-81fd-2acc7195a5bd")
 		)
 		(pin "1"
-			(uuid "5f15503d-658b-4065-a51f-98a653026250")
+			(uuid "e45102e2-4053-4d14-91e5-a749a6e091ed")
 		)
-		(pin "5"
-			(uuid "0e853ba3-4d81-4b81-aae0-f23d5f1e9dfd")
+		(pin "2"
+			(uuid "56e2ebef-52cc-454b-a348-4fa7e777204c")
+		)
+		(instances
+			(project ""
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-diodes:SBRT15U50SP5-13")
+		(at 175.26 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ff47aae-d2f7-4a1c-87d7-5d16cc8976ac")
+		(property "Reference" "D2"
+			(at 172.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SBRT15U50SP5-13"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:PowerDI-5"
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C211388.pdf"
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 410mV@15A 15A PowerDI-5 Single Schottky Diode"
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DIODES"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SBRT15U50SP5-13"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C211388"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Reverse Voltage" "50V"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Continuous Forward Current" "15A"
+			(at 162.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a625281-eab8-44cf-bf6b-a78a713c8151")
+		)
+		(pin "2"
+			(uuid "f92b2390-2f53-4a89-a8f0-11196cf69bc7")
 		)
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "Q3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
