@@ -845,6 +845,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DW-capacitors:C-22n-100V-C0G-1206"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C-22n-100V-C0G-1206"
+				(at 12.7 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DW-footprints:C_1206_3216Metric"
+				(at 12.7 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
+				(at 12.7 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
+				(at 12.7 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "muRata"
+				(at 12.7 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM3195C2A223JA01D"
+				(at 12.7 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C711005"
+				(at 12.7 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "22n"
+				(at 12.7 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Tolerance" "5%"
+				(at 12.7 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "100V"
+				(at 12.7 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "C0G"
+				(at 12.7 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "C-22n-100V-C0G-1206_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C-22n-100V-C0G-1206_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DW-connectors:Banana_Jack_Keystone_575-8"
 			(pin_numbers
 				(hide yes)
@@ -1215,6 +1421,247 @@
 					(at 5.08 0 180)
 					(length 0.635)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DW-inductors:L-470n-7A-dehongganying-DH0520H-R47M"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "L-470n-7A-dehongganying-DH0520H-R47M"
+				(at 12.7 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DW-footprints:L-dehongganying-DH0520H"
+				(at 12.7 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C41407028.pdf"
+				(at 12.7 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "7A 470nH 12A 10mΩ Molded Inductor ±20% SMD,5.6x5.2mm Fixed Inductors RoHS"
+				(at 12.7 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "dehongganying"
+				(at 12.7 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "DH0520H-R47M"
+				(at 12.7 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C41407028"
+				(at 12.7 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "470n"
+				(at 12.7 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Tolerance" "20%"
+				(at 12.7 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Irms" "7A"
+				(at 12.7 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Isat" "12A"
+				(at 12.7 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "DCR" "10mΩ"
+				(at 12.7 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Size (W x L x H)" "5.6 x 5.2 x 2.0mm"
+				(at 12.7 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "L-470n-7A-dehongganying-DH0520H-R47M_0_1"
+				(arc
+					(start 1.016 0)
+					(mid 1.524 0.5058)
+					(end 2.032 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 0)
+					(mid 2.54 0.5058)
+					(end 3.048 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.048 0)
+					(mid 3.556 0.5058)
+					(end 4.064 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L-470n-7A-dehongganying-DH0520H-R47M_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2204,10 +2651,28 @@
 		)
 	)
 	(junction
+		(at 102.87 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03668623-6afd-49cc-bcdc-c2fa34e73184")
+	)
+	(junction
+		(at 157.48 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03e80567-768f-4976-94c0-04e0d5682abd")
+	)
+	(junction
 		(at 204.47 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a2ca6ca-c78d-49d4-8d69-654e24c77895")
+	)
+	(junction
+		(at 142.24 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34e2bdc5-f316-44d7-befb-e25f1c2174ee")
 	)
 	(junction
 		(at 199.39 104.14)
@@ -2220,6 +2685,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4775e12d-c5b8-456f-adae-f58f27c40b90")
+	)
+	(junction
+		(at 157.48 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60f82c46-4f16-438a-8911-078eb5062385")
 	)
 	(junction
 		(at 204.47 119.38)
@@ -2240,6 +2711,12 @@
 		(uuid "85ea8629-8155-4e08-b738-c1c611d6b71e")
 	)
 	(junction
+		(at 134.62 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89ee0f40-12c8-4e89-a721-460ef83153cb")
+	)
+	(junction
 		(at 204.47 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2252,19 +2729,43 @@
 		(uuid "8b3c4720-3e90-4462-8c6a-4fe3bc594f14")
 	)
 	(junction
+		(at 102.87 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5783c55-7130-4191-a98c-36bf9560cd80")
+	)
+	(junction
+		(at 142.24 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b14cf538-9768-4327-967d-ed4b66a65b0b")
+	)
+	(junction
 		(at 250.19 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4d67b08-8250-434c-805a-bf2d360c1ed2")
 	)
 	(junction
-		(at 63.5 77.47)
+		(at 38.1 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4ec52ab-46ec-4da3-b742-04a0f31a4145")
 	)
 	(junction
-		(at 113.03 96.52)
+		(at 134.62 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5ae5d88-4747-4512-8e41-a8a6b593aa5e")
+	)
+	(junction
+		(at 146.05 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c005be9d-91fb-41c7-be5e-b1726dfc4756")
+	)
+	(junction
+		(at 87.63 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cae2df13-cf7f-405d-af72-54b0e0a37a69")
@@ -2274,6 +2775,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d315f832-ef5b-4552-86fc-3d306f23fe95")
+	)
+	(junction
+		(at 149.86 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6700a6d-40d5-4b02-906f-098b6564a100")
 	)
 	(junction
 		(at 264.16 96.52)
@@ -2294,10 +2801,10 @@
 		(uuid "ddb76a4f-e4c3-4a60-a1c2-c2f6feb7d7ca")
 	)
 	(junction
-		(at 128.27 106.68)
+		(at 149.86 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ff423881-3126-4f34-9ef3-d3469414b3d4")
+		(uuid "f7d87e24-3fc6-4325-965d-2f296ea05919")
 	)
 	(wire
 		(pts
@@ -2311,7 +2818,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 114.3) (xy 81.28 119.38)
+			(xy 134.62 127) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0945530e-83d6-4dcd-9e2e-721fa8efe148")
+	)
+	(wire
+		(pts
+			(xy 55.88 121.92) (xy 55.88 127)
 		)
 		(stroke
 			(width 0)
@@ -2328,6 +2845,16 @@
 			(type default)
 		)
 		(uuid "0bf8a7f1-4450-4800-b143-acb8e5e1e3d5")
+	)
+	(wire
+		(pts
+			(xy 116.84 111.76) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f81e79c-a398-471c-9d76-5cfd4a5a36b5")
 	)
 	(wire
 		(pts
@@ -2351,6 +2878,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 116.84) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195de656-5210-4a67-baa7-7a230a948d55")
+	)
+	(wire
+		(pts
 			(xy 210.82 114.3) (xy 215.9 114.3)
 		)
 		(stroke
@@ -2371,13 +2908,33 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 104.14) (xy 114.3 115.57)
+			(xy 88.9 111.76) (xy 88.9 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1e409831-0408-41a8-8a38-ec4c2c1afd2b")
+	)
+	(wire
+		(pts
+			(xy 146.05 127) (xy 149.86 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211c232b-5789-4007-8ddf-239e97b0c006")
+	)
+	(wire
+		(pts
+			(xy 127 124.46) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2271ddfa-ce47-4a2f-8be8-a8dbf6d129c4")
 	)
 	(wire
 		(pts
@@ -2391,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 77.47) (xy 128.27 93.98)
+			(xy 102.87 85.09) (xy 102.87 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2451,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 99.06) (xy 118.11 99.06)
+			(xy 77.47 106.68) (xy 92.71 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2461,23 +3018,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 101.6) (xy 105.41 101.6)
+			(xy 157.48 116.84) (xy 157.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e1c402-682c-4af2-afc8-4f06684f654a")
+	)
+	(wire
+		(pts
+			(xy 77.47 109.22) (xy 80.01 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2aca6e9c-23d6-4bd1-a474-8804aeceeb1e")
-	)
-	(wire
-		(pts
-			(xy 128.27 106.68) (xy 128.27 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2edf0e9b-d8b0-4358-86b0-eea3bec61183")
 	)
 	(wire
 		(pts
@@ -2491,6 +3048,26 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 127) (xy 157.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a71017-93bd-405f-a8c1-b2b484641574")
+	)
+	(wire
+		(pts
+			(xy 142.24 127) (xy 146.05 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332194bd-1a5e-4e71-b8d6-5c9aa9071c2c")
+	)
+	(wire
+		(pts
 			(xy 264.16 93.98) (xy 264.16 96.52)
 		)
 		(stroke
@@ -2498,6 +3075,16 @@
 			(type default)
 		)
 		(uuid "35127617-2165-4768-8b2f-8c78dc964a2d")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 142.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b926f6-047d-4f5b-b82f-9dc8478a3b2c")
 	)
 	(wire
 		(pts
@@ -2521,6 +3108,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 127) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d93aa08-a936-4ba1-92eb-284fad01c71d")
+	)
+	(wire
+		(pts
 			(xy 250.19 127) (xy 245.11 127)
 		)
 		(stroke
@@ -2531,7 +3128,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 114.3) (xy 81.28 114.3)
+			(xy 57.15 121.92) (xy 55.88 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2541,7 +3138,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 106.68) (xy 128.27 106.68)
+			(xy 92.71 109.22) (xy 102.87 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2601,7 +3198,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 115.57) (xy 121.92 115.57)
+			(xy 88.9 123.19) (xy 96.52 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2631,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 104.14) (xy 128.27 106.68)
+			(xy 102.87 106.68) (xy 102.87 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2641,13 +3238,33 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 101.6) (xy 113.03 101.6)
+			(xy 146.05 127) (xy 146.05 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684c9ece-36aa-4cc0-a797-143e4949aac2")
+	)
+	(wire
+		(pts
+			(xy 85.09 109.22) (xy 87.63 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "69cc9d97-2afa-4c4a-a098-20ee1f711846")
+	)
+	(wire
+		(pts
+			(xy 102.87 109.22) (xy 102.87 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b037879-e418-4843-9b06-10e4355d9124")
 	)
 	(wire
 		(pts
@@ -2661,16 +3278,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 96.52) (xy 121.92 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a5f44f4-b636-4c97-854c-ccd00324ce52")
-	)
-	(wire
-		(pts
 			(xy 245.11 104.14) (xy 245.11 106.68)
 		)
 		(stroke
@@ -2678,6 +3285,26 @@
 			(type default)
 		)
 		(uuid "7a902c3d-ecc1-4e41-ba3a-93aff816b18f")
+	)
+	(wire
+		(pts
+			(xy 149.86 116.84) (xy 157.48 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856eb218-ac52-47a8-ad58-23064a4cbb98")
+	)
+	(wire
+		(pts
+			(xy 157.48 127) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861e7718-dc6c-49fa-9dce-5fff35d5173c")
 	)
 	(wire
 		(pts
@@ -2691,7 +3318,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 74.93) (xy 63.5 77.47)
+			(xy 149.86 116.84) (xy 149.86 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0d88e5-83fa-4c76-b05e-dfd1fcac8c53")
+	)
+	(wire
+		(pts
+			(xy 38.1 82.55) (xy 38.1 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2701,7 +3338,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 77.47) (xy 128.27 77.47)
+			(xy 38.1 85.09) (xy 102.87 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2711,13 +3348,33 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 104.14) (xy 114.3 104.14)
+			(xy 77.47 111.76) (xy 88.9 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9aed8244-0974-4347-a578-fa62b90757a7")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 134.62 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39038ef-3034-4fab-8f18-03690f32d110")
+	)
+	(wire
+		(pts
+			(xy 102.87 111.76) (xy 102.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ce12b1-0f63-4fc2-80ee-b81dd3e0bb88")
 	)
 	(wire
 		(pts
@@ -2741,13 +3398,63 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 99.06) (xy 118.11 106.68)
+			(xy 92.71 106.68) (xy 92.71 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "afa03c93-edb3-4002-940f-16d7a963a499")
+	)
+	(wire
+		(pts
+			(xy 142.24 116.84) (xy 142.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afce7f3f-e37c-43b8-9406-c70d3a9d5283")
+	)
+	(wire
+		(pts
+			(xy 165.1 116.84) (xy 165.1 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0882e8e-fb25-4fd9-aa54-8214a27f4259")
+	)
+	(wire
+		(pts
+			(xy 157.48 124.46) (xy 157.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5e5077-fd73-4913-8585-067e3094722f")
+	)
+	(wire
+		(pts
+			(xy 127 119.38) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7959e7a-21c6-41f2-a960-23943e223394")
+	)
+	(wire
+		(pts
+			(xy 102.87 111.76) (xy 111.76 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ffd65a-6139-4b41-80e0-3e9dfd4b3c1f")
 	)
 	(wire
 		(pts
@@ -2761,13 +3468,33 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 121.92 96.52)
+			(xy 87.63 104.14) (xy 96.52 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "caa8fe51-81b0-4cba-91ac-b9c37b563bd9")
+	)
+	(wire
+		(pts
+			(xy 134.62 116.84) (xy 134.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0e9a25-f237-4fd3-80fc-266d0181ebc9")
+	)
+	(wire
+		(pts
+			(xy 149.86 124.46) (xy 149.86 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ec189a-bfd3-45a9-8ff5-66964e515a1a")
 	)
 	(wire
 		(pts
@@ -2791,13 +3518,33 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 77.47) (xy 63.5 77.47)
+			(xy 142.24 127) (xy 134.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da501928-e69c-48d0-a0a1-0683538ab9d1")
+	)
+	(wire
+		(pts
+			(xy 33.02 85.09) (xy 38.1 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db488f4e-4a0e-4e8e-8235-822f7495dfa3")
+	)
+	(wire
+		(pts
+			(xy 134.62 116.84) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc60a8f1-1f14-4d6d-b1ca-bf74ceadd003")
 	)
 	(wire
 		(pts
@@ -2821,7 +3568,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 101.6) (xy 113.03 96.52)
+			(xy 87.63 109.22) (xy 87.63 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2841,6 +3588,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 124.46) (xy 134.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f8ecd7-c85e-4e71-929c-b59156e92b06")
+	)
+	(wire
+		(pts
 			(xy 212.09 127) (xy 245.11 127)
 		)
 		(stroke
@@ -2851,7 +3608,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 121.92) (xy 128.27 118.11)
+			(xy 102.87 129.54) (xy 102.87 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2861,7 +3618,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 97.79) (xy 58.42 97.79)
+			(xy 36.83 105.41) (xy 33.02 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2881,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 96.52) (xy 113.03 96.52)
+			(xy 77.47 104.14) (xy 87.63 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2911,6 +3668,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 116.84) (xy 149.86 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7619d33-a605-4bf4-b72b-b2c89f5c978a")
+	)
+	(wire
+		(pts
 			(xy 245.11 104.14) (xy 250.19 104.14)
 		)
 		(stroke
@@ -2921,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 97.79) (xy 62.23 102.87)
+			(xy 36.83 105.41) (xy 36.83 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3295,6 +4062,314 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
+		(at 149.86 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46ec1969-aaff-4653-b370-52aeabfc4545")
+		(property "Reference" "C5"
+			(at 151.638 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-22n-100V-C0G-1206"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
+			(at 157.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM3195C2A223JA01D"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C711005"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22n"
+			(at 151.638 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "250b7270-059f-49bf-9451-31477ecd97ad")
+		)
+		(pin "1"
+			(uuid "2ba96b51-a7a6-4906-82c2-c1f1a3f3c632")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
+		(at 134.62 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e752b4e-dbef-4040-b2a0-f6b7171cd3ee")
+		(property "Reference" "C3"
+			(at 136.398 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-22n-100V-C0G-1206"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 147.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM3195C2A223JA01D"
+			(at 149.86 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C711005"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22n"
+			(at 136.398 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 157.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3cd9b66b-4751-429d-b603-4cb06609b4c4")
+		)
+		(pin "1"
+			(uuid "f25558da-99c2-4c1b-9c14-71dd78e9e038")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-connectors:Banana_Jack_Keystone_575-8")
 		(at 266.7 96.52 0)
 		(unit 1)
@@ -3468,7 +4543,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:VCC")
-		(at 63.5 74.93 0)
+		(at 38.1 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3477,7 +4552,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e40b0b7-3394-4456-98b2-9db2d73a3e09")
 		(property "Reference" "#PWR05"
-			(at 63.5 78.74 0)
+			(at 38.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +4561,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 63.5 69.85 0)
+			(at 38.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,7 +4569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 74.93 0)
+			(at 38.1 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +4578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 74.93 0)
+			(at 38.1 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +4587,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 63.5 74.93 0)
+			(at 38.1 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +4609,7 @@
 	)
 	(symbol
 		(lib_id "DW-ICs:UCC256610DDBR")
-		(at 82.55 96.52 0)
+		(at 57.15 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3543,7 +4618,7 @@
 		(fields_autoplaced yes)
 		(uuid "61742f37-d21c-45a6-ac6f-ef470fc1133e")
 		(property "Reference" "U1"
-			(at 92.71 88.9 0)
+			(at 67.31 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +4627,7 @@
 			)
 		)
 		(property "Value" "UCC256610DDBR"
-			(at 110.49 99.06 0)
+			(at 85.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +4638,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:DDB0014A"
-			(at 110.49 101.6 0)
+			(at 85.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +4649,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc25661.pdf"
-			(at 110.49 104.14 0)
+			(at 85.09 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +4660,7 @@
 			)
 		)
 		(property "Description" "50kHz~750kHz LLC Power Supply Controller"
-			(at 110.49 106.68 0)
+			(at 85.09 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +4671,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 110.49 109.22 0)
+			(at 85.09 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +4682,7 @@
 			)
 		)
 		(property "MPN" "UCC256610DDBR"
-			(at 92.71 91.44 0)
+			(at 67.31 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +4691,7 @@
 			)
 		)
 		(property "LCSC" "C49247863"
-			(at 110.49 114.3 0)
+			(at 85.09 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,6 +4747,72 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-power-symbols:GNDPWR")
+		(at 146.05 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "672ecb1c-5e72-4821-ac34-d20cf6b6de08")
+		(property "Reference" "#PWR07"
+			(at 146.05 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 145.923 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 146.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6a12a1b-4551-48c6-996c-7aa4f3d33fd6")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3942,8 +5083,183 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-inductors:L-470n-7A-dehongganying-DH0520H-R47M")
+		(at 111.76 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ae991f2-362a-4a0a-b197-131394c8ea6f")
+		(property "Reference" "L1"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L-470n-7A-dehongganying-DH0520H-R47M"
+			(at 124.46 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:L-dehongganying-DH0520H"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C41407028.pdf"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "7A 470nH 12A 10mΩ Molded Inductor ±20% SMD,5.6x5.2mm Fixed Inductors RoHS"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "dehongganying"
+			(at 124.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DH0520H-R47M"
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41407028"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "470n"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Irms" "7A"
+			(at 124.46 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Isat" "12A"
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DCR" "10mΩ"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Size (W x L x H)" "5.6 x 5.2 x 2.0mm"
+			(at 124.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38bbf3ec-dc04-447d-9622-f84770243fc2")
+		)
+		(pin "2"
+			(uuid "49588286-927d-421c-b79c-9ad1ca58d055")
+		)
+		(instances
+			(project ""
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-capacitors:C-1u-0402")
-		(at 105.41 101.6 0)
+		(at 80.01 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3951,7 +5267,7 @@
 		(dnp no)
 		(uuid "8beb96a4-7407-4779-96a6-2dc120ba1d20")
 		(property "Reference" "C1"
-			(at 105.664 100.33 0)
+			(at 80.264 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +5276,7 @@
 			)
 		)
 		(property "Value" "C-1u-0402"
-			(at 118.11 104.14 0)
+			(at 92.71 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +5287,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:C_0402_1005Metric"
-			(at 118.11 106.68 0)
+			(at 92.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +5298,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 118.11 109.22 0)
+			(at 92.71 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +5309,7 @@
 			)
 		)
 		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 118.11 111.76 0)
+			(at 92.71 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +5320,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 118.11 114.3 0)
+			(at 92.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,7 +5331,7 @@
 			)
 		)
 		(property "MPN" "CL05A105KA5NQNC"
-			(at 118.11 116.84 0)
+			(at 92.71 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +5342,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 118.11 119.38 0)
+			(at 92.71 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +5353,7 @@
 			)
 		)
 		(property "Val" "1u"
-			(at 110.49 100.33 0)
+			(at 85.09 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +5362,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 118.11 124.46 0)
+			(at 92.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,7 +5373,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 118.11 127 0)
+			(at 92.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +5384,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 118.11 129.54 0)
+			(at 92.71 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +5518,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GNDPWR")
-		(at 62.23 102.87 0)
+		(at 36.83 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4211,7 +5527,7 @@
 		(fields_autoplaced yes)
 		(uuid "95bda7f5-537c-461c-bdf8-3c4ca7e83ae9")
 		(property "Reference" "#PWR06"
-			(at 62.23 107.95 0)
+			(at 36.83 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +5536,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 62.103 106.68 0)
+			(at 36.703 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +5544,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 104.14 0)
+			(at 36.83 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +5553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 104.14 0)
+			(at 36.83 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +5562,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 62.23 102.87 0)
+			(at 36.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +5584,7 @@
 	)
 	(symbol
 		(lib_id "DW-connectors:Banana_Jack_Keystone_575-8")
-		(at 58.42 97.79 180)
+		(at 33.02 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4277,7 +5593,7 @@
 		(fields_autoplaced yes)
 		(uuid "969ab231-c7a3-4482-8ed3-6e585c963a32")
 		(property "Reference" "J2"
-			(at 53.34 96.52 0)
+			(at 27.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +5603,7 @@
 			)
 		)
 		(property "Value" "Banana_Jack_Keystone_575-8"
-			(at 49.53 95.25 0)
+			(at 24.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +5614,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:Conn_Banana_Jack_Keystone_575-8"
-			(at 53.34 92.71 0)
+			(at 27.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +5625,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/3/201/1/575_4_575_8.pdf"
-			(at 53.34 90.17 0)
+			(at 27.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +5636,7 @@
 			)
 		)
 		(property "Description" "4mm Banana Jack, Keystone 575-8, THT"
-			(at 53.34 87.63 0)
+			(at 27.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +5647,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 53.34 85.09 0)
+			(at 27.94 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +5658,7 @@
 			)
 		)
 		(property "MPN" "575-8"
-			(at 53.34 99.06 0)
+			(at 27.94 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +5668,7 @@
 			)
 		)
 		(property "LCSC" "C4994335"
-			(at 53.34 80.01 0)
+			(at 27.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +5692,7 @@
 	)
 	(symbol
 		(lib_id "DW-connectors:Banana_Jack_Keystone_575-8")
-		(at 58.42 77.47 180)
+		(at 33.02 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4385,7 +5701,7 @@
 		(fields_autoplaced yes)
 		(uuid "991f1745-f402-4616-9a7d-9b4d26dc48a3")
 		(property "Reference" "J1"
-			(at 53.34 76.2 0)
+			(at 27.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +5711,7 @@
 			)
 		)
 		(property "Value" "Banana_Jack_Keystone_575-8"
-			(at 49.53 74.93 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +5722,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:Conn_Banana_Jack_Keystone_575-8"
-			(at 53.34 72.39 0)
+			(at 27.94 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +5733,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/3/201/1/575_4_575_8.pdf"
-			(at 53.34 69.85 0)
+			(at 27.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +5744,7 @@
 			)
 		)
 		(property "Description" "4mm Banana Jack, Keystone 575-8, THT"
-			(at 53.34 67.31 0)
+			(at 27.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +5755,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 53.34 64.77 0)
+			(at 27.94 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +5766,7 @@
 			)
 		)
 		(property "MPN" "575-8"
-			(at 53.34 78.74 0)
+			(at 27.94 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +5776,7 @@
 			)
 		)
 		(property "LCSC" "C4994335"
-			(at 53.34 59.69 0)
+			(at 27.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +5800,7 @@
 	)
 	(symbol
 		(lib_id "DW-transistors:SIS472DN-T1-GE3")
-		(at 121.92 101.6 0)
+		(at 96.52 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4492,7 +5808,7 @@
 		(dnp no)
 		(uuid "9f330629-93e4-4ed8-944c-239523517ba5")
 		(property "Reference" "Q3"
-			(at 130.81 97.79 0)
+			(at 105.41 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +5818,7 @@
 			)
 		)
 		(property "Value" "SIS472DN-T1-GE3"
-			(at 132.08 104.14 0)
+			(at 106.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +5829,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:PowerPAK-1212-8_Single"
-			(at 132.08 106.68 0)
+			(at 106.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +5840,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C727441.pdf"
-			(at 132.08 109.22 0)
+			(at 106.68 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +5851,7 @@
 			)
 		)
 		(property "Description" "30V 8.9mΩ@10V,15A 2.5V 1 N-Channel PowerPAK1212-8 MOSFETs ROHS"
-			(at 132.08 111.76 0)
+			(at 106.68 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +5862,7 @@
 			)
 		)
 		(property "Manufacturer" "VISHAY"
-			(at 132.08 114.3 0)
+			(at 106.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +5873,7 @@
 			)
 		)
 		(property "MPN" "SIS472DN-T1-GE3"
-			(at 130.81 100.33 0)
+			(at 105.41 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +5883,7 @@
 			)
 		)
 		(property "LCSC" "C727441"
-			(at 132.08 119.38 0)
+			(at 106.68 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +5894,7 @@
 			)
 		)
 		(property "Id" "20A"
-			(at 132.08 121.92 0)
+			(at 106.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +5905,7 @@
 			)
 		)
 		(property "Vds" "30V"
-			(at 132.08 124.46 0)
+			(at 106.68 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +5916,7 @@
 			)
 		)
 		(property "Vgs" "20V"
-			(at 132.08 127 0)
+			(at 106.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +5927,7 @@
 			)
 		)
 		(property "Rds(on)" "8.9mΩ"
-			(at 132.08 129.54 0)
+			(at 106.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,8 +6126,316 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
+		(at 142.24 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afeb3221-596d-4c15-8abd-941d96af40bb")
+		(property "Reference" "C4"
+			(at 144.018 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-22n-100V-C0G-1206"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 147.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
+			(at 149.86 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM3195C2A223JA01D"
+			(at 157.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C711005"
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22n"
+			(at 144.018 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81698062-d4a7-4790-8969-7285f9c5b188")
+		)
+		(pin "1"
+			(uuid "43933921-0d17-4c1a-b29c-118153afae73")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
+		(at 165.1 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b0f360d0-410b-45c3-9641-e9ed811c01bf")
+		(property "Reference" "C7"
+			(at 166.878 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-22n-100V-C0G-1206"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM3195C2A223JA01D"
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C711005"
+			(at 182.88 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22n"
+			(at 166.878 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 187.96 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5bcb683-c254-4ec8-bbe8-2627cffef0a1")
+		)
+		(pin "1"
+			(uuid "fd19b793-eef9-4b62-89a5-9f1d31629413")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-transistors:SIS472DN-T1-GE3")
-		(at 121.92 115.57 0)
+		(at 96.52 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4819,7 +6443,7 @@
 		(dnp no)
 		(uuid "b389341e-31fa-4ee0-b09e-9102d3b83be5")
 		(property "Reference" "Q4"
-			(at 130.81 111.76 0)
+			(at 105.41 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +6453,7 @@
 			)
 		)
 		(property "Value" "SIS472DN-T1-GE3"
-			(at 132.08 118.11 0)
+			(at 106.68 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +6464,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:PowerPAK-1212-8_Single"
-			(at 132.08 120.65 0)
+			(at 106.68 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +6475,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C727441.pdf"
-			(at 132.08 123.19 0)
+			(at 106.68 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +6486,7 @@
 			)
 		)
 		(property "Description" "30V 8.9mΩ@10V,15A 2.5V 1 N-Channel PowerPAK1212-8 MOSFETs ROHS"
-			(at 132.08 125.73 0)
+			(at 106.68 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +6497,7 @@
 			)
 		)
 		(property "Manufacturer" "VISHAY"
-			(at 132.08 128.27 0)
+			(at 106.68 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +6508,7 @@
 			)
 		)
 		(property "MPN" "SIS472DN-T1-GE3"
-			(at 130.81 114.3 0)
+			(at 105.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +6518,7 @@
 			)
 		)
 		(property "LCSC" "C727441"
-			(at 132.08 133.35 0)
+			(at 106.68 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +6529,7 @@
 			)
 		)
 		(property "Id" "20A"
-			(at 132.08 135.89 0)
+			(at 106.68 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +6540,7 @@
 			)
 		)
 		(property "Vds" "30V"
-			(at 132.08 138.43 0)
+			(at 106.68 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +6551,7 @@
 			)
 		)
 		(property "Vgs" "20V"
-			(at 132.08 140.97 0)
+			(at 106.68 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +6562,7 @@
 			)
 		)
 		(property "Rds(on)" "8.9mΩ"
-			(at 132.08 143.51 0)
+			(at 106.68 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +6598,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GNDPWR")
-		(at 81.28 119.38 0)
+		(at 55.88 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4983,7 +6607,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4084561-517e-4b98-bd5b-66a608a43dd7")
 		(property "Reference" "#PWR04"
-			(at 81.28 124.46 0)
+			(at 55.88 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +6616,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 81.153 123.19 0)
+			(at 55.753 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +6624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 120.65 0)
+			(at 55.88 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +6633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 120.65 0)
+			(at 55.88 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +6642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 81.28 119.38 0)
+			(at 55.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +6664,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GNDPWR")
-		(at 128.27 121.92 0)
+		(at 102.87 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5049,7 +6673,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4f9f38e-c372-4fc7-aa2e-2089c64a3e7f")
 		(property "Reference" "#PWR03"
-			(at 128.27 127 0)
+			(at 102.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +6682,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 128.143 125.73 0)
+			(at 102.743 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +6690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 123.19 0)
+			(at 102.87 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,7 +6699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 123.19 0)
+			(at 102.87 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +6708,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 128.27 121.92 0)
+			(at 102.87 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,6 +6723,314 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
+		(at 127 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da00ff0a-b1e9-4eaf-b720-172caa418ca5")
+		(property "Reference" "C2"
+			(at 128.778 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-22n-100V-C0G-1206"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM3195C2A223JA01D"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C711005"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22n"
+			(at 128.778 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 149.86 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3c59415-a805-4cd3-a1a5-f1d69752978c")
+		)
+		(pin "1"
+			(uuid "8e0929f5-1215-4d86-aa7f-7aad6e5768e2")
+		)
+		(instances
+			(project ""
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
+		(at 157.48 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4eca47d-e850-45da-a5d6-e0187bead63f")
+		(property "Reference" "C6"
+			(at 159.258 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-22n-100V-C0G-1206"
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM3195C2A223JA01D"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C711005"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22n"
+			(at 159.258 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 182.88 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b3f3b93-a55e-4fb2-85f8-15e112ed8aa6")
+		)
+		(pin "1"
+			(uuid "9f6003a1-9616-4815-9f88-d1b674aec23b")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C6")
 					(unit 1)
 				)
 			)
