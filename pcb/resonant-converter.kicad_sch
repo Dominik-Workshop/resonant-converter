@@ -269,6 +269,407 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DW-ICs:PC817X2CSP9F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PC817X2CSP9F"
+				(at 20.32 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DW-footprints:SMD-4_6.5x4.6mm_P2.54mm"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C66405.pdf"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Phototransistor Output 5kVrms SMD-4P"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "SHARP"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PC817X2CSP9F"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "LCSC" "C66405"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "IC, SMD, SWITCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PC817X2CSP9F_1_1"
+				(rectangle
+					(start 2.54 1.27)
+					(end 10.414 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 0.635)
+					(end 2.54 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.81 0) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 3.81 -3.81) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 4.445 -1.27) (xy 3.81 -2.413) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -2.413) (xy 4.445 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.207 -1.397) (xy 7.239 -1.397)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.207 -2.413) (xy 7.239 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.477 -1.143) (xy 6.477 -1.143) (xy 6.477 -1.651) (xy 7.239 -1.397) (xy 6.477 -1.143) (xy 6.477 -1.143)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.477 -2.159) (xy 6.477 -2.159) (xy 6.477 -2.667) (xy 7.239 -2.413) (xy 6.477 -2.159) (xy 6.477 -2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.747 -0.889) (xy 7.747 -2.921)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.017 -0.127) (xy 7.747 -1.397)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.017 -3.683) (xy 7.747 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.017 -3.683) (xy 9.017 -3.683) (xy 8.89 -3.048) (xy 8.382 -3.556) (xy 9.017 -3.683) (xy 9.017 -3.683)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 0) (xy 7.874 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -3.81) (xy 8.89 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 -3.81) (xy 8.89 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.414 0) (xy 9.144 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.414 -3.81) (xy 9.144 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DW-ICs:TEA2096T/1J"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -305,7 +706,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/datasheet/download/AP22815_615.pdf"
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TEA2096T.pdf"
 				(at 29.21 -7.62 0)
 				(effects
 					(font
@@ -519,6 +920,257 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DW-ICs:TL431AIDBVR"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TL431AIDBVR"
+				(at 6.35 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DW-footprints:SOT-23-5"
+				(at 6.35 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C144392.pdf"
+				(at 6.35 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.5V~36V ±1% 2.5V~36V 100mA Adjustable SOT-23-5 Voltage Reference RoHS"
+				(at 6.35 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 6.35 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TL431AIDBVR"
+				(at 6.35 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "LCSC" "C144392"
+				(at 6.35 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "IC, SMD, REFERENCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL431AIDBVR_0_1"
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.254) (xy 3.302 0.762) (xy 1.778 0.762) (xy 1.778 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.762) (xy 1.778 -0.762) (xy 1.778 -0.762) (xy 2.54 0.762) (xy 3.302 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "TL431AIDBVR_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 1.27 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1309,6 +1961,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DW-capacitors:C-22p-0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C-22p-0402"
+				(at 12.7 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DW-footprints:C_0402_1005Metric"
+				(at 12.7 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411220213_FH-0402CG220J500NT_C1555.pdf"
+				(at 12.7 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 22pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 12.7 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "FH"
+				(at 12.7 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0402CG220J500NT"
+				(at 12.7 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1555"
+				(at 12.7 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "22p"
+				(at 12.7 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Tolerance" "5%"
+				(at 12.7 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 12.7 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "C0G"
+				(at 12.7 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "C-22p-0402_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C-22p-0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DW-connectors:Banana_Jack_Keystone_575-8"
 			(pin_numbers
 				(hide yes)
@@ -1927,6 +2785,593 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DW-mechanical:Transformer_custom_B66206W1110T001"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T"
+				(at 28.956 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B66206W1110T001"
+				(at 28.956 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DW-footprints:Bobbin_B66206W1110T001"
+				(at 28.956 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-acc/data_sheet/80/db/fer/e_20_10_6.pdf?ref_disty=mouser"
+				(at 28.956 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Transformer custom, with B66206W1110T001 bobbin"
+				(at 28.956 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 28.956 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "B66206W1110T001"
+				(at 28.956 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "THT, TRANSFORMER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Transformer_custom_B66206W1110T001_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.556 0) (xy 3.556 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -10.16) (xy 3.556 -10.16) (xy 3.556 -11.684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.048 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.048 -11.176)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.556 -1.651)
+					(mid 4.315 -2.413)
+					(end 3.556 -3.175)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.556 -3.175)
+					(mid 4.315 -3.937)
+					(end 3.556 -4.699)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.556 -4.699)
+					(mid 4.315 -5.461)
+					(end 3.556 -6.223)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.556 -11.811)
+					(mid 4.315 -12.573)
+					(end 3.556 -13.335)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.556 -13.335)
+					(mid 4.315 -14.097)
+					(end 3.556 -14.859)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.556 -14.859)
+					(mid 4.315 -15.621)
+					(end 3.556 -16.383)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -6.35) (xy 3.556 -7.62) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -16.51) (xy 3.556 -17.78) (xy 2.54 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 -16.51) (xy 7.874 -17.78) (xy 8.89 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.874 -3.175)
+					(mid 7.1153 -2.413)
+					(end 7.874 -1.651)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.874 -4.699)
+					(mid 7.1153 -3.937)
+					(end 7.874 -3.175)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.874 -6.223)
+					(mid 7.1153 -5.461)
+					(end 7.874 -4.699)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.874 -13.335)
+					(mid 7.1153 -12.573)
+					(end 7.874 -11.811)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.874 -14.859)
+					(mid 7.1153 -14.097)
+					(end 7.874 -13.335)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.874 -16.383)
+					(mid 7.1153 -15.621)
+					(end 7.874 -14.859)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.382 -0.508)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.382 -11.176)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 0) (xy 7.874 0) (xy 7.874 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -7.62) (xy 7.874 -7.62) (xy 7.874 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -10.16) (xy 7.874 -10.16) (xy 7.874 -11.684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Transformer_custom_B66206W1110T001_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 6.35 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 -3.81 180)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 8.89 -13.97 0)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -10.16 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -17.78 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2586,6 +4031,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DW-resistors:R-1k-0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R-1k-0402"
+				(at 12.7 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DW-footprints:R_0402_1005Metric"
+				(at 12.7 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
+				(at 12.7 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 12.7 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 12.7 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0402WGF1001TCE"
+				(at 12.7 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C11702"
+				(at 12.7 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "1k"
+				(at 12.7 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 12.7 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "R-1k-0402_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R-1k-0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DW-transistors:SIS472DN-T1-GE3"
 			(pin_numbers
 				(hide yes)
@@ -3052,6 +4669,18 @@
 		(uuid "0a2ca6ca-c78d-49d4-8d69-654e24c77895")
 	)
 	(junction
+		(at 255.27 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23da9009-0284-4ae5-93c5-a3abf3ead827")
+	)
+	(junction
+		(at 274.32 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33ce38c4-f152-41be-9b1f-8c1e7b8b5806")
+	)
+	(junction
 		(at 142.24 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3074,6 +4703,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60f82c46-4f16-438a-8911-078eb5062385")
+	)
+	(junction
+		(at 252.73 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dc97994-1b80-4731-a5da-a33a92de51ac")
 	)
 	(junction
 		(at 275.59 120.65)
@@ -3112,10 +4747,34 @@
 		(uuid "8b3c4720-3e90-4462-8c6a-4fe3bc594f14")
 	)
 	(junction
+		(at 276.86 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90ed85bd-5e55-47f5-a445-8f6ea73f00ca")
+	)
+	(junction
+		(at 255.27 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9200cf5c-fa3b-48b3-9438-17768faac5bb")
+	)
+	(junction
 		(at 102.87 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5783c55-7130-4191-a98c-36bf9560cd80")
+	)
+	(junction
+		(at 252.73 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a93f119f-63e2-41b6-aca8-3c07756a9c26")
+	)
+	(junction
+		(at 307.34 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab5d8155-81a9-42bf-8334-471ae3507469")
 	)
 	(junction
 		(at 142.24 127)
@@ -3166,7 +4825,7 @@
 		(uuid "d6700a6d-40d5-4b02-906f-098b6564a100")
 	)
 	(junction
-		(at 335.28 97.79)
+		(at 335.28 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da2ee90b-512c-4498-8367-70085336e8d6")
@@ -3178,22 +4837,28 @@
 		(uuid "dcbef9b4-40d3-402f-bb0c-54d3c874614e")
 	)
 	(junction
-		(at 307.34 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddb76a4f-e4c3-4a60-a1c2-c2f6feb7d7ca")
-	)
-	(junction
-		(at 309.88 154.94)
+		(at 360.68 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e08bebdb-4532-4237-86cb-85ea826b5db0")
 	)
 	(junction
-		(at 284.48 154.94)
+		(at 335.28 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8b645d6-2791-4253-a610-e2a42885b5bd")
+	)
+	(junction
+		(at 255.27 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3760109-8d0a-4c44-b06d-ddd2f9f9b9a8")
+	)
+	(junction
+		(at 276.86 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6a78e7b-96b0-45ab-bd9e-5e562cfc2815")
 	)
 	(junction
 		(at 149.86 116.84)
@@ -3202,7 +4867,7 @@
 		(uuid "f7d87e24-3fc6-4325-965d-2f296ea05919")
 	)
 	(junction
-		(at 309.88 147.32)
+		(at 360.68 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff19fbcf-7d45-4bbb-b17f-f9a8bafb411c")
@@ -3239,17 +4904,27 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 102.87) (xy 270.51 102.87)
+			(xy 252.73 151.13) (xy 252.73 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bf8a7f1-4450-4800-b143-acb8e5e1e3d5")
+		(uuid "0b9a9797-0abc-45f1-9d27-93e9891c1f67")
 	)
 	(wire
 		(pts
-			(xy 309.88 154.94) (xy 303.53 154.94)
+			(xy 255.27 148.59) (xy 255.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be2a8bd-ffe4-4582-8963-e80e5749b752")
+	)
+	(wire
+		(pts
+			(xy 360.68 62.23) (xy 354.33 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3279,7 +4954,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 148.59) (xy 309.88 147.32)
+			(xy 360.68 55.88) (xy 360.68 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3329,6 +5004,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 157.48) (xy 261.62 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc80bfa-2d06-4f76-8eb3-2c9ae473b9ed")
+	)
+	(wire
+		(pts
 			(xy 88.9 111.76) (xy 88.9 123.19)
 		)
 		(stroke
@@ -3359,7 +5044,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 92.71) (xy 321.31 105.41)
+			(xy 321.31 87.63) (xy 321.31 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3399,16 +5084,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 97.79) (xy 307.34 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26ad5880-0494-4e0f-8fa9-8740e88241bc")
-	)
-	(wire
-		(pts
 			(xy 321.31 123.19) (xy 321.31 128.27)
 		)
 		(stroke
@@ -3419,16 +5094,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 102.87) (xy 270.51 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2725289b-0b72-4dc1-bad6-40fb22e0d605")
-	)
-	(wire
-		(pts
 			(xy 77.47 106.68) (xy 92.71 106.68)
 		)
 		(stroke
@@ -3436,6 +5101,16 @@
 			(type default)
 		)
 		(uuid "29309413-fd15-454c-9213-7ea57ca43771")
+	)
+	(wire
+		(pts
+			(xy 255.27 96.52) (xy 307.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294e46d1-f401-4fe0-a9eb-11dece64eb5d")
 	)
 	(wire
 		(pts
@@ -3459,7 +5134,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 153.67) (xy 309.88 154.94)
+			(xy 360.68 60.96) (xy 360.68 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3499,7 +5174,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 95.25) (xy 335.28 97.79)
+			(xy 335.28 93.98) (xy 335.28 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3516,16 +5191,6 @@
 			(type default)
 		)
 		(uuid "39b926f6-047d-4f5b-b82f-9dc8478a3b2c")
-	)
-	(wire
-		(pts
-			(xy 265.43 97.79) (xy 307.34 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a65cad2-41c2-401c-bcb2-c6cb5e6c15cc")
 	)
 	(wire
 		(pts
@@ -3546,6 +5211,16 @@
 			(type default)
 		)
 		(uuid "3d93aa08-a936-4ba1-92eb-284fad01c71d")
+	)
+	(wire
+		(pts
+			(xy 251.46 151.13) (xy 252.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41569695-fda8-4ac8-8a99-408e7d8a7fe4")
 	)
 	(wire
 		(pts
@@ -3599,6 +5274,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 161.29) (xy 274.32 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4800db47-29fe-46be-a339-d925e82f9d68")
+	)
+	(wire
+		(pts
 			(xy 270.51 121.92) (xy 270.51 128.27)
 		)
 		(stroke
@@ -3629,7 +5314,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 144.78) (xy 309.88 147.32)
+			(xy 360.68 52.07) (xy 360.68 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3649,6 +5334,26 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 154.94) (xy 255.27 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57af4171-edfb-448d-afe1-d4f3fe00dabf")
+	)
+	(wire
+		(pts
+			(xy 266.7 157.48) (xy 267.97 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59643ed8-df7e-45ae-8575-8b4921315e3a")
+	)
+	(wire
+		(pts
 			(xy 335.28 128.27) (xy 335.28 130.81)
 		)
 		(stroke
@@ -3659,13 +5364,23 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 92.71) (xy 321.31 92.71)
+			(xy 252.73 166.37) (xy 252.73 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6268d30f-039c-4a8d-8be4-cb7dbf192032")
+		(uuid "5d2e154b-923c-427d-b55e-e7fbdff259f4")
+	)
+	(wire
+		(pts
+			(xy 252.73 97.79) (xy 255.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e551c5c-05b9-44d8-bc9b-d243379a6193")
 	)
 	(wire
 		(pts
@@ -3676,6 +5391,16 @@
 			(type default)
 		)
 		(uuid "639289db-c301-43cb-b23e-5337634d2534")
+	)
+	(wire
+		(pts
+			(xy 276.86 160.02) (xy 276.86 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67bb3ac0-3f16-4608-bc64-77728ef55729")
 	)
 	(wire
 		(pts
@@ -3719,6 +5444,36 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 96.52) (xy 255.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0c6954-06f6-40fa-ac57-92989a02ce80")
+	)
+	(wire
+		(pts
+			(xy 252.73 154.94) (xy 252.73 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f34b1bb-5dcb-468e-bf69-38a5cc3ba277")
+	)
+	(wire
+		(pts
+			(xy 252.73 157.48) (xy 255.27 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763ea3bb-0a4f-44ba-ac2f-61488cb89058")
+	)
+	(wire
+		(pts
 			(xy 316.23 105.41) (xy 316.23 107.95)
 		)
 		(stroke
@@ -3729,7 +5484,27 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 157.48) (xy 284.48 154.94)
+			(xy 252.73 166.37) (xy 276.86 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8d9cb7-4132-4c00-9892-208be537cef5")
+	)
+	(wire
+		(pts
+			(xy 274.32 157.48) (xy 276.86 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7daae6ac-3545-4d91-b94a-e1f3b1c2ec56")
+	)
+	(wire
+		(pts
+			(xy 335.28 64.77) (xy 335.28 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3739,7 +5514,17 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 152.4) (xy 284.48 154.94)
+			(xy 255.27 139.7) (xy 255.27 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8160d220-d435-47a5-93fc-746f9cdfb587")
+	)
+	(wire
+		(pts
+			(xy 335.28 59.69) (xy 335.28 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3769,6 +5554,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 157.48) (xy 252.73 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86661d05-71a4-4573-a088-b528a985e50c")
+	)
+	(wire
+		(pts
 			(xy 309.88 115.57) (xy 304.8 115.57)
 		)
 		(stroke
@@ -3779,13 +5574,33 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 152.4) (xy 284.48 152.4)
+			(xy 276.86 138.43) (xy 276.86 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875098e8-da58-44f3-99d1-73a2b0773b35")
+	)
+	(wire
+		(pts
+			(xy 337.82 59.69) (xy 335.28 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "89a987cf-fdaf-4d70-9a5c-28a10b193485")
+	)
+	(wire
+		(pts
+			(xy 307.34 96.52) (xy 307.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f6190d-9512-4aba-a103-626b0e507525")
 	)
 	(wire
 		(pts
@@ -3839,7 +5654,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 154.94) (xy 287.02 154.94)
+			(xy 335.28 62.23) (xy 337.82 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3859,7 +5674,17 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 97.79) (xy 335.28 97.79)
+			(xy 276.86 157.48) (xy 276.86 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c18af8-b7e6-40fd-9212-1195561eb77f")
+	)
+	(wire
+		(pts
+			(xy 307.34 96.52) (xy 335.28 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3909,6 +5734,26 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 139.7) (xy 255.27 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a510b8-e97f-432f-bf40-3938c664ed59")
+	)
+	(wire
+		(pts
+			(xy 252.73 163.83) (xy 252.73 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f07657-46de-4de2-801d-83143155beda")
+	)
+	(wire
+		(pts
 			(xy 157.48 124.46) (xy 157.48 127)
 		)
 		(stroke
@@ -3916,6 +5761,26 @@
 			(type default)
 		)
 		(uuid "bb5e5077-fd73-4913-8585-067e3094722f")
+	)
+	(wire
+		(pts
+			(xy 276.86 166.37) (xy 276.86 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde41fc9-64f0-44c1-b574-e73e3d5eefa9")
+	)
+	(wire
+		(pts
+			(xy 252.73 87.63) (xy 321.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c061aed0-6adf-4b92-aa54-28e7c73c2f17")
 	)
 	(wire
 		(pts
@@ -3969,6 +5834,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 105.41) (xy 270.51 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d2f2cc-70c3-4cef-96c7-65ea4756c46e")
+	)
+	(wire
+		(pts
 			(xy 149.86 124.46) (xy 149.86 127)
 		)
 		(stroke
@@ -3989,13 +5864,33 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 157.48) (xy 309.88 154.94)
+			(xy 360.68 64.77) (xy 360.68 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d59d6f19-e7ca-4102-9c15-f3d884f40d2a")
+	)
+	(wire
+		(pts
+			(xy 251.46 154.94) (xy 252.73 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d85f32-e80a-4e0f-ab83-ee703b0d6e2d")
+	)
+	(wire
+		(pts
+			(xy 252.73 148.59) (xy 255.27 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9474a1c-e60a-4499-8d78-18c4d7ecb54d")
 	)
 	(wire
 		(pts
@@ -4019,6 +5914,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 148.59) (xy 276.86 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf602cf-e259-46cd-981e-1420346038af")
+	)
+	(wire
+		(pts
 			(xy 33.02 85.09) (xy 38.1 85.09)
 		)
 		(stroke
@@ -4026,6 +5931,16 @@
 			(type default)
 		)
 		(uuid "db488f4e-4a0e-4e8e-8235-822f7495dfa3")
+	)
+	(wire
+		(pts
+			(xy 255.27 146.05) (xy 255.27 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db884565-02ce-4537-8e04-5c66d6355eda")
 	)
 	(wire
 		(pts
@@ -4109,13 +6024,23 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 147.32) (xy 309.88 147.32)
+			(xy 354.33 54.61) (xy 360.68 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e5b99b5f-5346-4a9d-8623-efc49120e0d8")
+	)
+	(wire
+		(pts
+			(xy 255.27 95.25) (xy 255.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c93068-4561-4bca-9437-21aa833632a9")
 	)
 	(wire
 		(pts
@@ -4126,6 +6051,26 @@
 			(type default)
 		)
 		(uuid "e77d5235-d1e2-4918-bc9a-5be1f2d11f20")
+	)
+	(wire
+		(pts
+			(xy 252.73 95.25) (xy 255.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6d965c-8a2f-464e-a079-d25b75fb1598")
+	)
+	(wire
+		(pts
+			(xy 274.32 161.29) (xy 274.32 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2f0082-6a8a-4e48-b44a-1cbcb0ff7631")
 	)
 	(wire
 		(pts
@@ -4149,7 +6094,17 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 97.79) (xy 337.82 97.79)
+			(xy 273.05 157.48) (xy 274.32 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e602df-057f-46e9-aaa9-4f68f01a27ec")
+	)
+	(wire
+		(pts
+			(xy 335.28 96.52) (xy 337.82 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4248,7 +6203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/datasheet/download/AP22815_615.pdf"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TEA2096T.pdf"
 			(at 321.31 115.57 0)
 			(effects
 				(font
@@ -4335,6 +6290,138 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-resistors:R-1k-0402")
+		(at 276.86 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29850ecd-bc44-4396-aff9-d0e5f3c7dcd8")
+		(property "Reference" "R4"
+			(at 278.13 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R-1k-0402"
+			(at 279.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:R_0402_1005Metric"
+			(at 281.94 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
+			(at 284.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 287.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 289.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 292.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 294.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1k"
+			(at 278.13 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 299.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "487df35e-206d-4a6e-a48b-e5e82cbfdf01")
+		)
+		(pin "2"
+			(uuid "7d6996dd-599a-4f5c-8422-7f5f45738c63")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-power-symbols:GND")
 		(at 335.28 130.81 0)
 		(unit 1)
@@ -4394,6 +6481,71 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-power-symbols:GND")
+		(at 252.73 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30a2bee0-338a-40f8-bf46-808089efcc0f")
+		(property "Reference" "#PWR011"
+			(at 252.73 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c5dc62b-66ce-4084-b858-4fca0cd75e13")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4563,8 +6715,129 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-ICs:TL431AIDBVR")
+		(at 255.27 161.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cb43bc0-4b9d-4986-8baa-f50a6119ca51")
+		(property "Reference" "U5"
+			(at 250.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL431AIDBVR"
+			(at 248.92 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:SOT-23-5"
+			(at 248.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C144392.pdf"
+			(at 248.92 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.5V~36V ±1% 2.5V~36V 100mA Adjustable SOT-23-5 Voltage Reference RoHS"
+			(at 248.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 248.92 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL431AIDBVR"
+			(at 250.19 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C144392"
+			(at 248.92 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ca3f4311-c420-4ba7-aeee-57ca7b41b082")
+		)
+		(pin "1"
+			(uuid "b46d7dd7-8d24-4ac4-ac6b-7dedf8d36594")
+		)
+		(pin "2"
+			(uuid "cc488c12-3d14-43cd-bc64-9cef3c6f9f2c")
+		)
+		(pin "5"
+			(uuid "b46e5c12-2113-4705-af42-213df071ef80")
+		)
+		(pin "4"
+			(uuid "14672e46-6fad-4358-975b-bf14700552bb")
+		)
+		(instances
+			(project ""
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-capacitors:C-1u-0402")
-		(at 309.88 153.67 90)
+		(at 360.68 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4572,7 +6845,7 @@
 		(dnp no)
 		(uuid "46a54b1f-e146-4435-afdb-b401be6da44b")
 		(property "Reference" "C8"
-			(at 311.658 149.86 90)
+			(at 362.458 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +6855,7 @@
 			)
 		)
 		(property "Value" "C-1u-0402"
-			(at 312.42 140.97 0)
+			(at 363.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,7 +6866,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:C_0402_1005Metric"
-			(at 314.96 140.97 0)
+			(at 365.76 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +6877,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 317.5 140.97 0)
+			(at 368.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +6888,7 @@
 			)
 		)
 		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 320.04 140.97 0)
+			(at 370.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +6899,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 322.58 140.97 0)
+			(at 373.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +6910,7 @@
 			)
 		)
 		(property "MPN" "CL05A105KA5NQNC"
-			(at 325.12 140.97 0)
+			(at 375.92 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +6921,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 327.66 140.97 0)
+			(at 378.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +6932,7 @@
 			)
 		)
 		(property "Val" "1u"
-			(at 311.658 152.4 90)
+			(at 362.458 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +6942,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 332.74 140.97 0)
+			(at 383.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +6953,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 335.28 140.97 0)
+			(at 386.08 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +6964,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 337.82 140.97 0)
+			(at 388.62 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,6 +7144,138 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-resistors:R-1k-0402")
+		(at 276.86 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "495fddf5-5e0e-45a8-89d6-4914b35f3724")
+		(property "Reference" "R3"
+			(at 278.13 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R-1k-0402"
+			(at 279.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:R_0402_1005Metric"
+			(at 281.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
+			(at 284.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 287.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 289.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 292.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 294.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1k"
+			(at 278.13 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 299.72 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "544efc21-f482-4431-b9a9-6a32590da7c9")
+		)
+		(pin "2"
+			(uuid "dd76a4fd-d164-413b-9e0d-ab25a473cfc9")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
 		(at 134.62 124.46 90)
 		(unit 1)
@@ -5026,7 +7431,7 @@
 	)
 	(symbol
 		(lib_id "DW-connectors:Banana_Jack_Keystone_575-8")
-		(at 337.82 97.79 0)
+		(at 337.82 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5034,7 +7439,7 @@
 		(dnp no)
 		(uuid "4ec8fb5f-af25-4ffb-ad3a-e234a54a9b08")
 		(property "Reference" "J3"
-			(at 342.9 96.52 0)
+			(at 342.9 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +7449,7 @@
 			)
 		)
 		(property "Value" "Banana_Jack_Keystone_575-8"
-			(at 346.71 100.33 0)
+			(at 346.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +7460,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:Conn_Banana_Jack_Keystone_575-8"
-			(at 342.9 102.87 0)
+			(at 342.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +7471,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/3/201/1/575_4_575_8.pdf"
-			(at 342.9 105.41 0)
+			(at 342.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +7482,7 @@
 			)
 		)
 		(property "Description" "4mm Banana Jack, Keystone 575-8, THT"
-			(at 342.9 107.95 0)
+			(at 342.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +7493,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
-			(at 342.9 110.49 0)
+			(at 342.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +7504,7 @@
 			)
 		)
 		(property "MPN" "575-8"
-			(at 342.9 99.06 0)
+			(at 342.9 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +7514,7 @@
 			)
 		)
 		(property "LCSC" "C4994335"
-			(at 342.9 115.57 0)
+			(at 342.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +7538,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:+12V")
-		(at 335.28 95.25 0)
+		(at 335.28 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5141,7 +7546,7 @@
 		(dnp no)
 		(uuid "582e293a-07cf-442a-92be-ac60c4ea8241")
 		(property "Reference" "#PWR02"
-			(at 335.28 99.06 0)
+			(at 335.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,7 +7555,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 335.28 91.44 0)
+			(at 335.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +7563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 95.25 0)
+			(at 335.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +7572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 95.25 0)
+			(at 335.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +7581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 335.28 95.25 0)
+			(at 335.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +7603,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GND")
-		(at 284.48 157.48 0)
+		(at 335.28 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5206,7 +7611,7 @@
 		(dnp no)
 		(uuid "583944aa-1e1c-4825-a358-e0767ffd36ab")
 		(property "Reference" "#PWR09"
-			(at 284.48 163.83 0)
+			(at 335.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,7 +7620,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 161.544 0)
+			(at 335.28 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +7628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 157.48 0)
+			(at 335.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +7637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 157.48 0)
+			(at 335.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +7646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 284.48 157.48 0)
+			(at 335.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,6 +7872,138 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-resistors:R-1k-0402")
+		(at 255.27 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63560d29-6315-4462-859a-eac8ee772d63")
+		(property "Reference" "R1"
+			(at 256.54 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R-1k-0402"
+			(at 257.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:R_0402_1005Metric"
+			(at 260.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 265.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 267.97 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 270.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 273.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1k"
+			(at 256.54 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 278.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "905ab756-f38f-4285-a750-32f5fb638118")
+		)
+		(pin "2"
+			(uuid "3cc1cae4-ecc1-4311-b8f9-4b613e2d26e2")
+		)
+		(instances
+			(project ""
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5803,6 +8340,122 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-ICs:PC817X2CSP9F")
+		(at 251.46 151.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "744517fa-6770-49c2-9b26-87430290b1a5")
+		(property "Reference" "U4"
+			(at 244.983 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PC817X2CSP9F"
+			(at 231.14 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:SMD-4_6.5x4.6mm_P2.54mm"
+			(at 231.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C66405.pdf"
+			(at 231.14 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Phototransistor Output 5kVrms SMD-4P"
+			(at 231.14 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHARP"
+			(at 231.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PC817X2CSP9F"
+			(at 244.983 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C66405"
+			(at 231.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f45f43af-6792-4357-8841-9ea5f3e3133b")
+		)
+		(pin "3"
+			(uuid "7beb37b7-e0d3-4a5f-950e-007b3fd7fa26")
+		)
+		(pin "4"
+			(uuid "05e93744-d9b9-4bfe-b9cb-a4cc3a4c7239")
+		)
+		(pin "2"
+			(uuid "472f12cb-d5c5-40eb-a106-bb747ee19097")
+		)
+		(instances
+			(project ""
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-inductors:L-470n-7A-dehongganying-DH0520H-R47M")
 		(at 111.76 111.76 0)
 		(unit 1)
@@ -5972,6 +8625,136 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-resistors:R-1k-0402")
+		(at 266.7 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81756240-4883-4984-9ca1-47ef46e0b54b")
+		(property "Reference" "R5"
+			(at 264.16 152.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R-1k-0402"
+			(at 254 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:R_0402_1005Metric"
+			(at 254 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
+			(at 254 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 254 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 254 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 254 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1k"
+			(at 264.16 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96a2a583-97ae-4a80-8b89-f0d465fe57c1")
+		)
+		(pin "2"
+			(uuid "e3bc9f2b-b093-4ee8-b95b-0bc1bbf26327")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6513,6 +9296,138 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-resistors:R-1k-0402")
+		(at 255.27 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dccc19f-037b-4e2a-a533-8c50cfd3664e")
+		(property "Reference" "R2"
+			(at 256.54 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R-1k-0402"
+			(at 257.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:R_0402_1005Metric"
+			(at 260.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
+			(at 262.89 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 265.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 270.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 273.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1k"
+			(at 256.54 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 278.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8adebc1-2a2b-4d24-ae1c-c510c4261cdc")
+		)
+		(pin "2"
+			(uuid "b3d32ef0-41b2-4e19-9396-aed6cc96aa00")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7318,7 +10233,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GND")
-		(at 309.88 157.48 0)
+		(at 360.68 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7326,7 +10241,7 @@
 		(dnp no)
 		(uuid "ba9ee593-41a8-4f99-9c98-57e161c4e78a")
 		(property "Reference" "#PWR08"
-			(at 309.88 163.83 0)
+			(at 360.68 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +10250,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 309.88 161.544 0)
+			(at 360.68 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7343,7 +10258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 157.48 0)
+			(at 360.68 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,7 +10267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 157.48 0)
+			(at 360.68 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7361,7 +10276,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 309.88 157.48 0)
+			(at 360.68 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,7 +10364,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:+3V3")
-		(at 309.88 144.78 0)
+		(at 360.68 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7457,7 +10372,7 @@
 		(dnp no)
 		(uuid "c9d0acb8-37d0-4afc-9904-719926ab4a21")
 		(property "Reference" "#PWR010"
-			(at 309.88 148.59 0)
+			(at 360.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,7 +10381,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 309.88 140.97 0)
+			(at 360.68 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +10389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 144.78 0)
+			(at 360.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +10398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 144.78 0)
+			(at 360.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,7 +10407,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 309.88 144.78 0)
+			(at 360.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,6 +10422,158 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-capacitors:C-22p-0402")
+		(at 273.05 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccd67aa7-44ab-4488-8dbd-33fafb3efccc")
+		(property "Reference" "C9"
+			(at 270.5036 152.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "C-22p-0402"
+			(at 260.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_0402_1005Metric"
+			(at 260.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411220213_FH-0402CG220J500NT_C1555.pdf"
+			(at 260.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 22pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 260.35 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH"
+			(at 260.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402CG220J500NT"
+			(at 260.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1555"
+			(at 260.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22p"
+			(at 270.5036 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 260.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 260.35 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 260.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29aba557-341b-42cc-ab37-c185e2094b85")
+		)
+		(pin "1"
+			(uuid "320737cb-46e9-4acc-a06f-b38ec6489ad6")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7733,6 +10800,71 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-power-symbols:+12V")
+		(at 276.86 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd36b187-3d31-4f0b-afc5-906af656aaf6")
+		(property "Reference" "#PWR012"
+			(at 276.86 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 276.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 276.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13c80df1-03c7-4d7e-b601-f0505417555b")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
 		(at 157.48 124.46 90)
 		(unit 1)
@@ -7887,8 +11019,130 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-mechanical:Transformer_custom_B66206W1110T001")
+		(at 241.3 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecfc02f4-f761-4491-8fb6-00e836677f43")
+		(property "Reference" "T1"
+			(at 247.015 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "B66206W1110T001"
+			(at 270.256 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:Bobbin_B66206W1110T001"
+			(at 270.256 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-acc/data_sheet/80/db/fer/e_20_10_6.pdf?ref_disty=mouser"
+			(at 270.256 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transformer custom, with B66206W1110T001 bobbin"
+			(at 270.256 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 270.256 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B66206W1110T001"
+			(at 247.015 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "15866b01-1ed7-4a3d-9fb2-c79d1c72c4d8")
+		)
+		(pin "8"
+			(uuid "c763a5a3-9ffc-41a5-9b6c-84702488a887")
+		)
+		(pin "1"
+			(uuid "f811c593-4f35-461a-8f78-ca36599ba707")
+		)
+		(pin "3"
+			(uuid "36f26726-515d-4562-97c9-c92380d88f67")
+		)
+		(pin "4"
+			(uuid "17c39c55-4577-4e10-ba80-74f7f24f6549")
+		)
+		(pin "10"
+			(uuid "00b47abb-9c32-426e-afe1-35855e0fdac3")
+		)
+		(pin "9"
+			(uuid "e9a216ca-1779-460b-b4ef-66db5b667305")
+		)
+		(pin "7"
+			(uuid "606d4dad-3bbb-483c-915f-f3500429b002")
+		)
+		(pin "2"
+			(uuid "21c27def-658c-4eab-823b-8a0ee4a1eace")
+		)
+		(pin "6"
+			(uuid "e8a51503-9ed6-448c-a974-c92b0d6a04be")
+		)
+		(instances
+			(project ""
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-ICs:INA219BIDCNR")
-		(at 287.02 142.24 0)
+		(at 337.82 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7897,7 +11151,7 @@
 		(fields_autoplaced yes)
 		(uuid "f499c5c4-93b1-4555-96f3-2733889a6b15")
 		(property "Reference" "U3"
-			(at 295.275 134.62 0)
+			(at 346.075 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +11160,7 @@
 			)
 		)
 		(property "Value" "INA219BIDCNR"
-			(at 318.77 144.78 0)
+			(at 369.57 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +11171,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:SOT-23-8"
-			(at 318.77 147.32 0)
+			(at 369.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,7 +11182,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina219.pdf"
-			(at 318.77 149.86 0)
+			(at 369.57 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,7 +11193,7 @@
 			)
 		)
 		(property "Description" "300mV~26V 10uV 20uA SOT-23-8 Current Regulation/Management RoHS"
-			(at 318.77 152.4 0)
+			(at 369.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +11204,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 318.77 154.94 0)
+			(at 369.57 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +11215,7 @@
 			)
 		)
 		(property "MPN" "INA219BIDCNR"
-			(at 295.275 137.16 0)
+			(at 346.075 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,7 +11224,7 @@
 			)
 		)
 		(property "LCSC" "C962069"
-			(at 318.77 160.02 0)
+			(at 369.57 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
