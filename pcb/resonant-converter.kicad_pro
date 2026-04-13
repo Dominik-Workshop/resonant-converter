@@ -636,6 +636,10 @@
     [
       "da6185c3-cd85-4a88-bee6-2ff386eae772",
       "Root"
+    ],
+    [
+      "7e8f17cf-feda-4bf7-90f5-32e7debe11a7",
+      "Power monitor"
     ]
   ],
   "text_variables": {}
