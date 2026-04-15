@@ -1181,6 +1181,71 @@
 		(uuid "d443429d-d02d-421d-97cd-03dfd1b32af9")
 	)
 	(symbol
+		(lib_id "DW-power-symbols:GND")
+		(at 69.85 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d0344fd-c430-4a01-9f44-455c9534c030")
+		(property "Reference" "#PWR08"
+			(at 69.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 69.85 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da3becab-dd74-4c05-8237-b2db2d1841a4")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-capacitors:C-1u-0402")
 		(at 69.85 114.3 90)
 		(unit 1)
@@ -1337,13 +1402,12 @@
 	(symbol
 		(lib_id "DW-power-symbols:GND")
 		(at 93.98 118.11 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "583944aa-1e1c-4825-a358-e0767ffd36ab")
+		(uuid "8a6d4da7-2b9e-4e81-9a15-bc8fb691f937")
 		(property "Reference" "#PWR09"
 			(at 93.98 124.46 0)
 			(effects
@@ -1353,7 +1417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_ISO"
 			(at 93.98 122.174 0)
 			(effects
 				(font
@@ -1389,7 +1453,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "95e1ac70-92dc-48d8-9331-f1d3d6690b0d")
+			(uuid "56d84265-a8a8-4279-b863-65504b36f186")
 		)
 		(instances
 			(project "resonant-converter"
@@ -1527,72 +1591,6 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DW-power-symbols:GND")
-		(at 69.85 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba9ee593-41a8-4f99-9c98-57e161c4e78a")
-		(property "Reference" "#PWR08"
-			(at 69.85 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 122.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5d7538b-e614-46a0-ada0-cd94d4ea541a")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
