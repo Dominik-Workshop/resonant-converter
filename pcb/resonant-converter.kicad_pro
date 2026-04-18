@@ -496,6 +496,24 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 0, 255)",
+        "wire_width": 10
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "PWR",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 10
       }
     ],
     "meta": {
@@ -503,7 +521,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PWR",
+        "pattern": "*+*V*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VCC"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -583,12 +614,138 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Continuous Forward Current",
+          "name": "Continuous Forward Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DCR",
+          "name": "DCR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Forward voltage",
+          "name": "Forward voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Id",
+          "name": "Id",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Irms",
+          "name": "Irms",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Isat",
+          "name": "Isat",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rds(on)",
+          "name": "Rds(on)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Voltage",
+          "name": "Reverse Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size (W x L x H)",
+          "name": "Size (W x L x H)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Val",
+          "name": "Val",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vds",
+          "name": "Vds",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vgs",
+          "name": "Vgs",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

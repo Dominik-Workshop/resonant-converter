@@ -469,6 +469,265 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DW-connectors:JST_SH_1x4_BM04B-SRSS-TB-LF-SN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "JST_SH_1x4_BM04B-SRSS-TB-LF-SN"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DW-footprints:Conn_JST_SH_1x4_BM04B-SRSS-TB"
+				(at 8.89 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+				(at 8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "1x4P 4P SH Tin 4 -25℃~+85℃ 1A 1 1mm Copper Alloy Surface Mount,Vertical SMD,P=1mm Wire To Board Connector ROHS"
+				(at 8.89 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 8.89 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "BM04B-SRSS-TB(LF)(SN)"
+				(at 8.89 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "LCSC" "C160390"
+				(at 8.89 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CONNECTOR, MALE, HEADER, SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST_SH_1x4_BM04B-SRSS-TB-LF-SN_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 6.35 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 0.127)
+					(end 3.81 -0.127)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.413)
+					(end 3.81 -2.667)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 -4.953)
+					(end 3.81 -5.207)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 -7.493)
+					(end 3.81 -7.747)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 -10.033)
+					(end 3.81 -10.287)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DW-power-symbols:+3V3"
 			(power)
 			(pin_numbers
@@ -898,6 +1157,12 @@
 		(color 0 0 0 0)
 		(uuid "fb71e011-db21-4ad2-893f-9c9bd8ed2910")
 	)
+	(junction
+		(at 115.57 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdaa1075-3de3-4a53-8e44-1b032a14732d")
+	)
 	(wire
 		(pts
 			(xy 73.66 91.44) (xy 73.66 102.87)
@@ -927,6 +1192,16 @@
 			(type default)
 		)
 		(uuid "127f323b-5703-4425-9d38-432b11a8bcb1")
+	)
+	(wire
+		(pts
+			(xy 115.57 118.11) (xy 115.57 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d991a8-f8ff-4054-ad3d-05e0f018e923")
 	)
 	(wire
 		(pts
@@ -980,7 +1255,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 110.49) (xy 91.44 110.49)
+			(xy 101.6 107.95) (xy 99.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce0d13e-e2d6-43fc-a112-28deecec1658")
+	)
+	(wire
+		(pts
+			(xy 91.44 110.49) (xy 99.06 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1000,7 +1285,27 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 107.95) (xy 91.44 107.95)
+			(xy 101.6 110.49) (xy 99.06 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5315ab5b-0cda-43b3-8e9a-4f53408d78a4")
+	)
+	(wire
+		(pts
+			(xy 115.57 118.11) (xy 118.11 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5450633b-066c-494a-b7f7-ea40055738bb")
+	)
+	(wire
+		(pts
+			(xy 91.44 107.95) (xy 99.06 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1027,6 +1332,26 @@
 			(type default)
 		)
 		(uuid "687f5b0a-a13d-4c7d-92d5-d19759f39709")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 115.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779c8151-e823-4175-a00d-8f79810606f5")
+	)
+	(wire
+		(pts
+			(xy 115.57 113.03) (xy 118.11 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec5e1a8-42c0-42da-90dd-51d18b82fdb6")
 	)
 	(wire
 		(pts
@@ -1070,13 +1395,43 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 118.11) (xy 69.85 115.57)
+			(xy 69.85 120.65) (xy 69.85 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9674eae9-6919-49d1-a214-e49f69dd1ed0")
+	)
+	(wire
+		(pts
+			(xy 115.57 105.41) (xy 115.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1b623e-5b1b-4300-bdb8-4b719b1f71d6")
+	)
+	(wire
+		(pts
+			(xy 118.11 115.57) (xy 115.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34f9e18-9128-474b-b5bb-13318bc3e28c")
+	)
+	(wire
+		(pts
+			(xy 101.6 107.95) (xy 118.11 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb84bdbc-9553-4951-b066-7cd9ee6168d2")
 	)
 	(wire
 		(pts
@@ -1100,6 +1455,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 110.49) (xy 118.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03867ac-78ac-4641-9229-674956d2c553")
+	)
+	(wire
+		(pts
 			(xy 93.98 115.57) (xy 91.44 115.57)
 		)
 		(stroke
@@ -1110,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 118.11) (xy 93.98 115.57)
+			(xy 93.98 120.65) (xy 93.98 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1139,24 +1504,24 @@
 		(uuid "edd081e8-8732-4ba5-bc03-c788f0c44428")
 	)
 	(label "SDA"
-		(at 96.52 107.95 180)
+		(at 113.03 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "cdb95727-7b9c-4cda-aa3a-1b7a2e83dc55")
+		(uuid "27fa00d5-5d29-4e70-98dc-f0edffad5028")
 	)
 	(label "SCL"
-		(at 96.52 110.49 180)
+		(at 113.03 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "de31f281-5713-4f96-8716-44d5c3ee12ec")
+		(uuid "f66213db-482e-4dab-ae83-315339f262f6")
 	)
 	(hierarchical_label "I_SENSE-"
 		(shape input)
@@ -1182,7 +1547,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GND")
-		(at 69.85 118.11 0)
+		(at 69.85 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1190,7 +1555,7 @@
 		(dnp no)
 		(uuid "0d0344fd-c430-4a01-9f44-455c9534c030")
 		(property "Reference" "#PWR08"
-			(at 69.85 124.46 0)
+			(at 69.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,7 +1564,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 69.85 122.174 0)
+			(at 69.85 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 118.11 0)
+			(at 69.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 118.11 0)
+			(at 69.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +1590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 118.11 0)
+			(at 69.85 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,6 +1605,137 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-power-symbols:+3V3")
+		(at 115.57 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f32c81f-fa5e-4bc5-aaa6-8280fb9ee879")
+		(property "Reference" "#PWR012"
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7220d0e2-3ced-4c70-a0f2-7e406701494a")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-power-symbols:GND")
+		(at 115.57 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43f3bccc-3146-4dbe-98d6-34494d575198")
+		(property "Reference" "#PWR015"
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 115.57 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c02d05ad-1eec-4a2d-941e-e3b948c739c3")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1400,8 +1896,127 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-connectors:JST_SH_1x4_BM04B-SRSS-TB-LF-SN")
+		(at 118.11 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80dc2254-3f2f-4a44-bf78-bde75d2d0973")
+		(property "Reference" "J5"
+			(at 125.222 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_SH_1x4_BM04B-SRSS-TB-LF-SN"
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:Conn_JST_SH_1x4_BM04B-SRSS-TB"
+			(at 127 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x4P 4P SH Tin 4 -25℃~+85℃ 1A 1 1mm Copper Alloy Surface Mount,Vertical SMD,P=1mm Wire To Board Connector ROHS"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BM04B-SRSS-TB(LF)(SN)"
+			(at 125.222 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C160390"
+			(at 127 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f594b984-e2e9-440f-9ac3-5fb4ce214eb0")
+		)
+		(pin "3"
+			(uuid "43840e0d-66da-40ca-8567-eafaeac8a191")
+		)
+		(pin "MP"
+			(uuid "389f9c40-49a7-4bcb-850c-f06372ca5725")
+		)
+		(pin "4"
+			(uuid "d0fb1967-ae60-4533-8077-a5e5b4912799")
+		)
+		(pin "2"
+			(uuid "0e444422-ba03-41fe-83b9-203c7fb1c289")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-power-symbols:GND")
-		(at 93.98 118.11 0)
+		(at 93.98 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1409,7 +2024,7 @@
 		(dnp no)
 		(uuid "8a6d4da7-2b9e-4e81-9a15-bc8fb691f937")
 		(property "Reference" "#PWR09"
-			(at 93.98 124.46 0)
+			(at 93.98 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +2033,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 93.98 122.174 0)
+			(at 93.98 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +2041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 118.11 0)
+			(at 93.98 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +2050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 118.11 0)
+			(at 93.98 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +2059,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 118.11 0)
+			(at 93.98 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,7 +2081,8 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-22R-0402")
-		(at 73.66 88.9 90)
+		(at 73.66 88.9 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1474,7 +2090,7 @@
 		(dnp no)
 		(uuid "a07216aa-85ad-49f1-adf2-98cf0b9ccb81")
 		(property "Reference" "R8"
-			(at 74.93 85.09 90)
+			(at 72.39 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +2100,7 @@
 			)
 		)
 		(property "Value" "R-22R-0402"
-			(at 76.2 76.2 0)
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +2111,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:R_0402_1005Metric"
-			(at 78.74 76.2 0)
+			(at 68.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +2122,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0402WGF220JTCE_C25092.pdf"
-			(at 81.28 76.2 0)
+			(at 66.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +2133,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistor 50V ±1% ±100ppm/℃ 22Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 83.82 76.2 0)
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +2144,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 86.36 76.2 0)
+			(at 60.96 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +2155,7 @@
 			)
 		)
 		(property "MPN" "0402WGF220JTCE"
-			(at 88.9 76.2 0)
+			(at 58.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +2166,7 @@
 			)
 		)
 		(property "LCSC" "C25092"
-			(at 91.44 76.2 0)
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +2177,7 @@
 			)
 		)
 		(property "Val" "22R"
-			(at 74.93 87.63 90)
+			(at 72.39 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,7 +2187,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 96.52 76.2 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
