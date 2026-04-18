@@ -5085,7 +5085,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DW-transistors:MDU04N010VRH"
+		(symbol "DW-transistors:HSU30N20"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5106,7 +5106,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "MDU04N010VRH"
+			(property "Value" "HSU30N20"
 				(at 10.16 -2.54 0)
 				(effects
 					(font
@@ -5117,7 +5117,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "DW-footprints:PDFN-56-8"
+			(property "Footprint" "DW-footprints:TO-252-3"
 				(at 10.16 -5.08 0)
 				(effects
 					(font
@@ -5128,7 +5128,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C51891825.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C42376812.pdf"
 				(at 10.16 -7.62 0)
 				(effects
 					(font
@@ -5139,7 +5139,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "40V 100A 96.2W 2V 0.8mΩ@10V 1 N-channel N-Channel PDFN56 Single FETs, MOSFETs RoHS"
+			(property "Description" "200V 42mΩ@10V, 30A 150W N-Channel Surface Mount TO-252"
 				(at 10.16 -10.16 0)
 				(effects
 					(font
@@ -5150,7 +5150,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "MagnaChip Semicon"
+			(property "Manufacturer" "HUASHUO"
 				(at 10.16 -12.7 0)
 				(effects
 					(font
@@ -5161,7 +5161,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "MDU04N010VRH"
+			(property "MPN" "HSU30N20"
 				(at 10.16 -15.24 0)
 				(effects
 					(font
@@ -5171,7 +5171,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "LCSC" "C51891825"
+			(property "LCSC" "C42376812"
 				(at 10.16 -17.78 0)
 				(effects
 					(font
@@ -5182,7 +5182,7 @@
 					(hide yes)
 				)
 			)
-			(property "Id" "100A"
+			(property "Id" "30A"
 				(at 10.16 -20.32 0)
 				(effects
 					(font
@@ -5193,7 +5193,7 @@
 					(hide yes)
 				)
 			)
-			(property "Vds" "40V"
+			(property "Vds" "200V"
 				(at 10.16 -22.86 0)
 				(effects
 					(font
@@ -5215,7 +5215,7 @@
 					(hide yes)
 				)
 			)
-			(property "Rds(on)" "0.8mΩ"
+			(property "Rds(on)" "42mΩ"
 				(at 10.16 -27.94 0)
 				(effects
 					(font
@@ -5235,7 +5235,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MDU04N010VRH_1_1"
+			(symbol "HSU30N20_1_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 3.302 0) (xy 3.302 3.937)
@@ -5446,7 +5446,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5464,7 +5464,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5475,25 +5475,6 @@
 				(pin passive line
 					(at 6.35 -2.54 90)
 					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -2.54 90)
-					(length 2.54)
-					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -5509,29 +5490,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 6.35 -2.54 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DW-transistors:SIS472DN-T1-GE3"
+		(symbol "DW-transistors:MDU04N010VRH"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5552,7 +5514,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "SIS472DN-T1-GE3"
+			(property "Value" "MDU04N010VRH"
 				(at 10.16 -2.54 0)
 				(effects
 					(font
@@ -5563,7 +5525,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "DW-footprints:PowerPAK-1212-8_Single"
+			(property "Footprint" "DW-footprints:PDFN-56-8"
 				(at 10.16 -5.08 0)
 				(effects
 					(font
@@ -5574,7 +5536,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C727441.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C51891825.pdf"
 				(at 10.16 -7.62 0)
 				(effects
 					(font
@@ -5585,7 +5547,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V 8.9mΩ@10V,15A 2.5V 1 N-Channel PowerPAK1212-8 MOSFETs ROHS"
+			(property "Description" "40V 100A 96.2W 2V 0.8mΩ@10V 1 N-channel N-Channel PDFN56 Single FETs, MOSFETs RoHS"
 				(at 10.16 -10.16 0)
 				(effects
 					(font
@@ -5596,7 +5558,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "VISHAY"
+			(property "Manufacturer" "MagnaChip Semicon"
 				(at 10.16 -12.7 0)
 				(effects
 					(font
@@ -5607,7 +5569,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SIS472DN-T1-GE3"
+			(property "MPN" "MDU04N010VRH"
 				(at 10.16 -15.24 0)
 				(effects
 					(font
@@ -5617,7 +5579,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "LCSC" "C727441"
+			(property "LCSC" "C51891825"
 				(at 10.16 -17.78 0)
 				(effects
 					(font
@@ -5628,7 +5590,7 @@
 					(hide yes)
 				)
 			)
-			(property "Id" "20A"
+			(property "Id" "100A"
 				(at 10.16 -20.32 0)
 				(effects
 					(font
@@ -5639,7 +5601,7 @@
 					(hide yes)
 				)
 			)
-			(property "Vds" "30V"
+			(property "Vds" "40V"
 				(at 10.16 -22.86 0)
 				(effects
 					(font
@@ -5661,7 +5623,7 @@
 					(hide yes)
 				)
 			)
-			(property "Rds(on)" "8.9mΩ"
+			(property "Rds(on)" "0.8mΩ"
 				(at 10.16 -27.94 0)
 				(effects
 					(font
@@ -5681,7 +5643,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SIS472DN-T1-GE3_1_1"
+			(symbol "MDU04N010VRH_1_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 3.302 0) (xy 3.302 3.937)
@@ -8613,6 +8575,163 @@
 			(justify left bottom)
 		)
 		(uuid "1d96a9d1-216c-43f6-9b39-25c4dd494a5e")
+	)
+	(symbol
+		(lib_id "DW-transistors:HSU30N20")
+		(at 96.52 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "022194ed-e860-408e-943d-b9a253e961f3")
+		(property "Reference" "Q3"
+			(at 105.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HSU30N20"
+			(at 106.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TO-252-3"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C42376812.pdf"
+			(at 106.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "200V 42mΩ@10V, 30A 150W N-Channel Surface Mount TO-252"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HUASHUO"
+			(at 106.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HSU30N20"
+			(at 105.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C42376812"
+			(at 106.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Id" "30A"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Vds" "200V"
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Vgs" "20V"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Rds(on)" "42mΩ"
+			(at 106.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "01661867-d2a9-4927-bbba-b2b0782ad465")
+		)
+		(pin "2"
+			(uuid "37334a77-c8a6-4e4b-bd43-a6f63e792aaa")
+		)
+		(pin "1"
+			(uuid "58327399-5ba4-440c-8408-72fcc3f4f3c6")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GND")
@@ -14215,169 +14334,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DW-transistors:SIS472DN-T1-GE3")
-		(at 96.52 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f330629-93e4-4ed8-944c-239523517ba5")
-		(property "Reference" "Q3"
-			(at 105.41 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SIS472DN-T1-GE3"
-			(at 106.68 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DW-footprints:PowerPAK-1212-8_Single"
-			(at 106.68 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C727441.pdf"
-			(at 106.68 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 8.9mΩ@10V,15A 2.5V 1 N-Channel PowerPAK1212-8 MOSFETs ROHS"
-			(at 106.68 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "VISHAY"
-			(at 106.68 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SIS472DN-T1-GE3"
-			(at 105.41 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC" "C727441"
-			(at 106.68 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Id" "20A"
-			(at 106.68 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vds" "30V"
-			(at 106.68 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vgs" "20V"
-			(at 106.68 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Rds(on)" "8.9mΩ"
-			(at 106.68 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "49145085-f3d2-416d-82a3-81828737b86b")
-		)
-		(pin "3"
-			(uuid "cbe1fa70-df71-4be7-8d2f-eb9466d5fbb7")
-		)
-		(pin "2"
-			(uuid "a6f7c11c-3589-4422-b8ee-03a3a1b1371e")
-		)
-		(pin "1"
-			(uuid "14c37fd5-ebf7-42dc-b466-8c9c1e0ce033")
-		)
-		(pin "5"
-			(uuid "156afbff-35c8-42ca-9a89-3d7e89b30c8b")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DW-power-symbols:GND")
 		(at 19.05 154.94 0)
 		(unit 1)
@@ -14745,169 +14701,6 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DW-transistors:SIS472DN-T1-GE3")
-		(at 96.52 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b389341e-31fa-4ee0-b09e-9102d3b83be5")
-		(property "Reference" "Q4"
-			(at 105.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SIS472DN-T1-GE3"
-			(at 106.68 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DW-footprints:PowerPAK-1212-8_Single"
-			(at 106.68 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C727441.pdf"
-			(at 106.68 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 8.9mΩ@10V,15A 2.5V 1 N-Channel PowerPAK1212-8 MOSFETs ROHS"
-			(at 106.68 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "VISHAY"
-			(at 106.68 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SIS472DN-T1-GE3"
-			(at 105.41 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC" "C727441"
-			(at 106.68 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Id" "20A"
-			(at 106.68 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vds" "30V"
-			(at 106.68 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vgs" "20V"
-			(at 106.68 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Rds(on)" "8.9mΩ"
-			(at 106.68 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b18a050b-c366-4fff-8789-7778c5e1a568")
-		)
-		(pin "3"
-			(uuid "9815a650-f620-4fef-b455-4da3f963777a")
-		)
-		(pin "2"
-			(uuid "acce26e7-5d3c-4bc2-bcf6-eceba9164a31")
-		)
-		(pin "1"
-			(uuid "0ca1b7d4-ecc0-472a-8b9d-251e4ac1a73e")
-		)
-		(pin "5"
-			(uuid "d0b0f9d9-8dfb-46b1-97e5-7b2c61d48842")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -16487,6 +16280,163 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-transistors:HSU30N20")
+		(at 96.52 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0fce8ab-0cf5-4c5b-865f-297a60697537")
+		(property "Reference" "Q4"
+			(at 105.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HSU30N20"
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TO-252-3"
+			(at 106.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C42376812.pdf"
+			(at 106.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "200V 42mΩ@10V, 30A 150W N-Channel Surface Mount TO-252"
+			(at 106.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HUASHUO"
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HSU30N20"
+			(at 105.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C42376812"
+			(at 106.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Id" "30A"
+			(at 106.68 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Vds" "200V"
+			(at 106.68 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Vgs" "20V"
+			(at 106.68 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Rds(on)" "42mΩ"
+			(at 106.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cf6b9f2f-38ff-4c14-93aa-aa6e43d14c96")
+		)
+		(pin "2"
+			(uuid "d7899d65-3489-460a-84dd-bbfbbaf0e169")
+		)
+		(pin "1"
+			(uuid "aa50426c-32b4-4476-b44f-897c32c7e1ed")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
