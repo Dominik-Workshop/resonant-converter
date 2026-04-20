@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "2dc81dde-0baa-4278-8bdf-e779e4895c8c")
 	(paper "A4")
+	(title_block
+		(title "Resonant Converter")
+		(date "2026-03-24")
+		(rev "1.0.0")
+		(comment 1 "Project authors: Maksim Kondratovich, Dominik Pluta")
+	)
 	(lib_symbols
 		(symbol "DW-ICs:INA219BIDCNR"
 			(exclude_from_sim no)
