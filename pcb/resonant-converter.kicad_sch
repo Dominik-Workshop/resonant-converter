@@ -3114,6 +3114,236 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DW-connectors:Molex_KK_1x4_0470531000"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Molex_KK_1x4_0470531000"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DW-footprints:Conn_Molex_KK_1x4_0470531000"
+				(at 8.89 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/470531000_sd.pdf"
+				(at 8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector Header 4 position 2.54mm Pitch Through Hole"
+				(at 8.89 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Molex"
+				(at 8.89 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0470531000"
+				(at 8.89 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "LCSC" "C240840"
+				(at 8.89 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CONNECTOR, MALE, HEADER, THT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_KK_1x4_0470531000_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 0.127)
+					(end 3.81 -0.127)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.413)
+					(end 3.81 -2.667)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 -4.953)
+					(end 3.81 -5.207)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 -7.493)
+					(end 3.81 -7.747)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DW-diodes:LED-R-0603_KT-0603R"
 			(pin_numbers
 				(hide yes)
@@ -6424,9 +6654,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Fan connector"
+		(exclude_from_sim no)
+		(at 331.47 214.63 0)
+		(size 34.29 27.94)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4fa0b8b5-29d7-4123-8387-7b9f2484f309")
+	)
 	(text_box "Vout = 2.5V * (1 + (R3 / R6))\nVout = 2.5V * (1 + (39k / 10k)) = 12.25V"
 		(exclude_from_sim no)
-		(at 287.02 184.15 0)
+		(at 283.21 184.15 0)
 		(size 45.72 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -6653,12 +6903,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fc2732d-dd48-4b69-bc34-edb2f96c4122")
-	)
-	(junction
-		(at 373.38 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8253a481-cb91-47fa-b5c6-f8a8f5399c9a")
 	)
 	(junction
 		(at 345.44 132.08)
@@ -6941,6 +7185,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff1ff5c1-95e2-40ce-bf1b-657e58052684")
+	)
+	(no_connect
+		(at 342.9 224.79)
+		(uuid "4698e1c6-993c-402e-8765-a38ffb058b28")
+	)
+	(no_connect
+		(at 342.9 227.33)
+		(uuid "645cdc24-6983-45d3-98be-9ade85bb1fb8")
 	)
 	(wire
 		(pts
@@ -7414,6 +7666,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 234.95) (xy 340.36 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ead2d29-c08d-4aa0-8da8-2815882a06a5")
+	)
+	(wire
+		(pts
 			(xy 39.37 139.7) (xy 45.72 139.7)
 		)
 		(stroke
@@ -7474,7 +7736,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 147.32) (xy 289.56 147.32)
+			(xy 287.02 147.32) (xy 290.83 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7904,6 +8166,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 229.87) (xy 340.36 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee29d15-e88a-4a76-bf8c-89e9c8cbe719")
+	)
+	(wire
+		(pts
 			(xy 335.28 166.37) (xy 335.28 180.34)
 		)
 		(stroke
@@ -8141,16 +8413,6 @@
 			(type default)
 		)
 		(uuid "86cb33a3-4beb-406d-b9df-1310e6a282d0")
-	)
-	(wire
-		(pts
-			(xy 373.38 107.95) (xy 372.11 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87253ec2-fe7a-436d-a186-0c570d75838d")
 	)
 	(wire
 		(pts
@@ -8674,7 +8936,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 147.32) (xy 302.26 147.32)
+			(xy 295.91 147.32) (xy 302.26 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8954,6 +9216,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 229.87) (xy 340.36 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfe0af6-310e-4e09-8f1f-af8f49ba0db6")
+	)
+	(wire
+		(pts
 			(xy 311.15 121.92) (xy 311.15 116.84)
 		)
 		(stroke
@@ -9151,6 +9423,16 @@
 			(type default)
 		)
 		(uuid "ef82bfb3-4caa-48c0-b435-cead373f25a1")
+	)
+	(wire
+		(pts
+			(xy 340.36 232.41) (xy 342.9 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef867be1-bb16-4c7e-a00c-8c371f8bc09e")
 	)
 	(wire
 		(pts
@@ -9441,7 +9723,7 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-0R-0402")
-		(at 289.56 147.32 0)
+		(at 290.83 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9449,7 +9731,7 @@
 		(dnp no)
 		(uuid "04c2ba3f-5e9d-4663-a422-de91286da4a8")
 		(property "Reference" "R12"
-			(at 292.1 145.034 0)
+			(at 293.37 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9458,7 +9740,7 @@
 			)
 		)
 		(property "Value" "R-0R-0402"
-			(at 302.26 149.86 0)
+			(at 303.53 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9469,7 +9751,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:R_0402_1005Metric"
-			(at 302.26 152.4 0)
+			(at 303.53 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9480,7 +9762,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0402WGF0000TCE_C17168.pdf"
-			(at 302.26 154.94 0)
+			(at 303.53 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9491,7 +9773,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistor 50V ±800ppm/℃ ±1% 0Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 302.26 157.48 0)
+			(at 303.53 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9502,7 +9784,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 302.26 160.02 0)
+			(at 303.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,7 +9795,7 @@
 			)
 		)
 		(property "MPN" "0402WGF0000TCE"
-			(at 302.26 162.56 0)
+			(at 303.53 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,7 +9806,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 302.26 165.1 0)
+			(at 303.53 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9817,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 292.1 149.606 0)
+			(at 293.37 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9826,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 302.26 170.18 0)
+			(at 303.53 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11641,6 +11923,71 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-power-symbols:+12V")
+		(at 340.36 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "452835c7-e2a9-4861-ac03-ae2f4da4849c")
+		(property "Reference" "#PWR09"
+			(at 340.36 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 340.36 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 340.36 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7fa0ced-37b3-4e91-9fa5-cb942e922967")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -16113,6 +16460,123 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-connectors:Molex_KK_1x4_0470531000")
+		(at 342.9 232.41 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c51367db-1e2d-4622-aca0-f7c9d0097fb5")
+		(property "Reference" "J6"
+			(at 350.52 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_KK_1x4_0470531000"
+			(at 351.79 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:Conn_Molex_KK_1x4_0470531000"
+			(at 351.79 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/470531000_sd.pdf"
+			(at 351.79 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header 4 position 2.54mm Pitch Through Hole"
+			(at 351.79 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 351.79 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0470531000"
+			(at 350.52 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C240840"
+			(at 351.79 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8eb80c7c-e046-45ee-93b8-8c54685929c2")
+		)
+		(pin "2"
+			(uuid "1bb3a39a-1b5c-466b-89d6-d4f2771176da")
+		)
+		(pin "4"
+			(uuid "145defc7-fb58-497a-8eb9-4114c174e07b")
+		)
+		(pin "1"
+			(uuid "47d5ed74-c793-495d-88ec-adeeb2780792")
+		)
+		(instances
+			(project ""
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-resistors:R-10k-0402")
 		(at 306.07 177.8 90)
 		(unit 1)
@@ -17006,6 +17470,71 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-power-symbols:GND")
+		(at 340.36 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4be4700-00cd-4b5d-b3af-f43a7177255a")
+		(property "Reference" "#PWR08"
+			(at 340.36 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 340.36 239.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 340.36 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "858f1266-f038-4ae6-af0a-c5c1f244c35e")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
