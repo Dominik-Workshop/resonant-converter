@@ -520,7 +520,11 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "VCCP": [
+        "PWR"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "PWR",
