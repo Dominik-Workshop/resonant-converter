@@ -9581,28 +9581,16 @@
 		(uuid "068fca0b-ea42-4312-a884-c46a35f34011")
 	)
 	(junction
-		(at 237.49 120.65)
+		(at 238.76 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "06eca545-f546-40b1-ba4a-992674544131")
-	)
-	(junction
-		(at 233.68 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07c48450-f2f4-4e1e-a9a9-444436b7b005")
+		(uuid "095ae5a6-99bc-494f-a8ca-d559d28bb282")
 	)
 	(junction
 		(at 304.8 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a2ca6ca-c78d-49d4-8d69-654e24c77895")
-	)
-	(junction
-		(at 229.87 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b5f3cd5-e9a6-4c93-89b0-47dd33e39695")
 	)
 	(junction
 		(at 173.99 167.64)
@@ -9629,7 +9617,7 @@
 		(uuid "13b9af7f-63d2-42e2-ba57-8beeba5ed218")
 	)
 	(junction
-		(at 233.68 90.17)
+		(at 232.41 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "146c874f-9289-457b-ab47-28015b2474b2")
@@ -9641,10 +9629,10 @@
 		(uuid "17635b77-d99e-4393-a5c9-b5d81d5440fa")
 	)
 	(junction
-		(at 222.25 90.17)
+		(at 226.06 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "19ce7ed8-8159-494b-b47f-821e36c46025")
+		(uuid "18aeaabb-8b70-4aad-af7c-c41b0c9ca890")
 	)
 	(junction
 		(at 347.98 165.1)
@@ -9653,16 +9641,16 @@
 		(uuid "202b4405-8885-4fd3-aa9f-2ecbf6765715")
 	)
 	(junction
+		(at 232.41 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "207e305d-a898-49fa-909f-a45bef83514d")
+	)
+	(junction
 		(at 36.83 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22baa6ed-76ee-425e-a0a5-fae2b9271b98")
-	)
-	(junction
-		(at 229.87 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25dfe2d4-d21c-4c69-8d7a-1ddc2c1609a2")
 	)
 	(junction
 		(at 123.19 118.11)
@@ -9731,16 +9719,22 @@
 		(uuid "3893bb42-2a2a-4bf9-8097-e5872e9a7370")
 	)
 	(junction
-		(at 237.49 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d0f5d6d-f248-436e-a261-180d19d155da")
-	)
-	(junction
 		(at 280.67 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dc1c3fe-6879-4041-b7d6-e43666a6535b")
+	)
+	(junction
+		(at 234.95 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e17adec-24ac-4eb1-9082-28c25b53f58a")
+	)
+	(junction
+		(at 245.11 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41eece1b-878b-4a0e-bb2d-00eac1416d32")
 	)
 	(junction
 		(at 299.72 116.84)
@@ -9773,12 +9767,6 @@
 		(uuid "458cc91a-74dd-41b5-8c56-e17c6f2f237f")
 	)
 	(junction
-		(at 229.87 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46307f36-dd77-4d5f-a696-3a14448450a5")
-	)
-	(junction
 		(at 105.41 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9789,12 +9777,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4775e12d-c5b8-456f-adae-f58f27c40b90")
-	)
-	(junction
-		(at 233.68 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a4cbf1e-e71a-47f6-b54d-31eeb674db96")
 	)
 	(junction
 		(at 163.83 96.52)
@@ -9815,10 +9797,22 @@
 		(uuid "5bd799ae-ebab-4d15-8074-c08b09b4b516")
 	)
 	(junction
+		(at 234.95 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d4246d3-4666-4afc-a474-d6b8fb6ef11a")
+	)
+	(junction
 		(at 384.81 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e222894-5fef-4c3c-a78f-5d14cc1c950b")
+	)
+	(junction
+		(at 234.95 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e30bfe5-b1f7-4ed4-9a21-bfb2d0b88ba7")
 	)
 	(junction
 		(at 78.74 161.29)
@@ -9887,12 +9881,6 @@
 		(uuid "6e2cd970-7e02-421a-9c21-688ae7985b69")
 	)
 	(junction
-		(at 237.49 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f95514f-3a64-44b1-8041-d3221ff8a8d0")
-	)
-	(junction
 		(at 123.19 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9909,12 +9897,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71ae9433-99ff-45b4-8860-d25b260cec8d")
-	)
-	(junction
-		(at 222.25 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "733ca5fa-43cd-4c7a-a838-8f6582e18704")
 	)
 	(junction
 		(at 179.07 157.48)
@@ -9977,12 +9959,6 @@
 		(uuid "80551f3b-1ba8-4f40-bc9e-75c75a58a871")
 	)
 	(junction
-		(at 245.11 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8384a1c2-487c-4395-9099-d6996e623ee9")
-	)
-	(junction
 		(at 345.44 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10007,7 +9983,7 @@
 		(uuid "8e2fb7c2-752d-44b2-ad09-e334539ddfee")
 	)
 	(junction
-		(at 233.68 80.01)
+		(at 232.41 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8eafc070-eaa1-4fdd-85cc-557f22c586db")
@@ -10109,22 +10085,22 @@
 		(uuid "ac2a5d25-db63-4b58-8eef-35d0cc6425d9")
 	)
 	(junction
+		(at 226.06 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af56f066-fa26-47de-9e72-f7f6117181ac")
+	)
+	(junction
 		(at 30.48 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af9a53ff-34c4-402c-8eef-92cd34a8c5ea")
 	)
 	(junction
-		(at 245.11 80.01)
+		(at 238.76 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "afca79d9-cb8c-448b-9aea-a4f49b1d2733")
-	)
-	(junction
-		(at 237.49 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b02a6176-7f2a-4212-90ff-2dc23e97c331")
+		(uuid "b0f2dcbd-ccd3-4da3-a45f-9500da3a0c2f")
 	)
 	(junction
 		(at 247.65 179.07)
@@ -10181,6 +10157,12 @@
 		(uuid "bbf073b8-55a2-4884-9261-33144973e022")
 	)
 	(junction
+		(at 219.71 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcc7d958-b8e3-440e-96f8-453c97a0c909")
+	)
+	(junction
 		(at 191.77 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10211,10 +10193,10 @@
 		(uuid "cb9258e5-a356-46cb-afd6-a94f2f00b272")
 	)
 	(junction
-		(at 222.25 80.01)
+		(at 245.11 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd7aa116-09f2-4952-911a-3f19088d004c")
+		(uuid "cd78251f-8e7a-44d2-8882-8b75fa2081dd")
 	)
 	(junction
 		(at 36.83 69.85)
@@ -10247,10 +10229,10 @@
 		(uuid "d5ca36d6-69e9-4168-b4bb-23120be59104")
 	)
 	(junction
-		(at 222.25 120.65)
+		(at 226.06 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d867fc64-8b2d-4b9a-8157-569eb99035d3")
+		(uuid "d7ab86d1-5045-47a9-97db-42799211a1c1")
 	)
 	(junction
 		(at 189.23 86.36)
@@ -10277,10 +10259,22 @@
 		(uuid "e2193a93-f350-48e3-9f30-d56655e030d2")
 	)
 	(junction
-		(at 214.63 110.49)
+		(at 238.76 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e3ae585d-1130-4892-9512-442369a9953d")
+		(uuid "e299831f-c9b4-4950-9b07-acc073bea5b6")
+	)
+	(junction
+		(at 238.76 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2faf6df-d3bf-469b-acb6-e3fabd7f8f34")
+	)
+	(junction
+		(at 226.06 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3c085fc-96c7-4ff8-a2da-66c7a1cae2dd")
 	)
 	(junction
 		(at 100.33 101.6)
@@ -10289,10 +10283,10 @@
 		(uuid "eaae8c8e-5983-4396-9b21-b2c4cc6e3791")
 	)
 	(junction
-		(at 229.87 120.65)
+		(at 234.95 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ed809a20-f6ce-4306-b7ca-d9fb17917ac9")
+		(uuid "ecc2a5d5-f86f-429e-9284-f29478545b76")
 	)
 	(junction
 		(at 119.38 69.85)
@@ -10313,10 +10307,22 @@
 		(uuid "efbbabc1-62f2-4cf1-841b-a8ec3933761e")
 	)
 	(junction
+		(at 232.41 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2dcf4f9-864f-4c56-b8f9-33f1a08ebd6d")
+	)
+	(junction
 		(at 283.21 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3760109-8d0a-4c44-b06d-ddd2f9f9b9a8")
+	)
+	(junction
+		(at 234.95 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6525634-8fdb-487d-9180-5cd2b9eb846c")
 	)
 	(junction
 		(at 273.05 198.12)
@@ -10335,12 +10341,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff1ff5c1-95e2-40ce-bf1b-657e58052684")
-	)
-	(junction
-		(at 233.68 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff9855c6-b8cb-4b8d-be68-61d257e27ecc")
 	)
 	(no_connect
 		(at 342.9 224.79)
@@ -10382,6 +10382,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 110.49) (xy 238.76 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f92415-1db0-41fd-9a89-913834d8188d")
+	)
+	(wire
+		(pts
 			(xy 191.77 93.98) (xy 191.77 96.52)
 		)
 		(stroke
@@ -10402,17 +10412,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 90.17) (xy 233.68 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03bd9cba-1fd4-4ccd-a1eb-866cc789ab76")
-	)
-	(wire
-		(pts
-			(xy 214.63 118.11) (xy 214.63 120.65)
+			(xy 219.71 118.11) (xy 219.71 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10432,7 +10432,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 80.01) (xy 214.63 82.55)
+			(xy 219.71 81.28) (xy 219.71 83.82)
 		)
 		(stroke
 			(width 0)
@@ -10442,7 +10442,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 113.03) (xy 214.63 110.49)
+			(xy 219.71 113.03) (xy 219.71 110.49)
 		)
 		(stroke
 			(width 0)
@@ -10522,16 +10522,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 80.01) (xy 233.68 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0760cf26-16e1-4b2f-87a4-bc57e474aa8b")
-	)
-	(wire
-		(pts
 			(xy 199.39 121.92) (xy 199.39 119.38)
 		)
 		(stroke
@@ -10549,26 +10539,6 @@
 			(type default)
 		)
 		(uuid "09ae353b-82ce-44b4-9430-6cd3ab49e34b")
-	)
-	(wire
-		(pts
-			(xy 245.11 90.17) (xy 252.73 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09bac0c4-f785-478c-9ddf-aa4c5df3724c")
-	)
-	(wire
-		(pts
-			(xy 237.49 80.01) (xy 245.11 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a3614fd-98ae-4d86-88fa-8afbb4b37d4e")
 	)
 	(wire
 		(pts
@@ -10762,16 +10732,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 110.49) (xy 237.49 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19880ce4-e4c9-4d4b-91c1-0aa0d450860f")
-	)
-	(wire
-		(pts
 			(xy 365.76 80.01) (xy 365.76 107.95)
 		)
 		(stroke
@@ -10892,7 +10852,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 110.49) (xy 233.68 106.68)
+			(xy 234.95 110.49) (xy 234.95 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10909,16 +10869,6 @@
 			(type default)
 		)
 		(uuid "21f9c02e-c5d4-4db5-8d44-6ba0c7badc97")
-	)
-	(wire
-		(pts
-			(xy 237.49 120.65) (xy 245.11 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "230f7472-b369-4390-aed9-72b67aba1165")
 	)
 	(wire
 		(pts
@@ -10942,7 +10892,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 80.01) (xy 237.49 82.55)
+			(xy 238.76 81.28) (xy 238.76 83.82)
 		)
 		(stroke
 			(width 0)
@@ -10962,7 +10912,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 110.49) (xy 237.49 113.03)
+			(xy 238.76 110.49) (xy 238.76 113.03)
 		)
 		(stroke
 			(width 0)
@@ -11053,6 +11003,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 91.44) (xy 238.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7bd9e5-c734-44e5-8042-3d38fd206bdf")
+	)
+	(wire
+		(pts
 			(xy 341.63 179.07) (xy 341.63 165.1)
 		)
 		(stroke
@@ -11133,16 +11093,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 90.17) (xy 229.87 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "339e9644-4a0b-48f0-adbd-3f0832a73bdf")
-	)
-	(wire
-		(pts
 			(xy 287.02 165.1) (xy 290.83 165.1)
 		)
 		(stroke
@@ -11170,6 +11120,16 @@
 			(type default)
 		)
 		(uuid "365eb171-4287-4eba-83be-520c7b57c621")
+	)
+	(wire
+		(pts
+			(xy 232.41 110.49) (xy 234.95 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3711514d-d59d-42b7-8257-344cf34c77a6")
 	)
 	(wire
 		(pts
@@ -11203,7 +11163,17 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 110.49) (xy 252.73 110.49)
+			(xy 238.76 120.65) (xy 245.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ff74bf-0a1f-4fb6-b17c-311a451ab11b")
+	)
+	(wire
+		(pts
+			(xy 245.11 110.49) (xy 251.46 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11293,7 +11263,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 90.17) (xy 237.49 90.17)
+			(xy 232.41 91.44) (xy 234.95 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11370,6 +11340,16 @@
 			(type default)
 		)
 		(uuid "441bfb78-75e2-461e-af64-0b558599c3a5")
+	)
+	(wire
+		(pts
+			(xy 232.41 120.65) (xy 234.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44de0e37-7e02-443c-b251-792f13d65725")
 	)
 	(wire
 		(pts
@@ -11474,7 +11454,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 90.17) (xy 245.11 87.63)
+			(xy 245.11 91.44) (xy 245.11 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11604,7 +11584,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 120.65) (xy 252.73 120.65)
+			(xy 245.11 120.65) (xy 251.46 120.65)
 		)
 		(stroke
 			(width 0)
@@ -11704,6 +11684,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 110.49) (xy 226.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55329ebd-3304-4fab-9278-3234df5130cc")
+	)
+	(wire
+		(pts
 			(xy 391.16 139.7) (xy 393.7 139.7)
 		)
 		(stroke
@@ -11714,7 +11704,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 80.01) (xy 252.73 82.55)
+			(xy 251.46 81.28) (xy 251.46 83.82)
 		)
 		(stroke
 			(width 0)
@@ -11744,7 +11734,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 80.01) (xy 222.25 82.55)
+			(xy 226.06 81.28) (xy 226.06 83.82)
 		)
 		(stroke
 			(width 0)
@@ -11754,7 +11744,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 80.01) (xy 237.49 80.01)
+			(xy 232.41 81.28) (xy 234.95 81.28)
 		)
 		(stroke
 			(width 0)
@@ -11771,6 +11761,16 @@
 			(type default)
 		)
 		(uuid "59643ed8-df7e-45ae-8575-8b4921315e3a")
+	)
+	(wire
+		(pts
+			(xy 234.95 120.65) (xy 238.76 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3a925d-1d39-40bc-b8f2-6b70611f917e")
 	)
 	(wire
 		(pts
@@ -11834,7 +11834,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 80.01) (xy 214.63 80.01)
+			(xy 219.71 81.28) (xy 226.06 81.28)
 		)
 		(stroke
 			(width 0)
@@ -11874,7 +11874,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 106.68) (xy 233.68 90.17)
+			(xy 234.95 106.68) (xy 234.95 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11911,16 +11911,6 @@
 			(type default)
 		)
 		(uuid "69719a20-89ad-48b5-8230-215a441b92a2")
-	)
-	(wire
-		(pts
-			(xy 229.87 110.49) (xy 233.68 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69eb69fe-ffde-49a3-8869-31fa22be6c5f")
 	)
 	(wire
 		(pts
@@ -11984,7 +11974,17 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 69.85) (xy 199.39 69.85)
+			(xy 245.11 81.28) (xy 251.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fea3423-a743-4b03-bea6-ec9ba3ff5138")
+	)
+	(wire
+		(pts
+			(xy 234.95 69.85) (xy 199.39 69.85)
 		)
 		(stroke
 			(width 0)
@@ -12014,7 +12014,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 118.11) (xy 237.49 120.65)
+			(xy 238.76 118.11) (xy 238.76 120.65)
 		)
 		(stroke
 			(width 0)
@@ -12071,16 +12071,6 @@
 			(type default)
 		)
 		(uuid "77e36cf6-bcef-49c9-992d-3170172ce7b8")
-	)
-	(wire
-		(pts
-			(xy 245.11 80.01) (xy 252.73 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "783bfc71-4ab8-4561-af1f-3cfb5d3fbe39")
 	)
 	(wire
 		(pts
@@ -12324,7 +12314,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 90.17) (xy 237.49 87.63)
+			(xy 238.76 91.44) (xy 238.76 88.9)
 		)
 		(stroke
 			(width 0)
@@ -12414,7 +12404,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 90.17) (xy 252.73 87.63)
+			(xy 251.46 91.44) (xy 251.46 88.9)
 		)
 		(stroke
 			(width 0)
@@ -12524,7 +12514,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 118.11) (xy 229.87 120.65)
+			(xy 232.41 118.11) (xy 232.41 120.65)
 		)
 		(stroke
 			(width 0)
@@ -12634,7 +12624,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 120.65) (xy 214.63 120.65)
+			(xy 219.71 120.65) (xy 226.06 120.65)
 		)
 		(stroke
 			(width 0)
@@ -12794,6 +12784,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 120.65) (xy 232.41 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7fcf264-1f66-4dde-b1b9-063d4c8776a7")
+	)
+	(wire
+		(pts
 			(xy 149.86 76.2) (xy 149.86 78.74)
 		)
 		(stroke
@@ -12801,16 +12801,6 @@
 			(type default)
 		)
 		(uuid "a8663cf4-2903-4541-8a98-8b20df2d8d03")
-	)
-	(wire
-		(pts
-			(xy 214.63 110.49) (xy 222.25 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a89da8e0-787b-407b-8ec4-157d1bce9c9a")
 	)
 	(polyline
 		(pts
@@ -12842,6 +12832,16 @@
 			(type default)
 		)
 		(uuid "aab2264b-2c9e-47aa-b1f0-8c0e544c3584")
+	)
+	(wire
+		(pts
+			(xy 234.95 106.68) (xy 269.24 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae259a1-1465-4f9f-8344-8716beaefbed")
 	)
 	(wire
 		(pts
@@ -12896,7 +12896,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 120.65) (xy 252.73 118.11)
+			(xy 251.46 120.65) (xy 251.46 118.11)
 		)
 		(stroke
 			(width 0)
@@ -12966,7 +12966,17 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 121.92) (xy 233.68 120.65)
+			(xy 226.06 81.28) (xy 232.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b286752e-c9ac-4792-83e9-1156203dfb03")
+	)
+	(wire
+		(pts
+			(xy 234.95 121.92) (xy 234.95 120.65)
 		)
 		(stroke
 			(width 0)
@@ -12996,7 +13006,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 90.17) (xy 222.25 90.17)
+			(xy 219.71 91.44) (xy 226.06 91.44)
 		)
 		(stroke
 			(width 0)
@@ -13026,7 +13036,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 80.01) (xy 245.11 82.55)
+			(xy 245.11 81.28) (xy 245.11 83.82)
 		)
 		(stroke
 			(width 0)
@@ -13083,6 +13093,16 @@
 			(type default)
 		)
 		(uuid "b96fa2e0-8a5a-4cc7-a4af-9f0b52062ea4")
+	)
+	(wire
+		(pts
+			(xy 238.76 110.49) (xy 245.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b981f41c-ac6e-4fc4-8b7b-c9c97b3e90b6")
 	)
 	(wire
 		(pts
@@ -13146,7 +13166,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 90.17) (xy 214.63 87.63)
+			(xy 219.71 91.44) (xy 219.71 88.9)
 		)
 		(stroke
 			(width 0)
@@ -13216,7 +13236,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 110.49) (xy 222.25 113.03)
+			(xy 226.06 110.49) (xy 226.06 113.03)
 		)
 		(stroke
 			(width 0)
@@ -13246,17 +13266,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 120.65) (xy 233.68 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1eff348-d712-48f7-80ac-5722528477aa")
-	)
-	(wire
-		(pts
-			(xy 233.68 69.85) (xy 233.68 80.01)
+			(xy 234.95 69.85) (xy 234.95 81.28)
 		)
 		(stroke
 			(width 0)
@@ -13306,13 +13316,23 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 80.01) (xy 229.87 82.55)
+			(xy 232.41 81.28) (xy 232.41 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c6563d80-2cca-4383-b926-3e9b214e36d4")
+	)
+	(wire
+		(pts
+			(xy 238.76 91.44) (xy 245.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c728018d-d2c0-4544-b128-fa3b0cfca0dd")
 	)
 	(wire
 		(pts
@@ -13346,6 +13366,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 110.49) (xy 232.41 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a3a2fc-b1e1-4193-adbd-006e933cd740")
+	)
+	(wire
+		(pts
 			(xy 312.42 134.62) (xy 312.42 139.7)
 		)
 		(stroke
@@ -13366,16 +13396,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 120.65) (xy 237.49 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9f7521f-de66-4697-a9e1-85877a6fa10f")
-	)
-	(wire
-		(pts
 			(xy 149.86 128.27) (xy 158.75 128.27)
 		)
 		(stroke
@@ -13386,7 +13406,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 110.49) (xy 229.87 113.03)
+			(xy 232.41 110.49) (xy 232.41 113.03)
 		)
 		(stroke
 			(width 0)
@@ -13416,7 +13436,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 128.27) (xy 210.82 110.49)
+			(xy 215.9 128.27) (xy 215.9 110.49)
 		)
 		(stroke
 			(width 0)
@@ -13443,6 +13463,16 @@
 			(type default)
 		)
 		(uuid "d1195648-00ee-45af-ba6f-ff731f3c0c3a")
+	)
+	(wire
+		(pts
+			(xy 238.76 81.28) (xy 245.11 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12cef5b-0818-4a6f-b898-1c6f593e5219")
 	)
 	(wire
 		(pts
@@ -13497,7 +13527,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 118.11) (xy 222.25 120.65)
+			(xy 226.06 118.11) (xy 226.06 120.65)
 		)
 		(stroke
 			(width 0)
@@ -13567,7 +13597,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 90.17) (xy 222.25 87.63)
+			(xy 226.06 91.44) (xy 226.06 88.9)
 		)
 		(stroke
 			(width 0)
@@ -13634,16 +13664,6 @@
 			(type default)
 		)
 		(uuid "d919e484-35ee-47c6-8ae1-6a8feea6f3c6")
-	)
-	(wire
-		(pts
-			(xy 233.68 106.68) (xy 269.24 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9c69015-14ca-44da-aa47-62652c0a8887")
 	)
 	(wire
 		(pts
@@ -13728,6 +13748,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 91.44) (xy 232.41 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debbfde2-f334-4e30-8f66-0d40cf2a1df1")
+	)
+	(wire
+		(pts
 			(xy 186.69 86.36) (xy 189.23 86.36)
 		)
 		(stroke
@@ -13788,16 +13818,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 90.17) (xy 245.11 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0f5dc68-2ab6-4e0d-89ac-8a0e29747390")
-	)
-	(wire
-		(pts
 			(xy 312.42 139.7) (xy 345.44 139.7)
 		)
 		(stroke
@@ -13838,7 +13858,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 110.49) (xy 252.73 113.03)
+			(xy 251.46 110.49) (xy 251.46 113.03)
 		)
 		(stroke
 			(width 0)
@@ -13888,7 +13908,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 110.49) (xy 214.63 110.49)
+			(xy 215.9 110.49) (xy 219.71 110.49)
 		)
 		(stroke
 			(width 0)
@@ -13898,7 +13918,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 90.17) (xy 229.87 87.63)
+			(xy 232.41 91.44) (xy 232.41 88.9)
 		)
 		(stroke
 			(width 0)
@@ -13998,7 +14018,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 128.27) (xy 210.82 128.27)
+			(xy 167.64 128.27) (xy 215.9 128.27)
 		)
 		(stroke
 			(width 0)
@@ -14038,16 +14058,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 110.49) (xy 229.87 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef2fee12-9b1e-40ca-8f80-67cc5a2da099")
-	)
-	(wire
-		(pts
 			(xy 304.8 139.7) (xy 312.42 139.7)
 		)
 		(stroke
@@ -14075,16 +14085,6 @@
 			(type default)
 		)
 		(uuid "efb56da9-9f04-413c-89ef-6fd3df3041d3")
-	)
-	(wire
-		(pts
-			(xy 229.87 120.65) (xy 222.25 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e6c3dc-9961-4058-90f7-f187a0fcf635")
 	)
 	(wire
 		(pts
@@ -14118,16 +14118,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 110.49) (xy 245.11 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f41f93ed-f298-47d0-ada7-4345facaf942")
-	)
-	(wire
-		(pts
 			(xy 306.07 179.07) (xy 306.07 182.88)
 		)
 		(stroke
@@ -14135,6 +14125,16 @@
 			(type default)
 		)
 		(uuid "f46d8874-d8e4-4b0a-8fdf-ef175cf26925")
+	)
+	(wire
+		(pts
+			(xy 234.95 81.28) (xy 238.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f473b842-14ce-4245-8afb-bb1ab5fa4f68")
 	)
 	(wire
 		(pts
@@ -14218,16 +14218,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 80.01) (xy 229.87 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcbb629a-d9ce-4983-b368-e8e04da0ac68")
-	)
-	(wire
-		(pts
 			(xy 119.38 93.98) (xy 119.38 91.44)
 		)
 		(stroke
@@ -14285,6 +14275,16 @@
 			(type default)
 		)
 		(uuid "ff2bc65a-8cf3-42a6-977c-e4c62fc814ef")
+	)
+	(wire
+		(pts
+			(xy 245.11 91.44) (xy 251.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5ac8b7-1708-4de1-9ff4-9e0cd11b8a71")
 	)
 	(wire
 		(pts
@@ -14557,16 +14557,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 252.73 85.09 0)
+		(at 251.46 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "0275976d-f416-4fbb-8101-4c890a11cdae")
 		(property "Reference" "C33"
-			(at 255.27 83.8262 0)
+			(at 251.968 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14575,7 +14574,7 @@
 			)
 		)
 		(property "Value" "4.7n"
-			(at 255.27 86.3662 0)
+			(at 251.968 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14584,7 +14583,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:C_0402_1005Metric"
-			(at 252.73 85.09 0)
+			(at 251.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14593,7 +14592,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 85.09 0)
+			(at 251.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14602,7 +14601,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 252.73 85.09 0)
+			(at 251.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14611,7 +14610,7 @@
 			)
 		)
 		(property "LCSC" "C577156"
-			(at 252.73 85.09 0)
+			(at 251.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15180,6 +15179,160 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-capacitors:C-10n-100V-C0G-1206")
+		(at 226.06 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0749123a-d565-48eb-bdbe-af30dbdc6afb")
+		(property "Reference" "C35"
+			(at 226.568 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-10n-100V-C0G-1206"
+			(at 228.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C184799.pdf"
+			(at 233.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 238.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM3195C2A103JA16D"
+			(at 241.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C184799"
+			(at 243.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10n"
+			(at 226.568 88.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 248.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b97594f-5b04-401a-ab50-285371965321")
+		)
+		(pin "2"
+			(uuid "3bf4b25f-654e-43de-9440-afefc7f94919")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -17531,7 +17684,7 @@
 	)
 	(symbol
 		(lib_id "DW-capacitors:C-10n-100V-C0G-1206")
-		(at 214.63 87.63 90)
+		(at 219.71 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17539,7 +17692,7 @@
 		(dnp yes)
 		(uuid "3873ff72-5d4c-4da3-b57a-a26c07e214c4")
 		(property "Reference" "C34"
-			(at 216.408 83.82 90)
+			(at 220.218 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17549,7 +17702,7 @@
 			)
 		)
 		(property "Value" "C-10n-100V-C0G-1206"
-			(at 217.17 74.93 0)
+			(at 222.25 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17560,7 +17713,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:C_1206_3216Metric"
-			(at 219.71 74.93 0)
+			(at 224.79 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17571,7 +17724,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C184799.pdf"
-			(at 222.25 74.93 0)
+			(at 227.33 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17582,7 +17735,7 @@
 			)
 		)
 		(property "Description" "10nF ±5% 100V Ceramic Capacitor C0G 1206"
-			(at 224.79 74.93 0)
+			(at 229.87 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17593,7 +17746,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata"
-			(at 227.33 74.93 0)
+			(at 232.41 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17604,7 +17757,7 @@
 			)
 		)
 		(property "MPN" "GCM3195C2A103JA16D"
-			(at 229.87 74.93 0)
+			(at 234.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17615,7 +17768,7 @@
 			)
 		)
 		(property "LCSC" "C184799"
-			(at 232.41 74.93 0)
+			(at 237.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17626,7 +17779,7 @@
 			)
 		)
 		(property "Val" "10n"
-			(at 216.408 86.36 90)
+			(at 220.218 88.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17636,7 +17789,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 237.49 74.93 0)
+			(at 242.57 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17647,7 +17800,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 240.03 74.93 0)
+			(at 245.11 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17658,7 +17811,7 @@
 			)
 		)
 		(property "Dielectric" "C0G"
-			(at 242.57 74.93 0)
+			(at 247.65 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17678,6 +17831,160 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
+		(at 251.46 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "39478652-95d8-4806-ac00-9e69770505ac")
+		(property "Reference" "C7"
+			(at 251.968 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-22n-100V-C0G-1206"
+			(at 254 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 256.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
+			(at 259.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 261.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 264.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM3195C2A223JA01D"
+			(at 266.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C711005"
+			(at 269.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22n"
+			(at 251.968 117.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 274.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 276.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 279.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21f34ce0-4ac6-4a82-97e4-25d371d136e8")
+		)
+		(pin "1"
+			(uuid "19f153d2-c1fa-4b59-a05e-93b08973d805")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -18694,160 +19001,6 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
-		(at 237.49 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46ec1969-aaff-4653-b370-52aeabfc4545")
-		(property "Reference" "C5"
-			(at 239.268 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C-22n-100V-C0G-1206"
-			(at 240.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DW-footprints:C_1206_3216Metric"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
-			(at 245.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
-			(at 247.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "muRata"
-			(at 250.19 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM3195C2A223JA01D"
-			(at 252.73 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C711005"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "22n"
-			(at 239.268 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 260.35 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 262.89 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 265.43 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "250b7270-059f-49bf-9451-31477ecd97ad")
-		)
-		(pin "1"
-			(uuid "2ba96b51-a7a6-4906-82c2-c1f1a3f3c632")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -20364,6 +20517,160 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
+		(at 232.41 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64603113-fef0-4793-944d-dfa74947a8a6")
+		(property "Reference" "C6"
+			(at 232.918 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-22n-100V-C0G-1206"
+			(at 234.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 237.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
+			(at 240.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 245.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM3195C2A223JA01D"
+			(at 247.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C711005"
+			(at 250.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22n"
+			(at 232.918 117.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 255.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 257.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 260.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ceda2a6c-915c-4c8d-9979-87ee975106e4")
+		)
+		(pin "1"
+			(uuid "307d122c-846f-49f2-826e-408e4fb57d3c")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-power-symbols:VCC")
 		(at 123.19 66.04 0)
 		(unit 1)
@@ -20423,160 +20730,6 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
-		(at 222.25 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6956e04f-7bcd-4b72-8d88-db0538de3e0f")
-		(property "Reference" "C42"
-			(at 224.028 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C-22n-100V-C0G-1206"
-			(at 224.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DW-footprints:C_1206_3216Metric"
-			(at 227.33 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
-			(at 229.87 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
-			(at 232.41 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "muRata"
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM3195C2A223JA01D"
-			(at 237.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C711005"
-			(at 240.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "22n"
-			(at 224.028 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 245.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 247.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 250.19 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7b340fb6-60ff-40a6-8b25-650f3cd7cdb5")
-		)
-		(pin "1"
-			(uuid "75cb291d-1d0e-4d8a-8a13-7b37e1af2a84")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -21542,15 +21695,15 @@
 	)
 	(symbol
 		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
-		(at 214.63 118.11 90)
+		(at 226.06 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "77e740fc-41b2-49aa-9b2b-43a5fd686adc")
-		(property "Reference" "C41"
-			(at 216.408 114.3 90)
+		(uuid "76d923e8-79b3-4013-9c1a-7f8551cef863")
+		(property "Reference" "C5"
+			(at 226.568 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21560,7 +21713,7 @@
 			)
 		)
 		(property "Value" "C-22n-100V-C0G-1206"
-			(at 217.17 105.41 0)
+			(at 228.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21571,7 +21724,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:C_1206_3216Metric"
-			(at 219.71 105.41 0)
+			(at 231.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21582,7 +21735,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
-			(at 222.25 105.41 0)
+			(at 233.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21593,7 +21746,7 @@
 			)
 		)
 		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
-			(at 224.79 105.41 0)
+			(at 236.22 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21604,7 +21757,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata"
-			(at 227.33 105.41 0)
+			(at 238.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21615,7 +21768,7 @@
 			)
 		)
 		(property "MPN" "GRM3195C2A223JA01D"
-			(at 229.87 105.41 0)
+			(at 241.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21626,7 +21779,7 @@
 			)
 		)
 		(property "LCSC" "C711005"
-			(at 232.41 105.41 0)
+			(at 243.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21637,7 +21790,7 @@
 			)
 		)
 		(property "Val" "22n"
-			(at 216.408 116.84 90)
+			(at 226.568 117.856 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21647,7 +21800,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 237.49 105.41 0)
+			(at 248.92 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21658,7 +21811,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 240.03 105.41 0)
+			(at 251.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21669,7 +21822,7 @@
 			)
 		)
 		(property "Dielectric" "C0G"
-			(at 242.57 105.41 0)
+			(at 254 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21680,15 +21833,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3be873cf-f1db-497d-bbf2-3a58e99936c7")
+			(uuid "86ddd660-3b72-4ff2-9e26-44e83a26222c")
 		)
 		(pin "1"
-			(uuid "b11a8102-e086-4d2d-814c-7fdf07fe9a9b")
+			(uuid "298444a0-6d1b-4d1a-89a9-b33ae10ef73e")
 		)
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "C41")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -22358,6 +22511,160 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
+		(at 238.76 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7efd854b-3e60-4fc2-8e61-4b6ba0f7bab8")
+		(property "Reference" "C41"
+			(at 239.268 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-22n-100V-C0G-1206"
+			(at 241.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
+			(at 246.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM3195C2A223JA01D"
+			(at 254 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C711005"
+			(at 256.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22n"
+			(at 239.268 117.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 261.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 264.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 266.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef686be1-4aaf-4c6d-8136-702cb50e8d62")
+		)
+		(pin "1"
+			(uuid "a376c121-75f2-4bf7-8621-92e73867c7f0")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -23062,6 +23369,160 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-capacitors:C-10n-100V-C0G-1206")
+		(at 238.76 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "92a3d07c-acc2-4d16-92da-8e75fb8f6eb0")
+		(property "Reference" "C47"
+			(at 239.268 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-10n-100V-C0G-1206"
+			(at 241.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 243.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C184799.pdf"
+			(at 246.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 248.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM3195C2A103JA16D"
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C184799"
+			(at 256.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10n"
+			(at 239.268 88.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 261.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 264.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 266.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be480221-73f7-49f0-b533-d4c0bce2ca11")
+		)
+		(pin "2"
+			(uuid "c4ffad1c-c966-468a-859c-379c6154df3a")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-resistors:R-20k-0402")
 		(at 46.99 162.56 90)
 		(unit 1)
@@ -23564,6 +24025,160 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
+		(at 219.71 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a0eba2c-cbde-4edb-a50d-04369276463e")
+		(property "Reference" "C4"
+			(at 220.218 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-22n-100V-C0G-1206"
+			(at 222.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 224.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 229.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 232.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM3195C2A223JA01D"
+			(at 234.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C711005"
+			(at 237.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22n"
+			(at 220.218 117.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 245.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 247.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "272bbc46-97d2-486a-a743-d7567f74ed37")
+		)
+		(pin "1"
+			(uuid "a3187cfa-2a90-4c8a-af8c-bb3018e81342")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-capacitors:C-1u-0402")
 		(at 107.95 106.68 270)
 		(unit 1)
@@ -24005,16 +24620,16 @@
 		)
 	)
 	(symbol
-		(lib_id "DW-capacitors:C-10n-100V-C0G-1206")
-		(at 237.49 87.63 90)
+		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
+		(at 245.11 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(uuid "a6a439ea-d5c9-46e2-9577-ed9b86272c53")
-		(property "Reference" "C47"
-			(at 239.268 83.82 90)
+		(dnp no)
+		(uuid "a4394814-1213-47bb-87d9-2709aa8d2dad")
+		(property "Reference" "C42"
+			(at 245.618 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24023,8 +24638,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C-10n-100V-C0G-1206"
-			(at 240.03 74.93 0)
+		(property "Value" "C-22n-100V-C0G-1206"
+			(at 247.65 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24035,7 +24650,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:C_1206_3216Metric"
-			(at 242.57 74.93 0)
+			(at 250.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24045,8 +24660,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C184799.pdf"
-			(at 245.11 74.93 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
+			(at 252.73 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24056,8 +24671,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10nF ±5% 100V Ceramic Capacitor C0G 1206"
-			(at 247.65 74.93 0)
+		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 255.27 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24068,7 +24683,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata"
-			(at 250.19 74.93 0)
+			(at 257.81 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24078,8 +24693,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM3195C2A103JA16D"
-			(at 252.73 74.93 0)
+		(property "MPN" "GRM3195C2A223JA01D"
+			(at 260.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24089,8 +24704,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C184799"
-			(at 255.27 74.93 0)
+		(property "LCSC" "C711005"
+			(at 262.89 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24100,8 +24715,8 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "10n"
-			(at 239.268 86.36 90)
+		(property "Val" "22n"
+			(at 245.618 117.856 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24111,7 +24726,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 260.35 74.93 0)
+			(at 267.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24122,7 +24737,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 262.89 74.93 0)
+			(at 270.51 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24133,7 +24748,7 @@
 			)
 		)
 		(property "Dielectric" "C0G"
-			(at 265.43 74.93 0)
+			(at 273.05 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24143,16 +24758,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6c9ade2f-d6b4-499a-aef6-85f698d37ca1")
-		)
 		(pin "2"
-			(uuid "d375cb09-6cf6-4535-be78-d84e95594301")
+			(uuid "465c6776-9899-4130-97b4-fccfc588bd09")
+		)
+		(pin "1"
+			(uuid "e2584b23-f90e-4b96-a2e6-fd16ef368454")
 		)
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "C47")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -24291,162 +24906,8 @@
 		)
 	)
 	(symbol
-		(lib_id "DW-capacitors:C-10n-100V-C0G-1206")
-		(at 229.87 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "aa0c7ace-f4ff-493b-a7ad-b50d27bf826e")
-		(property "Reference" "C36"
-			(at 231.648 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C-10n-100V-C0G-1206"
-			(at 232.41 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DW-footprints:C_1206_3216Metric"
-			(at 234.95 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C184799.pdf"
-			(at 237.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "10nF ±5% 100V Ceramic Capacitor C0G 1206"
-			(at 240.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "muRata"
-			(at 242.57 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM3195C2A103JA16D"
-			(at 245.11 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C184799"
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10n"
-			(at 231.648 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 252.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 255.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 257.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b12b4774-5a32-4e18-8c25-2236620dabff")
-		)
-		(pin "2"
-			(uuid "ca69e4a1-a2d4-4b6c-9be3-4cc69e186163")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DW-power-symbols:GND")
-		(at 233.68 121.92 0)
+		(at 234.95 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24454,7 +24915,7 @@
 		(dnp no)
 		(uuid "aa4f1f1f-a1c4-4a7e-b2f1-6141601a16ef")
 		(property "Reference" "#PWR0102"
-			(at 233.68 128.27 0)
+			(at 234.95 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24463,7 +24924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 125.73 0)
+			(at 234.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24471,7 +24932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 121.92 0)
+			(at 234.95 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24480,7 +24941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 121.92 0)
+			(at 234.95 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24489,7 +24950,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 121.92 0)
+			(at 234.95 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24840,314 +25301,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
-		(at 229.87 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afeb3221-596d-4c15-8abd-941d96af40bb")
-		(property "Reference" "C4"
-			(at 231.648 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C-22n-100V-C0G-1206"
-			(at 232.41 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DW-footprints:C_1206_3216Metric"
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
-			(at 237.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
-			(at 240.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "muRata"
-			(at 242.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM3195C2A223JA01D"
-			(at 245.11 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C711005"
-			(at 247.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "22n"
-			(at 231.648 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 252.73 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 257.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81698062-d4a7-4790-8969-7285f9c5b188")
-		)
-		(pin "1"
-			(uuid "43933921-0d17-4c1a-b29c-118153afae73")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
-		(at 252.73 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "b0f360d0-410b-45c3-9641-e9ed811c01bf")
-		(property "Reference" "C7"
-			(at 254.508 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C-22n-100V-C0G-1206"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DW-footprints:C_1206_3216Metric"
-			(at 257.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
-			(at 260.35 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
-			(at 262.89 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "muRata"
-			(at 265.43 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM3195C2A223JA01D"
-			(at 267.97 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C711005"
-			(at 270.51 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "22n"
-			(at 254.508 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 275.59 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 278.13 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 280.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5bcb683-c254-4ec8-bbe8-2627cffef0a1")
-		)
-		(pin "1"
-			(uuid "fd19b793-eef9-4b62-89a5-9f1d31629413")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DW-capacitors:C-100p-0402")
 		(at 149.86 135.89 270)
 		(mirror x)
@@ -25429,6 +25582,160 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-capacitors:C-10n-100V-C0G-1206")
+		(at 232.41 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b43c5d42-b3fa-45ce-b1fc-cf3404b92162")
+		(property "Reference" "C36"
+			(at 232.918 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-10n-100V-C0G-1206"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C184799.pdf"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 242.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 245.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM3195C2A103JA16D"
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C184799"
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10n"
+			(at 232.918 88.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 255.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 260.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c95001ad-5fd8-4997-a753-3775c0f56ebc")
+		)
+		(pin "2"
+			(uuid "f42f8278-8304-4c1e-bf32-7be880b69da7")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -27342,6 +27649,160 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-capacitors:C-10n-100V-C0G-1206")
+		(at 245.11 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d0fa359a-0ffa-4d2e-b1f7-d14f58f966b8")
+		(property "Reference" "C48"
+			(at 245.618 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C-10n-100V-C0G-1206"
+			(at 247.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:C_1206_3216Metric"
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C184799.pdf"
+			(at 252.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10nF ±5% 100V Ceramic Capacitor C0G 1206"
+			(at 255.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM3195C2A103JA16D"
+			(at 260.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C184799"
+			(at 262.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10n"
+			(at 245.618 88.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 270.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 273.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2a0392c-dc92-4822-b6f8-05b7e1fd23fc")
+		)
+		(pin "2"
+			(uuid "a56299d3-6344-473e-b69a-aa60c61bd6c1")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-capacitors:C_Pol_47u_100V_D8mm_H11.5")
 		(at 363.22 179.07 270)
 		(unit 1)
@@ -28558,314 +29019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DW-capacitors:C-10n-100V-C0G-1206")
-		(at 222.25 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "e4a56f4b-bdec-4fe0-998f-43f3bbd027de")
-		(property "Reference" "C35"
-			(at 224.028 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C-10n-100V-C0G-1206"
-			(at 224.79 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DW-footprints:C_1206_3216Metric"
-			(at 227.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C184799.pdf"
-			(at 229.87 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "10nF ±5% 100V Ceramic Capacitor C0G 1206"
-			(at 232.41 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "muRata"
-			(at 234.95 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM3195C2A103JA16D"
-			(at 237.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C184799"
-			(at 240.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10n"
-			(at 224.028 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 245.11 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 250.19 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbc3e016-2d4d-479e-96a6-2555320c7ac8")
-		)
-		(pin "2"
-			(uuid "fb685c31-658d-4890-84f9-c6434e8f8e7d")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
-		(at 245.11 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4eca47d-e850-45da-a5d6-e0187bead63f")
-		(property "Reference" "C6"
-			(at 246.888 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C-22n-100V-C0G-1206"
-			(at 247.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DW-footprints:C_1206_3216Metric"
-			(at 250.19 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C711005.pdf"
-			(at 252.73 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "22nF ±5% 100V Ceramic Capacitor C0G 1206"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "muRata"
-			(at 257.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM3195C2A223JA01D"
-			(at 260.35 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C711005"
-			(at 262.89 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "22n"
-			(at 246.888 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 267.97 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 270.51 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 273.05 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6b3f3b93-a55e-4fb2-85f8-15e112ed8aa6")
-		)
-		(pin "1"
-			(uuid "9f6003a1-9616-4815-9f88-d1b674aec23b")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DW-capacitors:C-1n-0402")
 		(at 247.65 193.04 270)
 		(mirror x)
@@ -29695,160 +29848,6 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DW-capacitors:C-10n-100V-C0G-1206")
-		(at 245.11 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "eee44ec8-c9eb-4a81-b629-4563053a41bf")
-		(property "Reference" "C48"
-			(at 246.888 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C-10n-100V-C0G-1206"
-			(at 247.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DW-footprints:C_1206_3216Metric"
-			(at 250.19 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C184799.pdf"
-			(at 252.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "10nF ±5% 100V Ceramic Capacitor C0G 1206"
-			(at 255.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "muRata"
-			(at 257.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM3195C2A103JA16D"
-			(at 260.35 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C184799"
-			(at 262.89 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10n"
-			(at 246.888 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 267.97 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 270.51 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 273.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fd6422e-619d-4e42-9eea-2a814b2ef296")
-		)
-		(pin "2"
-			(uuid "06d5c586-205e-4f1b-ba1c-48db0e817099")
-		)
-		(instances
-			(project ""
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "C48")
 					(unit 1)
 				)
 			)
