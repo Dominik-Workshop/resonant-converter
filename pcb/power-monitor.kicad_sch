@@ -1100,6 +1100,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DW-power-symbols:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DW-resistors:R-10k-0402"
 			(pin_numbers
 				(hide yes)
@@ -1758,7 +1859,13 @@
 		(uuid "302800f3-213e-4fb3-bb92-5fc7af71be10")
 	)
 	(junction
-		(at 115.57 124.46)
+		(at 114.3 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "366e1bd4-4e1e-464f-aaf7-7c8e968f85d5")
+	)
+	(junction
+		(at 114.3 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41c120c7-ae80-4ac1-9801-521604a29042")
@@ -1879,7 +1986,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 114.3) (xy 115.57 116.84)
+			(xy 114.3 114.3) (xy 114.3 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1919,16 +2026,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 109.22) (xy 115.57 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18c1ae97-af33-4dbf-b490-fb7e407678ae")
-	)
-	(wire
-		(pts
 			(xy 123.19 118.11) (xy 123.19 119.38)
 		)
 		(stroke
@@ -1939,7 +2036,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 78.74) (xy 147.32 78.74)
+			(xy 111.76 78.74) (xy 147.32 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2099,7 +2196,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 121.92) (xy 115.57 124.46)
+			(xy 114.3 121.92) (xy 114.3 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2116,6 +2213,16 @@
 			(type default)
 		)
 		(uuid "7ec5e1a8-42c0-42da-90dd-51d18b82fdb6")
+	)
+	(wire
+		(pts
+			(xy 114.3 104.14) (xy 114.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4f0c5d-1606-4388-a297-89084300c8c9")
 	)
 	(wire
 		(pts
@@ -2209,7 +2316,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 124.46) (xy 115.57 124.46)
+			(xy 123.19 124.46) (xy 114.3 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2239,13 +2346,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 82.55) (xy 113.03 82.55)
+			(xy 127 82.55) (xy 111.76 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bdb9bec9-c5e1-4652-aaf5-c0ae194f0114")
+	)
+	(wire
+		(pts
+			(xy 114.3 106.68) (xy 114.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1572f8f-c350-442f-a52e-c3e2dc7212e8")
 	)
 	(wire
 		(pts
@@ -2359,7 +2476,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 106.68) (xy 123.19 106.68)
+			(xy 114.3 106.68) (xy 123.19 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2399,7 +2516,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 124.46) (xy 113.03 124.46)
+			(xy 114.3 124.46) (xy 111.76 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2439,7 +2556,7 @@
 	)
 	(hierarchical_label "I_SENSE-"
 		(shape input)
-		(at 113.03 82.55 180)
+		(at 111.76 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2450,7 +2567,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 113.03 124.46 180)
+		(at 111.76 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2461,7 +2578,7 @@
 	)
 	(hierarchical_label "I_SENSE+"
 		(shape input)
-		(at 113.03 78.74 180)
+		(at 111.76 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2480,7 +2597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f32c81f-fa5e-4bc5-aaa6-8280fb9ee879")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -2530,7 +2647,7 @@
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2538,7 +2655,7 @@
 	)
 	(symbol
 		(lib_id "DW-diodes:LED-R-0603_KT-0603R")
-		(at 115.57 121.92 90)
+		(at 114.3 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2546,7 +2663,7 @@
 		(dnp no)
 		(uuid "16c33047-5e69-4dbd-a476-8d729da897c7")
 		(property "Reference" "D10"
-			(at 116.84 118.11 90)
+			(at 115.57 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2673,7 @@
 			)
 		)
 		(property "Value" "LED-R-0603_KT-0603R"
-			(at 118.11 109.22 0)
+			(at 116.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +2684,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:LED_0603_1608Metric_R"
-			(at 120.65 109.22 0)
+			(at 119.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +2695,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2507101606_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
-			(at 123.19 109.22 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2706,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
-			(at 125.73 109.22 0)
+			(at 124.46 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,7 +2717,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 128.27 109.22 0)
+			(at 127 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2728,7 @@
 			)
 		)
 		(property "MPN" "KT-0603R"
-			(at 130.81 109.22 0)
+			(at 129.54 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2739,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 133.35 109.22 0)
+			(at 132.08 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +2750,7 @@
 			)
 		)
 		(property "Color" "Red"
-			(at 116.84 120.65 90)
+			(at 115.57 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2760,7 @@
 			)
 		)
 		(property "Forward voltage" "1.8V-2.4V "
-			(at 138.43 109.22 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,7 +2794,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46a54b1f-e146-4435-afdb-b401be6da44b")
-		(property "Reference" "C48"
+		(property "Reference" "C49"
 			(at 124.968 114.3 90)
 			(effects
 				(font
@@ -2816,7 +2933,7 @@
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
-					(reference "C48")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -2831,7 +2948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5aceee2f-f577-4a36-94ee-328c163872ef")
-		(property "Reference" "TP6"
+		(property "Reference" "TP20"
 			(at 160.02 95.25 90)
 			(effects
 				(font
@@ -2890,7 +3007,7 @@
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
-					(reference "TP6")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -2905,7 +3022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a863b9c-8fca-4805-b25c-76ea3775c568")
-		(property "Reference" "TP4"
+		(property "Reference" "TP22"
 			(at 151.13 120.65 90)
 			(effects
 				(font
@@ -2964,7 +3081,7 @@
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
-					(reference "TP4")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -3099,7 +3216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86bc14b2-38c2-4f10-a7d8-e6ed0dc41f0b")
-		(property "Reference" "R35"
+		(property "Reference" "R36"
 			(at 158.75 105.41 90)
 			(effects
 				(font
@@ -3216,7 +3333,7 @@
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
-					(reference "R35")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -3224,7 +3341,7 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-470R-0402")
-		(at 115.57 114.3 90)
+		(at 114.3 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3232,7 +3349,7 @@
 		(dnp no)
 		(uuid "97ebb0db-42de-48b6-b895-897cf81edc09")
 		(property "Reference" "R38"
-			(at 116.84 110.49 90)
+			(at 115.57 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +3359,7 @@
 			)
 		)
 		(property "Value" "R-470R-0402"
-			(at 118.11 101.6 0)
+			(at 116.84 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +3370,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:R_0402_1005Metric"
-			(at 120.65 101.6 0)
+			(at 119.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +3381,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C25117.pdf"
-			(at 123.19 101.6 0)
+			(at 121.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +3392,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 470Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 125.73 101.6 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3403,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 128.27 101.6 0)
+			(at 127 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +3414,7 @@
 			)
 		)
 		(property "MPN" "0402WGF4700TCE"
-			(at 130.81 101.6 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3425,7 @@
 			)
 		)
 		(property "LCSC" "C25117"
-			(at 133.35 101.6 0)
+			(at 132.08 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3436,7 @@
 			)
 		)
 		(property "Val" "470R"
-			(at 116.84 113.03 90)
+			(at 115.57 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3446,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 138.43 101.6 0)
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +3481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a07216aa-85ad-49f1-adf2-98cf0b9ccb81")
-		(property "Reference" "R33"
+		(property "Reference" "R34"
 			(at 125.73 88.9 90)
 			(effects
 				(font
@@ -3481,7 +3598,72 @@
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
-					(reference "R33")
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-power-symbols:PWR_FLAG")
+		(at 114.3 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8bf573e-180c-4df7-a21e-82e0061ab04f")
+		(property "Reference" "#FLG08"
+			(at 114.3 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f962e69-1bb3-4776-885f-02a798ed845f")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -3497,7 +3679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9d0acb8-37d0-4afc-9904-719926ab4a21")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 123.19 107.95 0)
 			(effects
 				(font
@@ -3547,7 +3729,7 @@
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3562,7 +3744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e91296ab-0229-4ef3-8433-6404544cd469")
-		(property "Reference" "R34"
+		(property "Reference" "R35"
 			(at 148.59 88.9 90)
 			(effects
 				(font
@@ -3679,7 +3861,7 @@
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
-					(reference "R34")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -3694,7 +3876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea794d6b-e491-47ac-ba96-f30e4716051a")
-		(property "Reference" "TP5"
+		(property "Reference" "TP21"
 			(at 151.13 105.41 90)
 			(effects
 				(font
@@ -3753,7 +3935,7 @@
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
-					(reference "TP5")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -3768,7 +3950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f17162ef-ad3c-45ae-9b42-bcacbbbb7858")
-		(property "Reference" "R36"
+		(property "Reference" "R37"
 			(at 163.83 105.41 90)
 			(effects
 				(font
@@ -3885,7 +4067,7 @@
 		(instances
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
-					(reference "R36")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -4027,7 +4209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f58fda1f-7847-4ea5-b641-8440c3e365ce")
-		(property "Reference" "C47"
+		(property "Reference" "C48"
 			(at 135.89 93.98 0)
 			(effects
 				(font
@@ -4166,7 +4348,7 @@
 		(instances
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
-					(reference "C47")
+					(reference "C48")
 					(unit 1)
 				)
 			)
