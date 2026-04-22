@@ -9490,7 +9490,7 @@
 		)
 		(uuid "b07737ff-4e2e-45dd-9d75-d407dc066758")
 	)
-	(text "Neither OVP or OTP functionality used"
+	(text "Neither OVP or OTP\nfunctionality used"
 		(exclude_from_sim no)
 		(at 50.8 176.53 0)
 		(effects
@@ -9569,6 +9569,12 @@
 		(uuid "02ca27ec-dec9-4189-a9a8-20233705ec96")
 	)
 	(junction
+		(at 102.87 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05e4d9a3-4acf-402d-bfae-fa05885dd1f8")
+	)
+	(junction
 		(at 304.8 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9635,6 +9641,12 @@
 		(uuid "18aeaabb-8b70-4aad-af7c-c41b0c9ca890")
 	)
 	(junction
+		(at 190.5 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e97358e-6ffc-4c35-b780-af88ab96badb")
+	)
+	(junction
 		(at 347.98 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9687,6 +9699,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d140487-1215-4faf-8512-fdb80ed36443")
+	)
+	(junction
+		(at 119.38 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d2b6cb6-495b-4aa3-8dbb-84431cab12ca")
 	)
 	(junction
 		(at 50.8 118.11)
@@ -9777,6 +9795,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4775e12d-c5b8-456f-adae-f58f27c40b90")
+	)
+	(junction
+		(at 214.63 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "495d6c99-d4a9-4230-b2b9-e5082d6abf8f")
 	)
 	(junction
 		(at 163.83 96.52)
@@ -9893,6 +9917,12 @@
 		(uuid "70c74fb5-3904-4b11-8c0d-9b9068c859da")
 	)
 	(junction
+		(at 189.23 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70ead4e3-b7a0-4ca9-962f-7ff705cfea4f")
+	)
+	(junction
 		(at 191.77 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9959,6 +9989,12 @@
 		(uuid "80551f3b-1ba8-4f40-bc9e-75c75a58a871")
 	)
 	(junction
+		(at 252.73 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85b973b7-66ae-4308-ba7c-d252a44c304f")
+	)
+	(junction
 		(at 345.44 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9975,6 +10011,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a9ca170-b1c3-4043-adf4-65efdb2654e2")
+	)
+	(junction
+		(at 252.73 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bc4de8f-1522-4f91-a3c9-d90e1f5d5988")
 	)
 	(junction
 		(at 328.93 198.12)
@@ -10025,6 +10067,18 @@
 		(uuid "9a87ccab-69a2-42e6-8d9e-19c39bbfbc96")
 	)
 	(junction
+		(at 199.39 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ad6d595-0af0-41cb-82e7-c3ff87319e7d")
+	)
+	(junction
+		(at 27.94 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bfd2e9a-9c3d-490c-89e4-1ea27e22157f")
+	)
+	(junction
 		(at 69.85 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10043,6 +10097,12 @@
 		(uuid "9e00f6a6-d4a5-4d99-a874-e1d31d63cfeb")
 	)
 	(junction
+		(at 185.42 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e767eb7-0d26-40e9-a6cb-0a27f55f44b5")
+	)
+	(junction
 		(at 363.22 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10055,6 +10115,12 @@
 		(uuid "9f668ee8-6239-4dd3-a65b-7d411d3b9d2f")
 	)
 	(junction
+		(at 116.84 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2e04530-5267-47e0-abf5-b548bb8f21ef")
+	)
+	(junction
 		(at 85.09 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10065,6 +10131,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6ef4481-377b-4631-be74-bc51e02cae3d")
+	)
+	(junction
+		(at 381 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a71822d0-f058-4d5b-9670-ac291ed6cb92")
 	)
 	(junction
 		(at 335.28 165.1)
@@ -10083,6 +10155,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac2a5d25-db63-4b58-8eef-35d0cc6425d9")
+	)
+	(junction
+		(at 381 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ade26131-4ff9-44ee-82a3-f54383cdd035")
 	)
 	(junction
 		(at 226.06 91.44)
@@ -10217,6 +10295,24 @@
 		(uuid "d315f832-ef5b-4552-86fc-3d306f23fe95")
 	)
 	(junction
+		(at 215.9 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d452c71a-e069-4c77-8a7c-8aef04b8498a")
+	)
+	(junction
+		(at 90.17 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4692276-adaf-41c9-ace2-6014b9dcac74")
+	)
+	(junction
+		(at 156.21 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5015db2-c986-4401-9191-95138a108bc7")
+	)
+	(junction
 		(at 149.86 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10319,6 +10415,12 @@
 		(uuid "f3760109-8d0a-4c44-b06d-ddd2f9f9b9a8")
 	)
 	(junction
+		(at 27.94 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f53752f9-5be7-49a5-aff0-cb5f63a6d5f9")
+	)
+	(junction
 		(at 234.95 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10349,6 +10451,16 @@
 	(no_connect
 		(at 342.9 227.33)
 		(uuid "645cdc24-6983-45d3-98be-9ade85bb1fb8")
+	)
+	(wire
+		(pts
+			(xy 119.38 161.29) (xy 116.84 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01493198-4b30-4e17-ab50-4a3cf9d826d1")
 	)
 	(wire
 		(pts
@@ -10512,6 +10624,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 107.95) (xy 215.9 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06bfeca2-3d20-4ffb-9b2a-ceec07220fff")
+	)
+	(wire
+		(pts
 			(xy 107.95 96.52) (xy 124.46 96.52)
 		)
 		(stroke
@@ -10612,6 +10734,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 93.98) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101956ec-0fc6-4999-b403-121fc7496965")
+	)
+	(wire
+		(pts
 			(xy 149.86 99.06) (xy 154.94 99.06)
 		)
 		(stroke
@@ -10682,7 +10814,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 86.36) (xy 191.77 86.36)
+			(xy 189.23 86.36) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10729,6 +10861,26 @@
 			(type default)
 		)
 		(uuid "17f9c9a0-5851-4736-9bcc-f51e8f89f21d")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.36) (xy 191.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18caffea-e656-4a79-bb12-14f4b00a4ff4")
+	)
+	(wire
+		(pts
+			(xy 156.21 128.27) (xy 158.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1934ac05-0d6a-4e09-8294-c9c319616ebe")
 	)
 	(wire
 		(pts
@@ -10902,6 +11054,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 102.87) (xy 189.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25efdcd0-8346-42c5-bdd9-51c00275b375")
+	)
+	(wire
+		(pts
 			(xy 360.68 85.09) (xy 355.6 85.09)
 		)
 		(stroke
@@ -10952,7 +11114,7 @@
 	)
 	(polyline
 		(pts
-			(xy 264.16 284.48) (xy 264.16 203.2)
+			(xy 264.16 284.48) (xy 264.16 204.47)
 		)
 		(stroke
 			(width 0.635)
@@ -10980,6 +11142,16 @@
 			(type default)
 		)
 		(uuid "2cd6dfaf-ee89-4f15-8cf2-53734f036fca")
+	)
+	(wire
+		(pts
+			(xy 252.73 176.53) (xy 252.73 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d14752e-0a6c-4124-acd4-a477aa72ea57")
 	)
 	(wire
 		(pts
@@ -11123,6 +11295,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 179.07) (xy 257.81 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d4f794-9043-466f-95c3-30e54a4e73c2")
+	)
+	(wire
+		(pts
 			(xy 232.41 110.49) (xy 234.95 110.49)
 		)
 		(stroke
@@ -11130,6 +11312,16 @@
 			(type default)
 		)
 		(uuid "3711514d-d59d-42b7-8257-344cf34c77a6")
+	)
+	(wire
+		(pts
+			(xy 185.42 157.48) (xy 186.69 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377d2b08-7b2a-4e29-9d3d-a361dceb418a")
 	)
 	(wire
 		(pts
@@ -11213,7 +11405,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 179.07) (xy 257.81 179.07)
+			(xy 247.65 179.07) (xy 252.73 179.07)
 		)
 		(stroke
 			(width 0)
@@ -11360,6 +11552,16 @@
 			(type default)
 		)
 		(uuid "452efaf5-37e4-4819-a79d-bc67a6ad62e8")
+	)
+	(wire
+		(pts
+			(xy 381 105.41) (xy 381 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461890e1-4402-42db-83be-7f495d02ac26")
 	)
 	(wire
 		(pts
@@ -11704,6 +11906,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 99.06) (xy 102.87 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5593d4f0-bed7-4d0f-bac8-757301cf5f1f")
+	)
+	(wire
+		(pts
 			(xy 251.46 81.28) (xy 251.46 83.82)
 		)
 		(stroke
@@ -11864,6 +12076,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 83.82) (xy 190.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61931206-9aa1-42c1-bb06-db9d48251027")
+	)
+	(wire
+		(pts
+			(xy 381 142.24) (xy 381 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e3cea9-871a-4991-9a29-abe37c517946")
+	)
+	(wire
+		(pts
 			(xy 36.83 96.52) (xy 36.83 118.11)
 		)
 		(stroke
@@ -11881,6 +12113,16 @@
 			(type default)
 		)
 		(uuid "63e29650-26ff-47da-a17e-c9d83fc568c2")
+	)
+	(wire
+		(pts
+			(xy 92.71 161.29) (xy 90.17 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646f3ec4-0ffc-4f00-87bd-c7310ad55aba")
 	)
 	(wire
 		(pts
@@ -12024,6 +12266,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 69.85) (xy 30.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7524571a-a224-4306-a8a3-5af27ec12577")
+	)
+	(wire
+		(pts
 			(xy 107.95 111.76) (xy 107.95 118.11)
 		)
 		(stroke
@@ -12124,7 +12376,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 157.48) (xy 186.69 157.48)
+			(xy 181.61 157.48) (xy 185.42 157.48)
 		)
 		(stroke
 			(width 0)
@@ -12184,7 +12436,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 198.12) (xy 255.27 198.12)
+			(xy 247.65 198.12) (xy 252.73 198.12)
 		)
 		(stroke
 			(width 0)
@@ -12211,6 +12463,16 @@
 			(type default)
 		)
 		(uuid "7feca7f2-f2f3-4d98-98cc-caa08beb0add")
+	)
+	(wire
+		(pts
+			(xy 27.94 67.31) (xy 27.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d3cce7-d54e-48c8-93ef-68236ebebf64")
 	)
 	(wire
 		(pts
@@ -12444,6 +12706,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 198.12) (xy 255.27 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f6a733-ea7a-4e8d-bfc9-fbd9701c28d2")
+	)
+	(wire
+		(pts
 			(xy 63.5 96.52) (xy 63.5 118.11)
 		)
 		(stroke
@@ -12534,7 +12806,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 107.95) (xy 384.81 107.95)
+			(xy 375.92 107.95) (xy 381 107.95)
 		)
 		(stroke
 			(width 0)
@@ -12624,6 +12896,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 91.44) (xy 199.39 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdbdf7a-7fec-41f4-a617-849c798cdd80")
+	)
+	(wire
+		(pts
 			(xy 219.71 120.65) (xy 226.06 120.65)
 		)
 		(stroke
@@ -12671,6 +12953,16 @@
 			(type default)
 		)
 		(uuid "9f4eb051-89f3-4a49-990a-f6917bc178db")
+	)
+	(wire
+		(pts
+			(xy 214.63 154.94) (xy 214.63 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a058cbbc-0f2f-40c0-9147-04fd613aca96")
 	)
 	(wire
 		(pts
@@ -12804,7 +13096,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 12.7) (xy 274.32 91.44)
+			(xy 274.32 12.7) (xy 274.32 90.17)
 		)
 		(stroke
 			(width 0.635)
@@ -12825,7 +13117,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 139.7) (xy 391.16 139.7)
+			(xy 350.52 139.7) (xy 381 139.7)
 		)
 		(stroke
 			(width 0)
@@ -12855,7 +13147,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 134.62) (xy 274.32 118.11)
+			(xy 274.32 134.62) (xy 274.32 119.38)
 		)
 		(stroke
 			(width 0.635)
@@ -12996,7 +13288,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 118.11) (xy 30.48 118.11)
+			(xy 25.4 118.11) (xy 27.94 118.11)
 		)
 		(stroke
 			(width 0)
@@ -13076,7 +13368,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 151.13) (xy 105.41 151.13)
+			(xy 252.73 200.66) (xy 252.73 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f88bc7-c431-48b5-9b1a-fc4a4159c74d")
+	)
+	(wire
+		(pts
+			(xy 105.41 151.13) (xy 111.76 151.13)
 		)
 		(stroke
 			(width 0)
@@ -13296,6 +13598,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 139.7) (xy 391.16 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c382c41b-6aba-4597-930d-2dd9c318a44f")
+	)
+	(wire
+		(pts
 			(xy 308.61 186.69) (xy 306.07 186.69)
 		)
 		(stroke
@@ -13303,6 +13615,16 @@
 			(type default)
 		)
 		(uuid "c5b1c648-19d0-44e0-aa33-3c83ef403e53")
+	)
+	(wire
+		(pts
+			(xy 27.94 118.11) (xy 30.48 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b8c813-efab-4469-8e75-153785641abf")
 	)
 	(wire
 		(pts
@@ -13396,7 +13718,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 128.27) (xy 158.75 128.27)
+			(xy 149.86 128.27) (xy 156.21 128.27)
 		)
 		(stroke
 			(width 0)
@@ -13426,13 +13748,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 69.85) (xy 119.38 78.74)
+			(xy 119.38 69.85) (xy 119.38 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cc2966b1-ddd3-4b2a-98fc-6cde69c11363")
+	)
+	(wire
+		(pts
+			(xy 102.87 101.6) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce104613-d5ca-468a-9445-7e4a821aafaa")
 	)
 	(wire
 		(pts
@@ -13496,7 +13828,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 157.48) (xy 229.87 157.48)
+			(xy 210.82 157.48) (xy 214.63 157.48)
 		)
 		(stroke
 			(width 0)
@@ -13506,7 +13838,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 88.9) (xy 199.39 96.52)
+			(xy 199.39 88.9) (xy 199.39 91.44)
 		)
 		(stroke
 			(width 0)
@@ -13667,7 +13999,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 69.85) (xy 30.48 69.85)
+			(xy 25.4 69.85) (xy 27.94 69.85)
 		)
 		(stroke
 			(width 0)
@@ -13694,6 +14026,16 @@
 			(type default)
 		)
 		(uuid "dcfe0af6-310e-4e09-8f1f-af8f49ba0db6")
+	)
+	(wire
+		(pts
+			(xy 214.63 157.48) (xy 229.87 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd19c4f6-5202-4327-a914-3405bbb318d4")
 	)
 	(wire
 		(pts
@@ -13828,6 +14170,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 154.94) (xy 185.42 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e579304d-5d39-4655-a406-30819443048f")
+	)
+	(wire
+		(pts
 			(xy 116.84 168.91) (xy 116.84 170.18)
 		)
 		(stroke
@@ -13848,7 +14200,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 83.82) (xy 119.38 86.36)
+			(xy 119.38 81.28) (xy 119.38 83.82)
 		)
 		(stroke
 			(width 0)
@@ -13948,6 +14300,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 125.73) (xy 156.21 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c65627-cd20-4a1f-937a-2d0a994879f0")
+	)
+	(wire
+		(pts
+			(xy 201.93 91.44) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf14011-5a5a-4696-b4ca-8812bcf47294")
+	)
+	(wire
+		(pts
 			(xy 163.83 96.52) (xy 163.83 99.06)
 		)
 		(stroke
@@ -13998,6 +14370,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 120.65) (xy 27.94 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1b83ea-632a-4abf-9077-5c031b36d4e5")
+	)
+	(wire
+		(pts
 			(xy 303.53 193.04) (xy 303.53 187.96)
 		)
 		(stroke
@@ -14045,6 +14427,16 @@
 			(type default)
 		)
 		(uuid "ed83b179-3be7-4156-a6c9-bbce069b6069")
+	)
+	(wire
+		(pts
+			(xy 381 107.95) (xy 384.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee63e617-d641-43c1-910c-376b078d9ae1")
 	)
 	(wire
 		(pts
@@ -14198,7 +14590,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 101.6) (xy 124.46 101.6)
+			(xy 100.33 101.6) (xy 102.87 101.6)
 		)
 		(stroke
 			(width 0)
@@ -14218,7 +14610,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 119.38 91.44)
+			(xy 119.38 88.9) (xy 119.38 93.98)
 		)
 		(stroke
 			(width 0)
@@ -14912,6 +15304,81 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 111.76 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "065d8f0d-4f34-4e58-aec1-78dff4d07a15")
+		(property "Reference" "TP15"
+			(at 114.808 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 115.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 115.57 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bae3a625-592f-441c-9c0f-3315eb6a662a")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -17991,6 +18458,81 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 119.38 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c5164b5-18a6-4d3b-89f9-03b68a728c9c")
+		(property "Reference" "TP8"
+			(at 122.428 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 123.19 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 123.19 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 123.19 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32612103-7a3f-4c99-9f15-99715e8b1838")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-ICs:TL431AIDBVR")
 		(at 285.75 193.04 0)
 		(mirror y)
@@ -18514,6 +19056,80 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 252.73 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "42054cc7-0736-43ae-8594-791534038c01")
+		(property "Reference" "TP16"
+			(at 252.73 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 255.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 257.81 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 262.89 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "111ce997-3597-4cb3-ab38-5f6f3600f9c2")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-diodes:1N4148WS-AU")
 		(at 229.87 157.48 0)
 		(unit 1)
@@ -18662,10 +19278,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "437752da-23a8-4cf6-a28d-96f2ffa26f61")
 		(property "Reference" "C30"
-			(at 119.38 165.0936 90)
+			(at 118.618 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18752,7 +19367,7 @@
 			)
 		)
 		(property "Val" "330p"
-			(at 119.38 167.6336 90)
+			(at 118.618 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18869,6 +19484,81 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 116.84 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "45ffe76c-ab45-46f2-adfb-f10d6eed76ec")
+		(property "Reference" "TP10"
+			(at 113.792 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 113.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45ff7783-542c-4e3a-b8fc-113594237970")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -19263,6 +19953,80 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 214.63 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cf5f35c-f853-41f7-be6c-1e3195ab9ee4")
+		(property "Reference" "TP3"
+			(at 214.63 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 217.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 219.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 224.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32dc7be3-94ad-49d1-8576-3b5e4186ccca")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -20517,6 +21281,80 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 27.94 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "63d02f71-b4f3-4e51-9372-189937bbc1da")
+		(property "Reference" "TP11"
+			(at 27.94 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 25.4 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 22.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 17.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26790406-099a-42f9-8a50-f4182238846d")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-capacitors:C-22n-100V-C0G-1206")
 		(at 232.41 118.11 90)
 		(unit 1)
@@ -21003,6 +21841,80 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 102.87 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f26e366-ab62-4c97-bf27-ef17bf953b22")
+		(property "Reference" "TP9"
+			(at 102.87 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 107.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "643275ba-fefc-4ff1-8682-dcc1f1a654bb")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -22824,6 +23736,155 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 92.71 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "80f0788f-f8f3-4875-83cb-b09fa0e21700")
+		(property "Reference" "TP7"
+			(at 95.758 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 96.52 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 96.52 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f4dba3e-1fb0-45c0-af74-5267b1a433f5")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 189.23 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8204e87d-46ef-4911-b3d5-9aebf187185d")
+		(property "Reference" "TP20"
+			(at 189.23 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 191.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27bac0ff-4a1f-41d7-9361-97f3700c0654")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-capacitors:C-2u2-100V-1206")
 		(at 44.45 96.52 90)
 		(unit 1)
@@ -23125,6 +24186,229 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 201.93 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8567bc48-bd74-4c28-a1ab-db3a156b1090")
+		(property "Reference" "TP21"
+			(at 204.978 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 205.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 205.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "228e4ed0-e376-4bf2-836f-517faf6735ce")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 190.5 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8644de54-a27d-4b02-bd23-8627c7af2d49")
+		(property "Reference" "TP19"
+			(at 190.5 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 195.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 200.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "214e5253-74e2-4509-82a0-3c369e9fbdfd")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 381 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8744a8c4-42ef-42a2-836e-2ccbbad1a9dc")
+		(property "Reference" "TP14"
+			(at 381 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 383.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 386.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 391.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "640e754e-01a0-4319-b086-f6f2a83d6697")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -24488,7 +25772,7 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-470R-0402")
-		(at 119.38 78.74 90)
+		(at 119.38 76.2 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24497,7 +25781,7 @@
 		(dnp no)
 		(uuid "a0f0e7d8-7c8b-4949-bd63-92d8c3edbe27")
 		(property "Reference" "R1"
-			(at 118.11 80.01 90)
+			(at 118.11 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24507,7 +25791,7 @@
 			)
 		)
 		(property "Value" "R-470R-0402"
-			(at 121.92 91.44 0)
+			(at 121.92 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24518,7 +25802,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:R_0402_1005Metric"
-			(at 124.46 91.44 0)
+			(at 124.46 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24529,7 +25813,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C25117.pdf"
-			(at 127 91.44 0)
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24540,7 +25824,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 470Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 129.54 91.44 0)
+			(at 129.54 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24551,7 +25835,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 132.08 91.44 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24562,7 +25846,7 @@
 			)
 		)
 		(property "MPN" "0402WGF4700TCE"
-			(at 134.62 91.44 0)
+			(at 134.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24573,7 +25857,7 @@
 			)
 		)
 		(property "LCSC" "C25117"
-			(at 137.16 91.44 0)
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24584,7 +25868,7 @@
 			)
 		)
 		(property "Val" "470R"
-			(at 118.11 82.55 90)
+			(at 118.11 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24594,7 +25878,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 142.24 91.44 0)
+			(at 142.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24768,6 +26052,80 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 156.21 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7c5b3cc-371c-4bfe-a601-4adbdd370751")
+		(property "Reference" "TP17"
+			(at 156.21 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 166.37 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f952bdbc-6e9a-4fb7-bda9-251c10344cc3")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -26460,7 +27818,7 @@
 	)
 	(symbol
 		(lib_id "DW-resistors:R-470R-0402")
-		(at 119.38 86.36 90)
+		(at 119.38 83.82 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26469,7 +27827,7 @@
 		(dnp no)
 		(uuid "bc055e02-cc04-4e18-98d3-3c1bde413afa")
 		(property "Reference" "R3"
-			(at 118.11 87.63 90)
+			(at 118.11 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26479,7 +27837,7 @@
 			)
 		)
 		(property "Value" "R-470R-0402"
-			(at 121.92 99.06 0)
+			(at 121.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26490,7 +27848,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:R_0402_1005Metric"
-			(at 124.46 99.06 0)
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26501,7 +27859,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C25117.pdf"
-			(at 127 99.06 0)
+			(at 127 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26512,7 +27870,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 470Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 129.54 99.06 0)
+			(at 129.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26523,7 +27881,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 132.08 99.06 0)
+			(at 132.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26534,7 +27892,7 @@
 			)
 		)
 		(property "MPN" "0402WGF4700TCE"
-			(at 134.62 99.06 0)
+			(at 134.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26545,7 +27903,7 @@
 			)
 		)
 		(property "LCSC" "C25117"
-			(at 137.16 99.06 0)
+			(at 137.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26556,7 +27914,7 @@
 			)
 		)
 		(property "Val" "470R"
-			(at 118.11 90.17 90)
+			(at 118.11 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26566,7 +27924,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 142.24 99.06 0)
+			(at 142.24 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26863,6 +28221,80 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 252.73 200.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c77bcb9b-8ba0-4b24-a021-d1249cbac683")
+		(property "Reference" "TP18"
+			(at 252.73 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 250.19 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 247.65 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 242.57 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02929cde-424d-4795-9ba3-dd26c333e707")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-resistors:R-10k-0402")
 		(at 306.07 195.58 90)
 		(unit 1)
@@ -26989,6 +28421,80 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 185.42 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c96d9401-f477-47a1-bf02-ba3cc0d55e95")
+		(property "Reference" "TP2"
+			(at 185.42 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 187.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 190.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 195.58 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dc35d1f-2e5d-48df-b3af-641d16809807")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -28152,6 +29658,80 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 27.94 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d654b6ea-a562-4e04-b946-62c5037f78be")
+		(property "Reference" "TP12"
+			(at 27.94 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 30.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 33.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 38.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8435efc-d119-4e51-b3d1-30cba6462651")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-power-symbols:GND")
 		(at 46.99 168.91 0)
 		(unit 1)
@@ -28564,6 +30144,80 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 215.9 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e02ed31b-7cfd-4b53-8b07-a9aaae2fa501")
+		(property "Reference" "TP22"
+			(at 215.9 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 226.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e43d3ac-610e-4a00-9e98-c45023b30898")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -29854,6 +31508,80 @@
 		)
 	)
 	(symbol
+		(lib_id "DW-test-points:TP_SMD_1mm")
+		(at 381 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2a2bcfd-37e0-46d5-9f89-12508d0ef809")
+		(property "Reference" "TP13"
+			(at 381 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_SMD_1mm"
+			(at 378.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:TP_SMD_1mm"
+			(at 375.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point, SMD, round, 1mm diameter"
+			(at 370.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70f062af-0511-4700-8e4b-fb57a25f77f1")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DW-capacitors:C-330p-0402")
 		(at 90.17 167.64 90)
 		(unit 1)
@@ -29861,10 +31589,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f48ccc73-e4a6-4c80-9576-d626eadb2043")
 		(property "Reference" "C29"
-			(at 92.71 163.8236 90)
+			(at 91.948 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29951,7 +31678,7 @@
 			)
 		)
 		(property "Val" "330p"
-			(at 92.71 166.3636 90)
+			(at 91.948 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
