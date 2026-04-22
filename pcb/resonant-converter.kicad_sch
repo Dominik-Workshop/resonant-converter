@@ -11,6 +11,195 @@
 		(comment 1 "Project authors: Maksim Kondratovich, Dominik Pluta")
 	)
 	(lib_symbols
+		(symbol "DW-ICs:78L15MG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 34.29 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "78L15MG"
+				(at 34.29 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DW-footprints:SOT-223"
+				(at 34.29 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C49451967.pdf"
+				(at 34.29 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "15V Positive Fixed SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+				(at 34.29 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TECH PUBLIC"
+				(at 34.29 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "78L15MG"
+				(at 34.29 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "LCSC" "C49451967"
+				(at 34.29 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "IC, SMD, LDO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "78L15MG_0_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 15.24 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "78L15MG_1_0"
+				(pin power_in line
+					(at 0 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DW-ICs:PC817X2CSP9F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9345,155 +9534,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BZT52Bxx"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BZT52Bxx"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123F"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "500mW Zener Diode, SOD-123F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D?SOD?123F*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BZT52Bxx_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BZT52Bxx_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:PMEG10020AELR"
 			(pin_numbers
 				(hide yes)
@@ -9683,16 +9723,6 @@
 			)
 		)
 		(uuid "7a14a889-6cd8-406b-88d3-8836cba03eec")
-	)
-	(text "15V Zener"
-		(exclude_from_sim no)
-		(at 284.988 53.086 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "95d41ea4-a507-4a3f-ad19-fb5ceb1c6ce8")
 	)
 	(text "BLK Pin"
 		(exclude_from_sim no)
@@ -10055,12 +10085,6 @@
 		(uuid "71e2a9d1-2287-4d52-a672-f354aad39c11")
 	)
 	(junction
-		(at 262.89 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7282b4bb-b976-4e5f-b8ad-b862eca61845")
-	)
-	(junction
 		(at 176.53 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10101,6 +10125,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f5b0593-0421-46ca-b659-a064a8c39fbb")
+	)
+	(junction
+		(at 297.18 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f977a18-8c56-4d1b-9506-b0dd03434ee5")
 	)
 	(junction
 		(at 306.07 168.91)
@@ -10209,12 +10239,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6ef4481-377b-4631-be74-bc51e02cae3d")
-	)
-	(junction
-		(at 276.86 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7a2209a-4e02-4729-858b-ef3eebdc25ac")
 	)
 	(junction
 		(at 335.28 147.32)
@@ -10540,6 +10564,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 40.64) (xy 297.18 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e8a3f0-6662-455b-a147-6bbf541195e0")
+	)
+	(wire
+		(pts
 			(xy 316.23 121.92) (xy 311.15 121.92)
 		)
 		(stroke
@@ -10817,16 +10851,6 @@
 			(type default)
 		)
 		(uuid "14e1719b-ff71-4410-a2a1-237ce04db2a7")
-	)
-	(wire
-		(pts
-			(xy 276.86 44.45) (xy 276.86 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "152deb34-86fe-4c77-a517-4871875ae089")
 	)
 	(wire
 		(pts
@@ -11280,7 +11304,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 40.64) (xy 314.96 40.64)
+			(xy 307.34 40.64) (xy 320.04 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11357,16 +11381,6 @@
 			(type default)
 		)
 		(uuid "3b6a6cb2-50db-46cf-b57a-5c53c0babbb3")
-	)
-	(wire
-		(pts
-			(xy 276.86 40.64) (xy 281.94 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b7d118d-af97-4f52-a0b4-ff5adcd4a81b")
 	)
 	(wire
 		(pts
@@ -11860,6 +11874,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 40.64) (xy 299.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc247af-a6cc-4b3c-808a-c994c4fe98ea")
+	)
+	(wire
+		(pts
 			(xy 391.16 139.7) (xy 391.16 142.24)
 		)
 		(stroke
@@ -12130,16 +12154,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 40.64) (xy 294.64 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "730fb2bc-cb55-4edd-8dbb-cb9a03863e83")
-	)
-	(wire
-		(pts
 			(xy 191.77 194.31) (xy 191.77 196.85)
 		)
 		(stroke
@@ -12237,6 +12251,16 @@
 			(type default)
 		)
 		(uuid "7b802684-f401-45b7-87b7-37de8e17a6b4")
+	)
+	(wire
+		(pts
+			(xy 297.18 49.53) (xy 297.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5d11b1-a469-4306-b57b-cdf8d5c08222")
 	)
 	(wire
 		(pts
@@ -12450,6 +12474,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 45.72) (xy 288.29 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe892c4-9f01-496e-afdd-e59a8b895535")
+	)
+	(wire
+		(pts
 			(xy 147.32 101.6) (xy 158.75 101.6)
 		)
 		(stroke
@@ -12590,7 +12624,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 40.64) (xy 276.86 40.64)
+			(xy 250.19 40.64) (xy 269.24 40.64)
 		)
 		(stroke
 			(width 0)
@@ -12950,16 +12984,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 40.64) (xy 262.89 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2a6806b-0fa0-436e-aba3-9d53ec5b074e")
-	)
-	(wire
-		(pts
 			(xy 31.75 91.44) (xy 38.1 91.44)
 		)
 		(stroke
@@ -13067,6 +13091,16 @@
 			(type default)
 		)
 		(uuid "b9c63343-7d15-4e26-9aea-e18384fade30")
+	)
+	(wire
+		(pts
+			(xy 287.02 40.64) (xy 297.18 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7658e3-e73e-4a1d-a8d2-5514cc14041c")
 	)
 	(wire
 		(pts
@@ -13197,16 +13231,6 @@
 			(type default)
 		)
 		(uuid "c061aed0-6adf-4b92-aa54-28e7c73c2f17")
-	)
-	(wire
-		(pts
-			(xy 262.89 49.53) (xy 262.89 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1ca6a94-68fb-4375-9aa6-895e78c94186")
 	)
 	(wire
 		(pts
@@ -13367,16 +13391,6 @@
 			(type default)
 		)
 		(uuid "d1195648-00ee-45af-ba6f-ff731f3c0c3a")
-	)
-	(wire
-		(pts
-			(xy 250.19 40.64) (xy 262.89 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d197a093-7477-4366-9c19-d8c11cec1cc3")
 	)
 	(wire
 		(pts
@@ -13600,6 +13614,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 45.72) (xy 287.02 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09bada8-4993-4b0a-9260-09cb6f2b7a41")
+	)
+	(wire
+		(pts
 			(xy 236.22 161.29) (xy 236.22 166.37)
 		)
 		(stroke
@@ -13607,16 +13631,6 @@
 			(type default)
 		)
 		(uuid "e1706983-9098-449f-b1ed-2dbabe33f98a")
-	)
-	(wire
-		(pts
-			(xy 276.86 52.07) (xy 276.86 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e22d9be0-0211-44b3-98d4-e174ed8d86f3")
 	)
 	(wire
 		(pts
@@ -14189,7 +14203,7 @@
 		(uuid "37a49801-ddb1-47d6-8761-8f4446c64a12")
 	)
 	(label "TRAFO_AUX"
-		(at 303.53 40.64 0)
+		(at 308.61 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18198,83 +18212,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 285.75 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43ff0086-d09b-4e4a-95f9-fba497d57f36")
-		(property "Reference" "R16"
-			(at 285.75 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1R"
-			(at 285.75 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 285.75 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 285.75 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 285.75 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17928"
-			(at 285.75 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ce0ab65-5b1f-4ef6-a75e-3ff2216ab057")
-		)
-		(pin "1"
-			(uuid "1dbc32d8-1319-4ea2-bd05-b417d9e7724a")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DW-power-symbols:+12V")
 		(at 340.36 223.52 0)
 		(unit 1)
@@ -19510,7 +19447,7 @@
 	)
 	(symbol
 		(lib_id "DW-capacitors:C-10u-0805")
-		(at 262.89 49.53 90)
+		(at 297.18 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19519,7 +19456,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ccf5e6d-06ea-4ecb-91e6-ac215f417385")
 		(property "Reference" "C46"
-			(at 265.43 45.7136 90)
+			(at 299.72 45.7136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19529,7 +19466,7 @@
 			)
 		)
 		(property "Value" "C-10u-0805"
-			(at 265.43 36.83 0)
+			(at 299.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19540,7 +19477,7 @@
 			)
 		)
 		(property "Footprint" "DW-footprints:C_0805_2012Metric"
-			(at 267.97 36.83 0)
+			(at 302.26 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19551,7 +19488,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C440198.pdf"
-			(at 270.51 36.83 0)
+			(at 304.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19562,7 +19499,7 @@
 			)
 		)
 		(property "Description" "50V 10uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 273.05 36.83 0)
+			(at 307.34 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19573,7 +19510,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata"
-			(at 275.59 36.83 0)
+			(at 309.88 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19584,7 +19521,7 @@
 			)
 		)
 		(property "MPN" "GRM21BR61H106KE43L"
-			(at 278.13 36.83 0)
+			(at 312.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19595,7 +19532,7 @@
 			)
 		)
 		(property "LCSC" "C440198"
-			(at 280.67 36.83 0)
+			(at 314.96 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19606,7 +19543,7 @@
 			)
 		)
 		(property "Val" "10u"
-			(at 265.43 48.2536 90)
+			(at 299.72 48.2536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19616,7 +19553,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 285.75 36.83 0)
+			(at 320.04 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19627,7 +19564,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 288.29 36.83 0)
+			(at 322.58 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19638,7 +19575,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 290.83 36.83 0)
+			(at 325.12 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20096,7 +20033,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GND")
-		(at 262.89 53.34 0)
+		(at 297.18 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20104,7 +20041,7 @@
 		(dnp no)
 		(uuid "6ab366ec-8442-4d86-ac21-d02171422646")
 		(property "Reference" "#PWR023"
-			(at 262.89 59.69 0)
+			(at 297.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20113,7 +20050,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 57.404 0)
+			(at 297.18 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20121,7 +20058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 53.34 0)
+			(at 297.18 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20130,7 +20067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 53.34 0)
+			(at 297.18 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20139,7 +20076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 53.34 0)
+			(at 297.18 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22073,76 +22010,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZT52Bxx")
-		(at 276.86 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83a0a48d-cd83-4026-885e-3db10da417c3")
-		(property "Reference" "D5"
-			(at 279.4 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZT52Bxx"
-			(at 279.4 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 272.415 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
-			(at 276.86 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "500mW Zener Diode, SOD-123F"
-			(at 276.86 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21836dd8-b284-4882-8ccf-0d2316551f64")
-		)
-		(pin "1"
-			(uuid "3864d23a-976c-4fa3-91ec-c617fb0b069a")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DW-capacitors:C-2u2-100V-1206")
 		(at 92.71 43.18 90)
 		(unit 1)
@@ -22728,6 +22595,71 @@
 			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-power-symbols:GND")
+		(at 288.29 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b0c1b94-d966-476f-bfc8-6a0dd01b2d7c")
+		(property "Reference" "#PWR024"
+			(at 288.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d7940b8-9d9c-472f-92ef-a272ef89c9a5")
+		)
+		(instances
+			(project "resonant-converter"
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -24125,71 +24057,6 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DW-power-symbols:GND")
-		(at 276.86 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5975731-b8c1-4f26-a0a2-557974b6c77b")
-		(property "Reference" "#PWR024"
-			(at 276.86 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 276.86 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1680d152-8759-4fcd-b353-7f20e94352cc")
-		)
-		(instances
-			(project "resonant-converter"
-				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -28587,7 +28454,7 @@
 	)
 	(symbol
 		(lib_id "Diode:PMEG10020AELR")
-		(at 298.45 40.64 0)
+		(at 303.53 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28596,7 +28463,7 @@
 		(fields_autoplaced yes)
 		(uuid "decc81be-3bf5-4e1c-9594-96c2a1305d1c")
 		(property "Reference" "D5"
-			(at 298.1325 34.29 0)
+			(at 303.2125 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28604,7 +28471,7 @@
 			)
 		)
 		(property "Value" "PMEG10020AELR"
-			(at 298.1325 36.83 0)
+			(at 303.2125 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28612,7 +28479,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
-			(at 298.45 45.085 0)
+			(at 303.53 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28621,7 +28488,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG10020AELR.pdf"
-			(at 298.45 40.64 0)
+			(at 303.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28630,7 +28497,7 @@
 			)
 		)
 		(property "Description" "100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W"
-			(at 298.45 40.64 0)
+			(at 303.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29906,6 +29773,121 @@
 			(project ""
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DW-ICs:78L15MG")
+		(at 287.02 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee9b514f-bb81-46a4-939f-4a731f02c694")
+		(property "Reference" "U6"
+			(at 278.13 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "78L15MG"
+			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DW-footprints:SOT-223"
+			(at 252.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49451967.pdf"
+			(at 252.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "15V Positive Fixed SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+			(at 252.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TECH PUBLIC"
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "78L15MG"
+			(at 278.13 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C49451967"
+			(at 252.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30bfd12f-103e-42e7-9296-d8d05507d334")
+		)
+		(pin "3"
+			(uuid "4fb0b28d-1321-4715-9cd2-f6a18c359deb")
+		)
+		(pin "2"
+			(uuid "e2ee5a7d-62f5-4c13-ae5c-0f208fc81ce1")
+		)
+		(pin "4"
+			(uuid "b57555ee-d592-42d2-9362-e15b3cf9cd44")
+		)
+		(instances
+			(project ""
+				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
+					(reference "U6")
 					(unit 1)
 				)
 			)
