@@ -10658,16 +10658,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 99.06) (xy 269.24 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04528cf3-4870-42f3-b445-e2b28d13b1c0")
-	)
-	(wire
-		(pts
 			(xy 219.71 81.28) (xy 219.71 83.82)
 		)
 		(stroke
@@ -10965,16 +10955,6 @@
 			(type default)
 		)
 		(uuid "1421381f-9cff-49dc-8c03-90b84ec3908d")
-	)
-	(wire
-		(pts
-			(xy 266.7 116.84) (xy 266.7 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14887878-6389-481e-93cc-e77c5c3ff98f")
 	)
 	(wire
 		(pts
@@ -11429,6 +11409,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 157.48) (xy 259.08 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a5b5e9-a541-4f3c-9ca2-0a9c64012e59")
+	)
+	(wire
+		(pts
 			(xy 85.09 69.85) (xy 76.2 69.85)
 		)
 		(stroke
@@ -11817,6 +11807,16 @@
 			(type default)
 		)
 		(uuid "48315256-c059-4009-8ec3-a1edbea80c06")
+	)
+	(wire
+		(pts
+			(xy 264.16 109.22) (xy 264.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48baaa9a-6134-485d-8054-f9c2b9b0296c")
 	)
 	(wire
 		(pts
@@ -12287,6 +12287,16 @@
 			(type default)
 		)
 		(uuid "646f3ec4-0ffc-4f00-87bd-c7310ad55aba")
+	)
+	(wire
+		(pts
+			(xy 212.09 99.06) (xy 269.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a6e6f9-eee6-461c-ad61-21ff8ff14c85")
 	)
 	(wire
 		(pts
@@ -12940,16 +12950,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 116.84) (xy 269.24 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9291c627-3195-474f-bd4e-c5649d21e879")
-	)
-	(wire
-		(pts
 			(xy 257.81 182.88) (xy 255.27 182.88)
 		)
 		(stroke
@@ -13017,16 +13017,6 @@
 			(type default)
 		)
 		(uuid "97b9a297-f236-49c3-91f0-c90b8ab973fd")
-	)
-	(wire
-		(pts
-			(xy 259.08 109.22) (xy 269.24 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98122395-5ef2-4265-b34f-d4511f4d529a")
 	)
 	(wire
 		(pts
@@ -14193,6 +14183,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 116.84) (xy 269.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55d5d37-41d5-48bc-b8bc-f587115c3f26")
+	)
+	(wire
+		(pts
 			(xy 92.71 96.52) (xy 92.71 101.6)
 		)
 		(stroke
@@ -14914,6 +14914,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 109.22) (xy 269.24 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb3db11-525d-4c09-8821-89b8f2d594cf")
+	)
+	(wire
+		(pts
 			(xy 119.38 86.36) (xy 119.38 91.44)
 		)
 		(stroke
@@ -14961,16 +14971,6 @@
 			(type default)
 		)
 		(uuid "fef4355a-2623-4202-8096-7f2e7ef56ff6")
-	)
-	(wire
-		(pts
-			(xy 259.08 109.22) (xy 259.08 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff2bc65a-8cf3-42a6-977c-e4c62fc814ef")
 	)
 	(wire
 		(pts
@@ -15373,7 +15373,7 @@
 			(uuid "7f21a729-e95d-488a-895f-19a3ddf2d798")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R25")
 					(unit 1)
@@ -16613,7 +16613,7 @@
 			(uuid "a975dd91-8101-4517-8214-736a308402ba")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R31")
 					(unit 1)
@@ -17192,7 +17192,7 @@
 			(uuid "e1dfc14b-bb08-4d29-ba88-ad02bc2dc9b4")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "U2")
 					(unit 1)
@@ -17950,7 +17950,7 @@
 			(uuid "b67bbac1-2bd9-4e6b-bfbc-091afe357827")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "Q4")
 					(unit 1)
@@ -18082,7 +18082,7 @@
 			(uuid "912cbe1f-1eba-465a-a7a8-430c2e8198d0")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R10")
 					(unit 1)
@@ -18214,7 +18214,7 @@
 			(uuid "192f04a9-5c3c-4f34-8563-4875870297da")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R27")
 					(unit 1)
@@ -19195,7 +19195,7 @@
 			(uuid "14672e46-6fad-4358-975b-bf14700552bb")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "U5")
 					(unit 1)
@@ -19598,7 +19598,7 @@
 			(uuid "1bbb64db-5549-4584-b448-8157efaaeadc")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "D2")
 					(unit 1)
@@ -21327,7 +21327,7 @@
 			(uuid "eaa12350-8802-4a33-b9c4-22f59cbc0b8a")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "#PWR06")
 					(unit 1)
@@ -21546,7 +21546,7 @@
 			(uuid "562416dc-16da-418d-9bf3-d83d804a4f8f")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "#FLG04")
 					(unit 1)
@@ -22389,7 +22389,7 @@
 			(uuid "56e2ebef-52cc-454b-a348-4fa7e777204c")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "D5")
 					(unit 1)
@@ -22947,7 +22947,7 @@
 			(uuid "515ea1f9-bcf0-4270-917c-48f1ec2c9173")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "D3")
 					(unit 1)
@@ -23062,7 +23062,7 @@
 			(uuid "472f12cb-d5c5-40eb-a106-bb747ee19097")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "U4")
 					(unit 1)
@@ -23214,7 +23214,7 @@
 			(uuid "e9b52684-8f79-4f38-abed-a0a0e8a324a2")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C47")
 					(unit 1)
@@ -24865,7 +24865,7 @@
 			(uuid "290899dd-8096-4ba9-a36c-603ec5e98feb")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C10")
 					(unit 1)
@@ -25766,7 +25766,7 @@
 			(uuid "6252957d-b03c-4e57-8b68-7b148f44c994")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R22")
 					(unit 1)
@@ -26136,7 +26136,7 @@
 			(uuid "99ed4def-982e-431b-9a2d-30daa0eba0cf")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "J1")
 					(unit 1)
@@ -26598,7 +26598,7 @@
 			(uuid "bf03bc96-347c-48a7-940d-4cf0cbb9864e")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C28")
 					(unit 1)
@@ -26731,7 +26731,7 @@
 			(uuid "36296dbd-436a-43f2-8126-bee068f4c067")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R1")
 					(unit 1)
@@ -27156,7 +27156,7 @@
 			(uuid "912c78f3-b771-4f8c-b301-ddc0d9e645b4")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R2")
 					(unit 1)
@@ -27992,7 +27992,7 @@
 			(uuid "9d037877-661b-4cc6-83c6-7e6d942303aa")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C1")
 					(unit 1)
@@ -28156,7 +28156,7 @@
 	)
 	(symbol
 		(lib_id "DW-power-symbols:GND")
-		(at 266.7 119.38 0)
+		(at 264.16 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28164,7 +28164,7 @@
 		(dnp no)
 		(uuid "b5e4a25c-b59a-4740-8e79-92b987c1b12d")
 		(property "Reference" "#PWR07"
-			(at 266.7 125.73 0)
+			(at 264.16 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28173,7 +28173,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 123.444 0)
+			(at 264.16 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28181,7 +28181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 119.38 0)
+			(at 264.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28190,7 +28190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 119.38 0)
+			(at 264.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28199,7 +28199,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 119.38 0)
+			(at 264.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29332,7 +29332,7 @@
 			(uuid "47d5ed74-c793-495d-88ec-adeeb2780792")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "J5")
 					(unit 1)
@@ -29538,7 +29538,7 @@
 			(uuid "1e5405d6-468f-4fdb-b5fb-27984c4a3bc6")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R33")
 					(unit 1)
@@ -29829,7 +29829,7 @@
 			(uuid "56445ba6-547d-47b2-a621-7046b2fb8ad0")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C45")
 					(unit 1)
@@ -31326,7 +31326,7 @@
 			(uuid "a229dffc-0d2b-4cf9-9d7f-7464347e5554")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R14")
 					(unit 1)
@@ -31554,7 +31554,7 @@
 			(uuid "998ba005-eeaa-4706-8049-8ebe7cbe4e36")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C34")
 					(unit 1)
@@ -31694,7 +31694,7 @@
 			(uuid "84183958-19e6-49ee-99a3-f629065c2375")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "TP18")
 					(unit 1)
@@ -32569,7 +32569,7 @@
 			(uuid "e8a51503-9ed6-448c-a974-c92b0d6a04be")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "T1")
 					(unit 1)
@@ -32684,7 +32684,7 @@
 			(uuid "b57555ee-d592-42d2-9362-e15b3cf9cd44")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "U3")
 					(unit 1)
@@ -33329,7 +33329,7 @@
 			(uuid "f8ca5735-717f-437c-9146-e71a25cd2b7a")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "R15")
 					(unit 1)
@@ -33483,7 +33483,7 @@
 			(uuid "52a737bb-bc78-479f-9a80-cbc6e8ac99f9")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772"
 					(reference "C38")
 					(unit 1)

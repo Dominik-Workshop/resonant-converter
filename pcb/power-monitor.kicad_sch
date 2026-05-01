@@ -3463,7 +3463,7 @@
 			(uuid "3ac3828a-6953-4978-9cc0-f0bb95b641d0")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
 					(reference "R38")
 					(unit 1)
@@ -4346,7 +4346,7 @@
 			(uuid "b1cff023-4d44-4f87-b8e3-0fde153dec3d")
 		)
 		(instances
-			(project ""
+			(project "resonant-converter"
 				(path "/da6185c3-cd85-4a88-bee6-2ff386eae772/7e8f17cf-feda-4bf7-90f5-32e7debe11a7"
 					(reference "C48")
 					(unit 1)
