@@ -22,9 +22,12 @@ The board features power telemetry using an INA219 sensor, which can be easily i
 
 ## Project Status
 
-**Design:** ✅ --> **Fabrication & Assembly:** ✅ --> **Bring-up:** ⌛
+**Design:** ✅ → **Fabrication & Assembly:** ✅ → **Bring-up:** ✅
 
-The design is currently in bring-up phase. Use at your own risk.
+> [!IMPORTANT]
+> **Hardware modification required (rev.1.0.0):**
+>
+> Replace `R20` with a diode (e.g. `1N4148`) to prevent VCCP from backfeeding `U3`. Without this fix, VCCP remains too low for the LLC controller `U1` to start up.
 
 ## Used Tools
 
